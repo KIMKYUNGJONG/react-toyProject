@@ -1,0 +1,192 @@
+{
+  "modified": "Thu Jul 25 2019 15:14:53 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "alarmCode",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "alarmCabinet",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmName",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmTime",
+      "valueType": "String"
+    },
+    {
+      "attr": "alarmHandleTime",
+      "valueType": "String"
+    }
+  ],
+  "width": 900,
+  "height": 40,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmCode",
+        "value": "B1"
+      },
+      "color": {
+        "func": "attr@alarmColor",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "22px arial, sans-serif",
+      "rect": [
+        18.60478,
+        1.62535,
+        71.71007,
+        37.23612
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "prefix": "sureButton",
+      "displayName": "确认按钮",
+      "rect": [
+        720.04986,
+        6.60226,
+        51.60338,
+        27.33132
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarm',\n        handleType: 'sure'\n    });\n}\n}"
+    },
+    {
+      "type": "roundRect",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "prefix": "resetButton",
+      "displayName": "重置按钮",
+      "rect": [
+        781.45564,
+        6.60226,
+        51.60338,
+        27.33132
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarm',\n        handleType: 'reset'\n    });\n}\n}"
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(0,199,7,0.6)",
+      "borderColor": "#979797",
+      "prefix": "detailButton",
+      "displayName": "详情按钮",
+      "rect": [
+        842.86142,
+        7.21555,
+        51.60338,
+        27.33132
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarm',\n        handleType: 'detail'\n    });\n}\n}"
+    },
+    {
+      "type": "text",
+      "text": "확인",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "prefix": "sureText",
+      "rect": [
+        720.04986,
+        6.60226,
+        51.60338,
+        27.94461
+      ]
+    },
+    {
+      "type": "text",
+      "text": "리셋",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "prefix": "resetText",
+      "displayName": "重置",
+      "rect": [
+        781.45564,
+        6.60226,
+        51.60338,
+        27.33132
+      ]
+    },
+    {
+      "type": "text",
+      "text": "상세",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        842.86142,
+        7.21555,
+        51.60338,
+        27.33132
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmName",
+        "value": "전압이상"
+      },
+      "color": {
+        "func": "attr@alarmColor",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "22px arial, sans-serif",
+      "rect": [
+        107.99613,
+        1.51023,
+        105.64521,
+        37.23612
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmTime",
+        "value": "2019-04-12   12:20:30"
+      },
+      "color": {
+        "func": "attr@alarmColor",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "22px arial, sans-serif",
+      "rect": [
+        237.3427,
+        1.62535,
+        221.08304,
+        37.23612
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmHandleTime",
+        "value": "2019-04-12   12:20:30"
+      },
+      "color": {
+        "func": "attr@alarmColor",
+        "value": "rgb(247,247,247)"
+      },
+      "font": "22px arial, sans-serif",
+      "rect": [
+        473.7271,
+        1.51023,
+        226.99159,
+        37.23612
+      ]
+    }
+  ]
+}

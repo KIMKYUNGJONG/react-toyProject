@@ -1,0 +1,259 @@
+{
+  "v": "6.3.1",
+  "p": {
+    "background": "rgb(0,0,0)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": true,
+        "strength": 0.54,
+        "threshold": 0.5,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": true,
+        "aperture": 0.021,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 149546,
+      "p": {
+        "displayName": "环境球",
+        "rotation": -4.36332,
+        "rotationZ": -0.31416,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "width": 5000,
+        "height": 5000,
+        "tall": 5000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/贴图/天空球/星空球1.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(179,182,189)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149547,
+      "p": {
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/HT模型库/交通/航天航空/驾驶舱.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.14
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149548,
+      "p": {
+        "displayName": "基础",
+        "rotationX": 2.21657,
+        "position": {
+          "x": -2.58841,
+          "y": -363.84175
+        },
+        "anchorElevation": 0,
+        "width": 807.84479,
+        "height": 217.17552,
+        "tall": 50,
+        "elevation": 925.73645
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "symbols/0项目/指挥中心/上.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.image.cache": true,
+        "envmap": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149549,
+      "p": {
+        "displayName": "通用弹窗",
+        "rotation": -0.41888,
+        "position": {
+          "x": -515.87012,
+          "y": -280.54688
+        },
+        "anchorElevation": 0,
+        "width": 344,
+        "height": 194.97405,
+        "tall": 504,
+        "elevation": 307.27812
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/0项目/指挥中心/2.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149550,
+      "p": {
+        "displayName": "通用弹窗",
+        "position": {
+          "x": -0.57635,
+          "y": -250.7619
+        },
+        "anchorElevation": 1,
+        "width": 565,
+        "height": 194.97405,
+        "tall": 398,
+        "elevation": 752.09823
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/0项目/指挥中心/中.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149551,
+      "p": {
+        "displayName": "通用弹窗",
+        "rotation": -0.83776,
+        "position": {
+          "x": -824.79032,
+          "y": -94.94878
+        },
+        "anchorElevation": 0,
+        "width": 344,
+        "height": 194.97405,
+        "tall": 504,
+        "elevation": 307.27812
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/0项目/指挥中心/1.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149552,
+      "p": {
+        "displayName": "通用弹窗",
+        "rotation": 0.89012,
+        "position": {
+          "x": 811.91622,
+          "y": -96.91598
+        },
+        "anchorElevation": 0,
+        "width": 344,
+        "height": 194.97405,
+        "tall": 504,
+        "elevation": 307.27812
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/0项目/指挥中心/2.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "shape3d.image.cache": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 149553,
+      "p": {
+        "displayName": "通用弹窗",
+        "rotation": 0.47124,
+        "position": {
+          "x": 516.35387,
+          "y": -286.47729
+        },
+        "anchorElevation": 0,
+        "width": 344,
+        "height": 194.97405,
+        "tall": 504,
+        "elevation": 307.27812
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/0项目/指挥中心/3.json",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "shape3d.image.cache": true
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      22.57578,
+      678.63477,
+      1211.16196
+    ],
+    "center": [
+      0,
+      552.11116,
+      -181.38125
+    ],
+    "near": 10,
+    "far": 1000000,
+    "background": "rgb(0,0,0)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "modified": "Mon Aug 05 2019 15:52:09 GMT+0900 (한국 표준시)",
+  "width": 295,
+  "height": 122,
+  "boundExtend": 24,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.85)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        84.47353,
+        119.08775,
+        209.43473,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,7,33,0.90)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "points": [
+        84.79044,
+        121.34084,
+        66.22772,
+        111.00955,
+        66.22772,
+        61,
+        277.66495,
+        61,
+        293.90825,
+        72.30231,
+        293.90825,
+        121.34084
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(77,127,176,0.05)",
+      "borderColor": "#979797",
+      "arcOval": true,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        84.79298,
+        87.98621,
+        209.11528,
+        66.20308
+      ]
+    },
+    {
+      "type": "text",
+      "text": "인천 국제 공항",
+      "color": "rgb(95,229,250)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        97.87546,
+        61,
+        45.34481,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "DC - 2",
+      "color": "rgb(95,229,250)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        97.87546,
+        85.83279,
+        45.58821,
+        38.1378
+      ]
+    },
+    {
+      "type": "text",
+      "text": "인천시",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        222.11579,
+        88.03096,
+        38.38607,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "한국",
+      "align": "right",
+      "color": "rgb(170,183,189)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        233.9647,
+        61,
+        26.53715,
+        33.74146
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        0.56233,
+        1.30764,
+        7.49801,
+        7.52985
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#32D3EB",
+      "borderCap": "round",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "points": [
+        3.4061,
+        4.33298,
+        13.3935,
+        21.26649,
+        52.51083,
+        21.70069,
+        84.34618,
+        75.33205
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.15)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        79.53114,
+        70.45661,
+        9.15941,
+        9.17373
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        2.06593,
+        2.88491,
+        4.49083,
+        4.37532
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        81.65521,
+        72.29624,
+        5.38224,
+        5.49447
+      ]
+    }
+  ]
+}

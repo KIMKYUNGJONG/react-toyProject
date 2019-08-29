@@ -1,0 +1,50 @@
+{
+  "modified": "Wed Jun 05 2019 17:45:38 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "modelURL",
+      "valueType": "URL",
+      "defaultValue": "models/变压器.json"
+    },
+    {
+      "attr": "center",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "attr": "eye",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        500,
+        1000
+      ]
+    },
+    {
+      "attr": "far",
+      "valueType": "Number",
+      "defaultValue": 10000
+    },
+    {
+      "attr": "near",
+      "valueType": "Number",
+      "defaultValue": 10
+    },
+    {
+      "attr": "modelURL1",
+      "valueType": "URL",
+      "defaultValue": "models/飞机.json"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {\n\n    if (!cache.htmlView) {\n        var g3d = new ht.graph3d.Graph3dView();\n        cache.htmlView = g3d.getView();\n        data.a('g3d', g3d);\n\n        if (data.a('eye')) g3d.setEye(data.a('eye'));\n        if (data.a('center')) g3d.setCenter(data.a('center'));\n        if (data.a('far')) g3d.setFar(data.a('far'));\n        if (data.a('near')) g3d.setNear(data.a('near'));\n\n        ht.Default.xhrLoad('scenes/东前大桥.json', function(json) {\n            g3d.dm().deserialize(json);\n            \n        });\n\n        // layoutHTML will be called when the data needs to be drawing\n        cache.htmlView.layoutHTML = function() {\n            gv.layoutHTML(data, cache.htmlView, true);\n            g3d.iv();\n\n        };\n    }\n\n    // html for showing\n    return cache.htmlView;\n}",
+  "width": 200,
+  "height": 120,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

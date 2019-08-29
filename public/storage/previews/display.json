@@ -1,0 +1,3381 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": "HostParent",
+    "fitContent": false,
+    "zoomable": true,
+    "pannable": true,
+    "rectSelectable": false,
+    "width": 1920,
+    "height": 1080,
+    "previewURL": "veolia.html"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 11455,
+      "p": {
+        "displayName": "background",
+        "tag": "background",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(21,79,79,0.8)",
+        "shape.border.color": "#979797",
+        "2d.movable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(29,29,89,0.8)",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 11456,
+      "p": {
+        "displayName": "background-img",
+        "parent": {
+          "__i": 11455
+        }
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 11457,
+      "p": {
+        "parent": {
+          "__i": 11456
+        },
+        "position": {
+          "x": 956.12635,
+          "y": 720.48221
+        },
+        "width": 1995.51028,
+        "height": 814.55913,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -41.62879,
+              "y": 1127.76178
+            },
+            {
+              "x": 1067.23009,
+              "y": 578.3524
+            },
+            {
+              "x": 688.17027,
+              "y": 826.78099
+            },
+            {
+              "x": 1067.23009,
+              "y": 578.3524
+            },
+            {
+              "x": 1446.2899,
+              "y": 329.92381
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 1039.11639
+            },
+            {
+              "x": 1953.88149,
+              "y": 1106.26315
+            },
+            {
+              "x": 1953.88149,
+              "y": 1039.11639
+            },
+            {
+              "x": 457.43618,
+              "y": 1127.76178
+            },
+            {
+              "x": -41.62879,
+              "y": 1127.76178
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgba(20,49,99,0.20)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(9,0,20,0.1)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 11458,
+      "p": {
+        "parent": {
+          "__i": 11456
+        },
+        "rotation": 0.07632,
+        "position": {
+          "x": 951.49161,
+          "y": 960.49606
+        },
+        "width": 2175.56586,
+        "height": 804.78621,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -136.29132,
+              "y": 1095.99577
+            },
+            {
+              "x": -85.7816,
+              "y": 1080.16427
+            },
+            {
+              "x": -54.49067,
+              "y": 1009.4014
+            },
+            {
+              "x": -10.08966,
+              "y": 995.3975
+            },
+            {
+              "x": 598.31533,
+              "y": 966.65513
+            },
+            {
+              "x": 628.3872,
+              "y": 838.25425
+            },
+            {
+              "x": 878.97275,
+              "y": 777.77674
+            },
+            {
+              "x": 1389.05949,
+              "y": 654.66998
+            },
+            {
+              "x": 1837.72861,
+              "y": 701.81478
+            },
+            {
+              "x": 1884.81878,
+              "y": 629.95886
+            },
+            {
+              "x": 1931.90895,
+              "y": 558.10295
+            },
+            {
+              "x": 2039.27454,
+              "y": 1032.35197
+            },
+            {
+              "x": 2039.27454,
+              "y": 1032.35197
+            },
+            {
+              "x": 1995.95158,
+              "y": 1344.41192
+            },
+            {
+              "x": -128.75689,
+              "y": 1362.88916
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "rgba(135,68,207,0.10)",
+        "shape.border.color": "#979797",
+        "shape.foreground.clip.percentage": 0,
+        "shape.foreground": "rgb(145,67,67)",
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(0,40,89,0.1)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11459,
+      "p": {
+        "displayName": "veolia",
+        "parent": {
+          "__i": 11456
+        },
+        "image": "symbols/testsymbol/veolia.json",
+        "position": {
+          "x": 174.24452,
+          "y": 112
+        },
+        "width": 300,
+        "height": 158
+      },
+      "s": {
+        "2d.editable": false,
+        "2d.selectable": false,
+        "2d.movable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.18)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11460,
+      "p": {
+        "parent": {
+          "__i": 11455
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 960.01661,
+          "y": 535.1766
+        },
+        "width": 1858.81316,
+        "height": 919.64681
+      },
+      "s": {
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11461,
+      "p": {
+        "displayName": "barChart",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "barChart",
+        "position": {
+          "x": 190.61003,
+          "y": 300
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11462,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11461
+        },
+        "tag": "widgetBox",
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 190.61003,
+          "y": 300
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11463,
+      "p": {
+        "displayName": "echarts-bar",
+        "parent": {
+          "__i": 11461
+        },
+        "image": "symbols/testsymbol/echarts-bar.json",
+        "position": {
+          "x": 190.61003,
+          "y": 327.77957
+        },
+        "width": 252.98956,
+        "height": 186.56314
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11464,
+      "p": {
+        "parent": {
+          "__i": 11461
+        },
+        "position": {
+          "x": 146.82796,
+          "y": 196.81403
+        },
+        "width": 181.32841,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "Certificate Expiry",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11465,
+      "p": {
+        "parent": {
+          "__i": 11461
+        },
+        "position": {
+          "x": 103.0459,
+          "y": 167.79766
+        },
+        "width": 93.76428,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(191,57,42)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11466,
+      "p": {
+        "parent": {
+          "__i": 11461
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 192.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11467,
+      "p": {
+        "parent": {
+          "__i": 11466
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 330.41914,
+          "y": 192.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11468,
+      "p": {
+        "parent": {
+          "__i": 11466
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 323.96851,
+          "y": 192.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11469,
+      "p": {
+        "parent": {
+          "__i": 11466
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 317.76033,
+          "y": 192.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11470,
+      "p": {
+        "parent": {
+          "__i": 11466
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 192.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11471,
+      "p": {
+        "displayName": "license",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "pieChart",
+        "position": {
+          "x": 190.61003,
+          "y": 580
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11472,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11471
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 190.61003,
+          "y": 580
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11473,
+      "p": {
+        "parent": {
+          "__i": 11471
+        },
+        "position": {
+          "x": 146.82796,
+          "y": 476.81403
+        },
+        "width": 181.32841,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "License Details",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11474,
+      "p": {
+        "parent": {
+          "__i": 11471
+        },
+        "position": {
+          "x": 103.0459,
+          "y": 447.79766
+        },
+        "width": 93.76428,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#3498db",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11475,
+      "p": {
+        "displayName": "echarts-pie-right",
+        "parent": {
+          "__i": 11471
+        },
+        "image": "symbols/testsymbol/echarts-pie-right.json",
+        "position": {
+          "x": 191.25912,
+          "y": 606.02305
+        },
+        "width": 287.70716,
+        "height": 204.42353
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "pieColor": [
+          "#e67e22",
+          "#e74c3c",
+          "#3498db",
+          "#9b59b6"
+        ]
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11476,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11471
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 472.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11477,
+      "p": {
+        "parent": {
+          "__i": 11476
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 330.41914,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11478,
+      "p": {
+        "parent": {
+          "__i": 11476
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 323.96851,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11479,
+      "p": {
+        "parent": {
+          "__i": 11476
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 317.76033,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11480,
+      "p": {
+        "parent": {
+          "__i": 11476
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 472.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11481,
+      "p": {
+        "displayName": "slaRequest",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 190.61003,
+          "y": 860
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11482,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11481
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 190.61003,
+          "y": 860
+        },
+        "width": 320,
+        "height": 270
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11483,
+      "p": {
+        "parent": {
+          "__i": 11481
+        },
+        "position": {
+          "x": 146.82796,
+          "y": 756.81404
+        },
+        "width": 181.32841,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "SLA별 요청건수",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11484,
+      "p": {
+        "displayName": "echarts-pie-right",
+        "parent": {
+          "__i": 11481
+        },
+        "image": "symbols/testsymbol/echarts-pie-right2.json",
+        "position": {
+          "x": 195.74835,
+          "y": 885.26908
+        },
+        "width": 287.70716,
+        "height": 204.42353
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "pieColor": [
+          "#e67e22",
+          "#e74c3c",
+          "#3498db",
+          "#9b59b6"
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11485,
+      "p": {
+        "parent": {
+          "__i": 11481
+        },
+        "position": {
+          "x": 103.0459,
+          "y": 727.79767
+        },
+        "width": 93.76428,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#e67e22",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11486,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11481
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11487,
+      "p": {
+        "parent": {
+          "__i": 11486
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 330.41914,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11488,
+      "p": {
+        "parent": {
+          "__i": 11486
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 323.96851,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11489,
+      "p": {
+        "parent": {
+          "__i": 11486
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 317.76033,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11490,
+      "p": {
+        "parent": {
+          "__i": 11486
+        },
+        "position": {
+          "x": 324.08973,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11491,
+      "p": {
+        "displayName": "piechart3",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 545.61003,
+          "y": 860
+        },
+        "width": 370,
+        "height": 270
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11492,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11491
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 545.61003,
+          "y": 860
+        },
+        "width": 370,
+        "height": 270
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11493,
+      "p": {
+        "displayName": "echarts-rose",
+        "parent": {
+          "__i": 11491
+        },
+        "image": "symbols/testsymbol/echarts-rose.json",
+        "position": {
+          "x": 545.61003,
+          "y": 880.77136
+        },
+        "width": 343.19806,
+        "height": 195.4281
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesData": [
+          {
+            "value": 180,
+            "name": "Certificates"
+          },
+          {
+            "value": 225,
+            "name": "SSH Keys"
+          },
+          {
+            "value": 275,
+            "name": "Key Store"
+          }
+        ],
+        "chartBackground": "rgb(255,255,255)",
+        "pieColor": [
+          "#8e44ad"
+        ]
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11494,
+      "p": {
+        "parent": {
+          "__i": 11491
+        },
+        "position": {
+          "x": 494.98701,
+          "y": 756.81404
+        },
+        "width": 209.66098,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "접수방법별 요청건수",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11495,
+      "p": {
+        "parent": {
+          "__i": 11491
+        },
+        "position": {
+          "x": 444.364,
+          "y": 727.79767
+        },
+        "width": 108.41495,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(99,67,196,0.8)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11496,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11491
+        },
+        "position": {
+          "x": 699.94594,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11497,
+      "p": {
+        "parent": {
+          "__i": 11496
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 706.27534,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11498,
+      "p": {
+        "parent": {
+          "__i": 11496
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 699.82472,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11499,
+      "p": {
+        "parent": {
+          "__i": 11496
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 693.61653,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11500,
+      "p": {
+        "parent": {
+          "__i": 11496
+        },
+        "position": {
+          "x": 699.94594,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11501,
+      "p": {
+        "displayName": "piechart4",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 926.467,
+          "y": 860
+        },
+        "width": 370,
+        "height": 270
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11502,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11501
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 926.467,
+          "y": 860
+        },
+        "width": 370,
+        "height": 270
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11503,
+      "p": {
+        "displayName": "echarts-rose",
+        "parent": {
+          "__i": 11501
+        },
+        "image": "symbols/testsymbol/echarts-rose.json",
+        "position": {
+          "x": 926.467,
+          "y": 880.77136
+        },
+        "width": 343.19806,
+        "height": 195.4281
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesData": [
+          {
+            "value": 192,
+            "name": "Certificates"
+          },
+          {
+            "value": 135,
+            "name": "SSH Keys"
+          },
+          {
+            "value": 175,
+            "name": "Key Store"
+          }
+        ],
+        "chartBackground": "rgb(255,255,255)",
+        "pieColor": "rgb(241,125,164)",
+        "lightnessArray": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11504,
+      "p": {
+        "parent": {
+          "__i": 11501
+        },
+        "position": {
+          "x": 875.84398,
+          "y": 756.81404
+        },
+        "width": 209.66098,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "우선순위별 요청건수",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11505,
+      "p": {
+        "parent": {
+          "__i": 11501
+        },
+        "position": {
+          "x": 825.22097,
+          "y": 727.79767
+        },
+        "width": 108.41495,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(163,49,87)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11506,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11501
+        },
+        "position": {
+          "x": 1080.80291,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11507,
+      "p": {
+        "parent": {
+          "__i": 11506
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1087.13231,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11508,
+      "p": {
+        "parent": {
+          "__i": 11506
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1080.68169,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11509,
+      "p": {
+        "parent": {
+          "__i": 11506
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1074.4735,
+          "y": 752.79399
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11510,
+      "p": {
+        "parent": {
+          "__i": 11506
+        },
+        "position": {
+          "x": 1080.80291,
+          "y": 752.79399
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11511,
+      "p": {
+        "displayName": "stackChart",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 1604.42319,
+          "y": 860
+        },
+        "width": 570,
+        "height": 270.00001
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11512,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11511
+        },
+        "tag": "widgetBox2",
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1604.42319,
+          "y": 860
+        },
+        "width": 570,
+        "height": 270.00001
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11513,
+      "p": {
+        "displayName": "echarts-stack",
+        "parent": {
+          "__i": 11511
+        },
+        "tag": "echarts-stack2",
+        "image": "symbols/testsymbol/echarts-stack.json",
+        "position": {
+          "x": 1607.23373,
+          "y": 881.3443
+        },
+        "width": 535.66127,
+        "height": 211.66146
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesData": [
+          100,
+          200,
+          300,
+          500
+        ],
+        "seriesData1": [
+          200,
+          300,
+          150,
+          25
+        ],
+        "seriesData2": [
+          300,
+          250,
+          148,
+          46
+        ],
+        "seriesData3": [
+          50,
+          180,
+          22,
+          180
+        ],
+        "legendColor": [
+          "rgb(240,0,0)",
+          "#aeaeae",
+          "#8bbc21"
+        ],
+        "barColor": [
+          "rgba(60,222,187,0.9)",
+          "rgba(255,136,56,0.9)",
+          "rgb(92,198,255)"
+        ]
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11514,
+      "p": {
+        "parent": {
+          "__i": 11511
+        },
+        "position": {
+          "x": 1448.97215,
+          "y": 756.81403
+        },
+        "width": 202.12808,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "부서별 요청건수 (3개월전부터)",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11515,
+      "p": {
+        "parent": {
+          "__i": 11511
+        },
+        "position": {
+          "x": 1400.16797,
+          "y": 727.79766
+        },
+        "width": 104.51971,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#3498db",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11516,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11511
+        },
+        "position": {
+          "x": 1862.77699,
+          "y": 752.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11517,
+      "p": {
+        "parent": {
+          "__i": 11516
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1869.10639,
+          "y": 752.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11518,
+      "p": {
+        "parent": {
+          "__i": 11516
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1862.65577,
+          "y": 752.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11519,
+      "p": {
+        "parent": {
+          "__i": 11516
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1856.44758,
+          "y": 752.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11520,
+      "p": {
+        "parent": {
+          "__i": 11516
+        },
+        "position": {
+          "x": 1862.77699,
+          "y": 752.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11521,
+      "p": {
+        "displayName": "stackChart2",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "stackChart2",
+        "position": {
+          "x": 1604.42319,
+          "y": 580
+        },
+        "width": 570,
+        "height": 270.00001
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11522,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11521
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1604.42319,
+          "y": 580
+        },
+        "width": 570,
+        "height": 270.00001
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11523,
+      "p": {
+        "displayName": "echarts-stack",
+        "parent": {
+          "__i": 11521
+        },
+        "tag": "echarts-stack",
+        "image": "symbols/testsymbol/echarts-stack.json",
+        "position": {
+          "x": 1607.23373,
+          "y": 601.3443
+        },
+        "width": 535.66127,
+        "height": 211.66146
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesData": [
+          100,
+          200,
+          300,
+          500
+        ],
+        "seriesData1": [
+          123,
+          458,
+          713,
+          451
+        ],
+        "seriesData2": [
+          750,
+          433,
+          85,
+          421
+        ],
+        "seriesData3": [
+          100,
+          130,
+          222,
+          180
+        ],
+        "legendColor": [
+          "rgb(240,0,0)",
+          "#aeaeae",
+          "#8bbc21"
+        ],
+        "barColor": [
+          "rgba(222,84,60,0.90)",
+          "rgba(56,139,255,0.90)",
+          "rgb(169,105,194)"
+        ],
+        "legendShow": true,
+        "seriesName1": "die",
+        "seriesName2": "die2",
+        "seriesName3": "die3"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11524,
+      "p": {
+        "parent": {
+          "__i": 11521
+        },
+        "position": {
+          "x": 1448.97215,
+          "y": 476.81403
+        },
+        "width": 202.12808,
+        "height": 37.39909
+      },
+      "s": {
+        "text": "그룹별 요청건수 (3개월전부터)",
+        "text.font": "bold 22px sans-serif, Arial",
+        "text.color": "#fff",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11525,
+      "p": {
+        "parent": {
+          "__i": 11521
+        },
+        "position": {
+          "x": 1400.16797,
+          "y": 447.79766
+        },
+        "width": 104.51971,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(145,115,205)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11526,
+      "p": {
+        "displayName": "Block",
+        "parent": {
+          "__i": 11521
+        },
+        "position": {
+          "x": 1862.77699,
+          "y": 472.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "interactive": true,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11527,
+      "p": {
+        "parent": {
+          "__i": 11526
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1869.10639,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11528,
+      "p": {
+        "parent": {
+          "__i": 11526
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1862.65577,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11529,
+      "p": {
+        "parent": {
+          "__i": 11526
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1856.44758,
+          "y": 472.79398
+        },
+        "width": 5.09077,
+        "height": 5.09077
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "rgba(80,92,148,0.5)",
+        "shape.border.color": "#979797",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11530,
+      "p": {
+        "parent": {
+          "__i": 11526
+        },
+        "position": {
+          "x": 1862.77699,
+          "y": 472.79398
+        },
+        "width": 25,
+        "height": 25
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(80,92,148,0.5)",
+        "2d.editable": false,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11531,
+      "p": {
+        "displayName": "request",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 1457.16523,
+          "y": 149.31047
+        },
+        "width": 275.4841,
+        "height": 147.91454
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11532,
+      "p": {
+        "parent": {
+          "__i": 11531
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1457.01375,
+          "y": 149.29548
+        },
+        "width": 275.18113,
+        "height": 147.88457
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(15,166,141,0.80)",
+        "shape.border.color": "",
+        "layout.v": "center",
+        "layout.h": "right",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgb(15,117,95)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11533,
+      "p": {
+        "parent": {
+          "__i": 11531
+        },
+        "position": {
+          "x": 1487.28508,
+          "y": 138
+        },
+        "width": 153.19433,
+        "height": 21.90458
+      },
+      "s": {
+        "text": "지난달 총요청 건수",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 18px sans-serif",
+        "2d.editable": false,
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11534,
+      "p": {
+        "parent": {
+          "__i": 11531
+        },
+        "position": {
+          "x": 1493.66539,
+          "y": 177
+        },
+        "width": 201.13833,
+        "height": 76.84088
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11535,
+      "p": {
+        "parent": {
+          "__i": 11534
+        },
+        "position": {
+          "x": 1464.47,
+          "y": 176.71592
+        },
+        "width": 142.74756,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "4",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 42px sans-serif",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11536,
+      "p": {
+        "parent": {
+          "__i": 11534
+        },
+        "position": {
+          "x": 1555.90463,
+          "y": 177.28408
+        },
+        "width": 76.65984,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "건",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 32px sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11537,
+      "p": {
+        "displayName": "openStatus",
+        "parent": {
+          "__i": 11531
+        },
+        "tag": "statusBtn1",
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1573.94099,
+          "y": 93
+        },
+        "width": 20.31387,
+        "height": 20.31387
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11538,
+      "p": {
+        "displayName": "report",
+        "parent": {
+          "__i": 11531
+        },
+        "image": "symbols/testsymbol/report.json",
+        "position": {
+          "x": 1390.26187,
+          "y": 139.38981
+        },
+        "width": 101.71756,
+        "height": 101.71756
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.08)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11539,
+      "p": {
+        "parent": {
+          "__i": 11531
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 1457.16523,
+          "y": 219.3977
+        },
+        "width": 7.73979,
+        "height": 275.48409
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(255,255,255,0.3)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11540,
+      "p": {
+        "displayName": "request2",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 1751.15534,
+          "y": 149.29548
+        },
+        "width": 275.58454,
+        "height": 147.88457
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11541,
+      "p": {
+        "parent": {
+          "__i": 11540
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1751.15535,
+          "y": 149.29548
+        },
+        "width": 275.58453,
+        "height": 147.88457
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(232,78,60,0.8)",
+        "shape.border.color": "#979797",
+        "layout.v": "center",
+        "layout.h": "right",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgb(191,57,42)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "barColor": [
+          "rgb(235,47,47)",
+          "#bac111",
+          "#acacac"
+        ]
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11542,
+      "p": {
+        "parent": {
+          "__i": 11540
+        },
+        "position": {
+          "x": 1780.51045,
+          "y": 138
+        },
+        "width": 153.19433,
+        "height": 21.90458
+      },
+      "s": {
+        "text": "이번달 총요청 건수",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 18px sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11543,
+      "p": {
+        "displayName": "openStatus",
+        "parent": {
+          "__i": 11540
+        },
+        "tag": "statusBtn2",
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1871.04021,
+          "y": 93
+        },
+        "width": 20.31387,
+        "height": 20.31387
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.type": "shadow",
+        "select.color": "rgb(255,255,255)",
+        "shadow.blur": 1,
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11544,
+      "p": {
+        "parent": {
+          "__i": 11540
+        },
+        "position": {
+          "x": 1788.19473,
+          "y": 177
+        },
+        "width": 199.69203,
+        "height": 77.1296
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11545,
+      "p": {
+        "parent": {
+          "__i": 11544
+        },
+        "position": {
+          "x": 1759.72249,
+          "y": 176.57156
+        },
+        "width": 142.74756,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "0",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 42px sans-serif",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11546,
+      "p": {
+        "parent": {
+          "__i": 11544
+        },
+        "position": {
+          "x": 1849.71082,
+          "y": 177.42844
+        },
+        "width": 76.65984,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "건",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 32px sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11547,
+      "p": {
+        "displayName": "notification",
+        "parent": {
+          "__i": 11540
+        },
+        "image": "symbols/testsymbol/notification.json",
+        "position": {
+          "x": 1677.34871,
+          "y": 139.42844
+        },
+        "width": 90,
+        "height": 90
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.08)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11548,
+      "p": {
+        "parent": {
+          "__i": 11540
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 1751.10513,
+          "y": 219.27241
+        },
+        "width": 7.73979,
+        "height": 275.48409
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(255,255,255,0.1)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11549,
+      "p": {
+        "displayName": "ssh",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "ssh",
+        "position": {
+          "x": 1457.01375,
+          "y": 313.31122
+        },
+        "width": 275.18114,
+        "height": 148.10171
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11550,
+      "p": {
+        "parent": {
+          "__i": 11549
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1457.01375,
+          "y": 313.20265
+        },
+        "width": 275.18113,
+        "height": 147.88457
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(155,89,181,0.8)",
+        "shape.border.color": "#979797",
+        "layout.v": "center",
+        "layout.h": "right",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "#8e44ad",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11551,
+      "p": {
+        "parent": {
+          "__i": 11549
+        },
+        "position": {
+          "x": 1486.85904,
+          "y": 303
+        },
+        "width": 153.19433,
+        "height": 21.90458
+      },
+      "s": {
+        "text": "SHA-1 인증서 수량",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 18px sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11552,
+      "p": {
+        "displayName": "openStatus",
+        "parent": {
+          "__i": 11549
+        },
+        "tag": "statusBtn3",
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1574.94099,
+          "y": 256.77622
+        },
+        "width": 20.31387,
+        "height": 20.31387
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11553,
+      "p": {
+        "displayName": "identification",
+        "parent": {
+          "__i": 11549
+        },
+        "image": "symbols/testsymbol/identification.json",
+        "position": {
+          "x": 1384.03481,
+          "y": 306.01935
+        },
+        "width": 99.66499,
+        "height": 105.20194
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.08)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11554,
+      "p": {
+        "parent": {
+          "__i": 11549
+        },
+        "position": {
+          "x": 1494.7602,
+          "y": 341
+        },
+        "width": 199.484,
+        "height": 77.27272
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11555,
+      "p": {
+        "parent": {
+          "__i": 11554
+        },
+        "position": {
+          "x": 1466.39198,
+          "y": 340.5
+        },
+        "width": 142.74756,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "3",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 42px sans-serif",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11556,
+      "p": {
+        "parent": {
+          "__i": 11554
+        },
+        "position": {
+          "x": 1556.17228,
+          "y": 341.5
+        },
+        "width": 76.65984,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "건",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 32px sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11557,
+      "p": {
+        "parent": {
+          "__i": 11549
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 1456.97253,
+          "y": 384.51171
+        },
+        "width": 275.09869,
+        "height": 5.7
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(255,255,255,0.3)",
+        "shape.border.color": "#979797",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11558,
+      "p": {
+        "displayName": "1024key",
+        "parent": {
+          "__i": 11460
+        },
+        "position": {
+          "x": 1751.24195,
+          "y": 313.20283
+        },
+        "width": 275.75776,
+        "height": 147.88493
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11559,
+      "p": {
+        "parent": {
+          "__i": 11558
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1751.15535,
+          "y": 313.20265
+        },
+        "width": 275.58453,
+        "height": 147.88457
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(230,125,34,0.8)",
+        "shape.border.color": "#979797",
+        "layout.v": "center",
+        "layout.h": "right",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "#d35400",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11560,
+      "p": {
+        "parent": {
+          "__i": 11558
+        },
+        "position": {
+          "x": 1787.10742,
+          "y": 302
+        },
+        "width": 153.19433,
+        "height": 21.90458
+      },
+      "s": {
+        "text": "1024 이하 키 수량",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 18px sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11561,
+      "p": {
+        "displayName": "openStatus",
+        "parent": {
+          "__i": 11558
+        },
+        "tag": "statusBtn4",
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1868.74041,
+          "y": 256.90448
+        },
+        "width": 20.31387,
+        "height": 20.31387
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.4)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11562,
+      "p": {
+        "parent": {
+          "__i": 11558
+        },
+        "position": {
+          "x": 1789.29874,
+          "y": 340
+        },
+        "width": 199.484,
+        "height": 78.27272
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11563,
+      "p": {
+        "parent": {
+          "__i": 11562
+        },
+        "position": {
+          "x": 1760.93052,
+          "y": 339
+        },
+        "width": 142.74756,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "0",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 42px sans-serif",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 11564,
+      "p": {
+        "parent": {
+          "__i": 11562
+        },
+        "position": {
+          "x": 1850.71082,
+          "y": 341
+        },
+        "width": 76.65984,
+        "height": 76.27272
+      },
+      "s": {
+        "text": "건",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 32px sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11565,
+      "p": {
+        "displayName": "alert",
+        "parent": {
+          "__i": 11558
+        },
+        "image": "symbols/testsymbol/alert.json",
+        "position": {
+          "x": 1677.34871,
+          "y": 302
+        },
+        "width": 95,
+        "height": 90
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.08)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11566,
+      "p": {
+        "parent": {
+          "__i": 11558
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 1751.24195,
+          "y": 384.29493
+        },
+        "width": 275.75774,
+        "height": 5.7
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(255,255,255,0.3)",
+        "shape.border.color": "#979797",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11567,
+      "p": {
+        "displayName": "widget-box",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "widgetBox",
+        "position": {
+          "x": 1221.06801,
+          "y": 860
+        },
+        "width": 194.71036,
+        "height": 270.00001
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.color": "rgba(255,255,255,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11568,
+      "p": {
+        "parent": {
+          "__i": 11567
+        },
+        "position": {
+          "x": 1187.63067,
+          "y": 727.79767
+        },
+        "width": 108.41495,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(125,81,145)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11569,
+      "p": {
+        "displayName": "widgetBox",
+        "parent": {
+          "__i": 11567
+        },
+        "host": {
+          "__i": 11455
+        },
+        "position": {
+          "x": 1216.08363,
+          "y": 860
+        },
+        "width": 184.74161,
+        "height": 270.00001
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "rgb(107,84,176)",
+        "layout.h": "left",
+        "layout.v": "center",
+        "shape.corner.radius": 5,
+        "shape.gradient.color": "rgba(26,5,89,0.50)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11570,
+      "p": {
+        "displayName": "echarts-liquid",
+        "parent": {
+          "__i": 11567
+        },
+        "image": "symbols/testsymbol/echarts-liquid.json",
+        "position": {
+          "x": 1214.68493,
+          "y": 841.42299
+        },
+        "width": 139.53609,
+        "height": 198.25801
+      },
+      "a": {
+        "seriesBorderColor": "rgba(255,255,255,0.1)",
+        "seriesColor": "rgba(0,0,0,0.10)",
+        "sampleDataTitle": "저장용량",
+        "labelColor": "rgb(179,162,162)",
+        "labelFontsize": 40,
+        "titleColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11571,
+      "p": {
+        "displayName": "date",
+        "parent": {
+          "__i": 11567
+        },
+        "image": "symbols/testsymbol/date.json",
+        "position": {
+          "x": 1225.92319,
+          "y": 959.49606
+        },
+        "width": 185,
+        "height": 60.62821
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "time": "11:38",
+        "week": "수요일",
+        "date": "2019-08-28",
+        "color": "rgba(237,249,255,0.8)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 11572,
+      "p": {
+        "displayName": "statusWindow",
+        "parent": {
+          "__i": 11460
+        },
+        "tag": "statusWindow",
+        "position": {
+          "x": 834.53224,
+          "y": 395.1766
+        },
+        "width": 947.84441,
+        "height": 639.64681
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false,
+        "interactive": true,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11573,
+      "p": {
+        "parent": {
+          "__i": 11572
+        },
+        "position": {
+          "x": 440.77953,
+          "y": 80.40742
+        },
+        "width": 108.41495,
+        "height": 5.59532
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,163,15)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11574,
+      "p": {
+        "parent": {
+          "__i": 11572
+        },
+        "position": {
+          "x": 834.53224,
+          "y": 395.1766
+        },
+        "width": 947.84441,
+        "height": 639.64681
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(163,163,163,0.1)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11575,
+      "p": {
+        "displayName": "closeBtn",
+        "parent": {
+          "__i": 11572
+        },
+        "tag": "closeBtn",
+        "image": "symbols/testsymbol/plusCircle.json",
+        "rotation": 0.7854,
+        "position": {
+          "x": 1284.45297,
+          "y": 97.22788
+        },
+        "width": 27.74421,
+        "height": 27.74421
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar statusWindow = view.getDataModel().getDataByTag('statusWindow');\r\n\r\n    statusWindow.s({\r\n      '2d.visible': false\r\n    })\n}",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11576,
+      "p": {
+        "displayName": "tableScrollable",
+        "parent": {
+          "__i": 11572
+        },
+        "image": "symbols/testsymbol/tableScrollable.json",
+        "position": {
+          "x": 845.0395,
+          "y": 615.58201
+        },
+        "width": 918.06317,
+        "height": 185.30561
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.columns": [
+          {
+            "displayName": "key1",
+            "align": "center",
+            "key": "key1",
+            "width": 120
+          },
+          {
+            "displayName": "key2",
+            "align": "center",
+            "key": "key2",
+            "width": 0.1
+          },
+          {
+            "displayName": "key3",
+            "align": "center",
+            "key": "key3",
+            "width": "30+0.1"
+          },
+          {
+            "displayName": "key4",
+            "align": "center",
+            "key": "key4",
+            "width": 180
+          }
+        ],
+        "ht.dataSource": [
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          }
+        ],
+        "ht.bodyBackground": "rgba(0,32,87,0)",
+        "ht.headbackground": "rgba(0,0,0,0)",
+        "ht.headTextColor": "rgb(255,255,255)",
+        "ht.bodyTextColor": "rgb(235,154,49)",
+        "ht.headFont": "14px Godo"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 11577,
+      "p": {
+        "displayName": "echarts rader",
+        "parent": {
+          "__i": 11572
+        },
+        "tag": "statusChart",
+        "image": "symbols/testsymbol/echarts rader.json",
+        "position": {
+          "x": 737.84281,
+          "y": 313.95229
+        },
+        "width": 703.66979,
+        "height": 441.4686
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "indicator": [
+          {
+            "name": "sales",
+            "max": 1000
+          },
+          {
+            "name": "Marketing",
+            "max": 1000
+          },
+          {
+            "name": "Information Techology",
+            "max": 1000
+          },
+          {
+            "name": "Customer Support",
+            "max": 1000
+          },
+          {
+            "name": "Development",
+            "max": 1000
+          },
+          {
+            "name": "Marketing",
+            "max": 1000
+          }
+        ],
+        "seriesName": "mamamam",
+        "lineDataTyoe1": "dashed",
+        "lineData1": [
+          500,
+          200,
+          174,
+          224,
+          358,
+          800
+        ],
+        "lineData2": [
+          375,
+          224,
+          841,
+          700,
+          655,
+          457
+        ],
+        "lineDataType1": "dashed",
+        "lineDataColor1": "rgb(255,0,0)",
+        "lineDataColor2": "rgb(119,81,176)",
+        "lineDataType2": "dotted",
+        "areaColor1": "rgba(204,116,116,0.5)",
+        "areaColor2": "rgba(119,81,176,0.5)",
+        "areaArrayColor": [
+          "rgba(255,255,255,0)",
+          "rgba(207,226,255,0)",
+          "rgba(207,226,255,0)",
+          "rgba(207,226,255,0)"
+        ],
+        "chartTitle": "Research",
+        "shape": "circle",
+        "selectMode": "single"
+      }
+    }
+  ],
+  "modified": "Wed Aug 28 2019 11:38:17 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  },
+  "title": "dashboardTest3 2"
+}

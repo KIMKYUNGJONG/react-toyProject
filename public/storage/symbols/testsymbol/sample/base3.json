@@ -1,0 +1,109 @@
+{
+  "modified": "Wed Apr 17 2019 12:51:09 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "left-startColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(29,0,145)"
+    },
+    {
+      "attr": "left-endColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(95,26,135,0.95)"
+    },
+    {
+      "attr": "top-startColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "top-endColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "right-startColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "right-endColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 236,
+  "height": 108,
+  "disableSelectedBorder": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(29,0,145,0.9)",
+      "borderColor": "#979797",
+      "gradient": "linear.southeast",
+      "gradientColor": "rgb(61,77,255)",
+      "closePath": true,
+      "points": [
+        74.74877,
+        33.97585,
+        236.0446,
+        84.07114,
+        160.90166,
+        107.19205,
+        0.15634,
+        57.37201
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,17,128,0.97)",
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": "rgb(63,19,110)",
+      "closePath": true,
+      "points": [
+        0,
+        23.22024,
+        0,
+        57.87202,
+        161.13824,
+        107.19205,
+        161.13824,
+        72.83366
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(117,115,255,0.8)",
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": "rgb(65,43,189)",
+      "closePath": true,
+      "points": [
+        161.13824,
+        73.10163,
+        161.13824,
+        107.29808,
+        236.0446,
+        84.37683,
+        236.0446,
+        49.98279
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(29,0,145,0.9)",
+      "borderColor": "#979797",
+      "gradient": "linear.southeast",
+      "gradientColor": "rgb(61,77,255)",
+      "closePath": true,
+      "points": [
+        74.59244,
+        0,
+        235.88826,
+        50.09529,
+        160.74532,
+        73.21619,
+        0,
+        23.39615
+      ]
+    }
+  ]
+}

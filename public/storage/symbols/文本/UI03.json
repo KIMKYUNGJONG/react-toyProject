@@ -1,0 +1,191 @@
+{
+  "modified": "Fri May 24 2019 11:37:59 GMT+0800 (中国标准时间)",
+  "background": "rgb(255,255,255)",
+  "dataBindings": [],
+  "width": 335,
+  "height": 188,
+  "boundExtend": 24,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(0,46,92,0.60)",
+      "borderColor": "rgb(0,225,255)",
+      "points": [
+        125.30184,
+        81.85234,
+        106.73912,
+        71.52105,
+        106.73912,
+        0,
+        318.17635,
+        0,
+        334.41965,
+        11.30231,
+        334.41965,
+        81.85234
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,225,255)",
+      "shadow": true,
+      "shadowColor": "rgb(41,217,196)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.35801,
+      "points": [
+        17.90028,
+        71.28176,
+        29.29589,
+        86.13338,
+        73.9287,
+        86.51419,
+        107.68098,
+        180.36308
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(0,221,255)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "points": [
+        127.08762,
+        81.95325,
+        232.1197,
+        80.88421,
+        334.92836,
+        81.95325,
+        232.1197,
+        82.97177,
+        140.3241,
+        81.95325
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(0,255,238)",
+      "borderColor": "#979797",
+      "shadowColor": "rgb(217,41,41)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        104.32965,
+        68.017,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(0,238,255,0.33)",
+      "borderColor": "#979797",
+      "shadowColor": "rgb(41,205,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        102.71619,
+        66.40355,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(0,255,238)",
+      "borderColor": "#979797",
+      "shadowColor": "rgb(217,41,41)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        16.30089,
+        178.80888,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(0,238,255,0.33)",
+      "borderColor": "#979797",
+      "shadowColor": "rgb(41,205,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        14.68744,
+        177.19543,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": " XXXXXXXXXXX"
+      },
+      "align": "center",
+      "color": "rgb(0,221,255)",
+      "font": "20px sans-serif, Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        167.85727,
+        15.86114,
+        45.76622,
+        12.1288
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@open",
+        "value": " XXXX"
+      },
+      "align": "center",
+      "color": {
+        "func": "__ht__function(data, view) {\nif (data.a('status') === false) {\r\n    return 'rgb(255,255,255)'\r\n} else {\r\n    return 'rgb(0,221,255)'\r\n}\n}",
+        "value": "rgb(0,221,255)"
+      },
+      "font": "20px sans-serif, Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        122.09105,
+        47.30599,
+        45.76622,
+        12.1288
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@close",
+        "value": " XXXX"
+      },
+      "align": "center",
+      "color": {
+        "func": "__ht__function(data, view) {\nif (data.a('status') === false) {\r\n    return 'rgb(0,221,255)'\r\n} else {\r\n    return 'rgb(255,255,255)'\r\n}\n}",
+        "value": "rgb(255,255,255)"
+      },
+      "font": "20px sans-serif, Arial",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        269.55191,
+        47.30599,
+        45.76622,
+        12.1288
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "modified": "Thu Jul 25 2019 13:41:39 GMT+0900 (한국 표준시)",
+  "background": "rgb(61,61,61)",
+  "width": 86,
+  "height": 116,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 3,
+      "borderColor": "rgb(255,255,255)",
+      "gradient": "radial.center",
+      "gradientColor": "rgba(230,230,230,0.00)",
+      "displayName": "电除尘",
+      "closePath": true,
+      "points": [
+        2.80202,
+        3.34286,
+        2.80202,
+        92.63515,
+        40.87021,
+        113.34872,
+        82.85718,
+        93.7548,
+        83.13709,
+        3.34286,
+        2.80202,
+        3.34286
+      ]
+    }
+  ]
+}

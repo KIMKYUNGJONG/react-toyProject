@@ -1,0 +1,46 @@
+{
+  "modified": "Wed Jun 05 2019 17:47:44 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "eye",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        500,
+        1000
+      ]
+    },
+    {
+      "attr": "center",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "attr": "far",
+      "valueType": "Number",
+      "defaultValue": 10000
+    },
+    {
+      "attr": "near",
+      "valueType": "Number",
+      "defaultValue": 10
+    },
+    {
+      "attr": "scene",
+      "valueType": "String",
+      "defaultValue": "./scenes/桥墩一般结构.json"
+    }
+  ],
+  "snapshotURL": "symbols/basic/snapshot_obj.json",
+  "renderHTML": "__ht__function(data, gv, cache) {\n    var scene = './scenes/桥墩一般结构.json';\n    if (!cache.htmlView) {\n        var g3d = new ht.graph3d.Graph3dView();\n        cache.htmlView = g3d.getView();\n        cache.htmlView.style.background = '#fff';\n        data.g3d = g3d;\n        g3d.setMovableFunc(function() { return false;});\n\n        if (data.a('eye')) g3d.setEye(data.a('eye'));\n        if (data.a('center')) g3d.setCenter(data.a('center'));\n        if (data.a('far')) g3d.setFar(data.a('far'));\n        if (data.a('near')) g3d.setNear(data.a('near'));\n        if (data.a('scene')) scene = data.a('scene');\n        \n        ht.Default.xhrLoad(scene, function(json) {\n            g3d.dm().deserialize(json);\n        });\n\n        // layoutHTML will be called when the data needs to be drawing\n        cache.htmlView.layoutHTML = function() {\n            gv.layoutHTML(data, cache.htmlView, true);\n            g3d.iv();\n        };\n    }\n\n    // html for showing\n    return cache.htmlView;\n}",
+  "width": 200,
+  "height": 120,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

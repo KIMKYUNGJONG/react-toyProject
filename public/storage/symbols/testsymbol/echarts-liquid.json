@@ -1,0 +1,91 @@
+{
+  "modified": "Wed Jul 31 2019 17:38:56 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "sampleDataTitle",
+      "valueType": "String",
+      "defaultValue": "TitleValue",
+      "name": "chartTitle"
+    },
+    {
+      "attr": "titleColor",
+      "valueType": "Color",
+      "name": "titleColor"
+    },
+    {
+      "attr": "sampleDataName",
+      "valueType": "String",
+      "defaultValue": "liquidState",
+      "name": "chartName"
+    },
+    {
+      "attr": "sampleDataArray",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "name": "chartDataArray"
+    },
+    {
+      "attr": "sampleData",
+      "valueType": "Number",
+      "defaultValue": 0.5,
+      "name": "chartData"
+    },
+    {
+      "attr": "seriesBorderColor",
+      "valueType": "Color",
+      "defaultValue": "#fabc37",
+      "name": "borderColor"
+    },
+    {
+      "attr": "seriesColor",
+      "valueType": "Color",
+      "defaultValue": "#acacac",
+      "name": "seriesColor"
+    },
+    {
+      "attr": "outline",
+      "valueType": "Boolean",
+      "name": "outline"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "name": "labelColor"
+    },
+    {
+      "attr": "labelFontsize",
+      "valueType": "Number",
+      "defaultValue": "40"
+    }
+  ],
+  "snapshotURL": "symbols/basic/snapshot_chart.json",
+  "renderHTML": "__ht__function(data, gv, cache) {var option = {\n    backgroundColor: 'rgba(0,0,0,0)',\n    title: {\n        text: 'CPU USAGE',\n        textStyle: {\n            fontWeight: 'normal',\n            fontSize: 25,\n            color: 'rgb(97, 142, 205)'\n        }\n    },\n    series: [{\n        type: 'liquidFill',\n        radius: '80%',\n        data: [],\n        name:'',\n        outline: {\n            show: false\n        },\n        shape: 'roundRect', //'circle', 'rect', 'roundRect', 'triangle', 'diamond', 'pin', 'arrow', 'container', an SVG path starting with 'path://'\n        backgroundStyle: {\n            borderWidth: 5,\n            borderColor: 'rgb(255,0,255,0.9)',\n            color: 'rgb(255,0,255,0.1)'\n        },\n        label: {\n            normal: {\n                formatter: 100 + '%',\n                textStyle: {\n                    fontSize: 50\n                }\n            }\n        },\n        animationDuration: 0,\n        animationDurationUpdate: 2000,\n        animationEasingUpdate: 'cubicOut'\n    }],\n};\n    if (!cache.htmlView) {\n        cache.htmlView = document.createElement('div');\n        cache.htmlView.style.position = 'absolute';\n        cache.htmlChart = echarts.init(cache.htmlView);\n        // layoutHTML will be called when the data needs to be drawing\n        cache.htmlView.layoutHTML = function() {\n            gv.layoutHTML(data, cache.htmlView, false);\n            cache.htmlChart.resize();\n        };\n    };\n    // update data\n    option.title.text = data.a('sampleDataTitle');\n    option.title.textStyle.color = data.a('titleColor');\n    option.series[0].name = data.a('sampleDataName');\n    option.series[0].data = data.a('sampleDataArray'); // 반복하는 웨이브 수\n    option.series[0].label.normal.formatter = option.series[0].data[0]*100 + '%';\n    option.series[0].outline.show = data.a('outline');\n    option.series[0].backgroundStyle.borderColor = data.a('seriesBorderColor');\n    option.series[0].backgroundStyle.color = data.a('seriesColor');\n    option.series[0].label.normal.textStyle.color = data.a('labelColor');\n    option.series[0].label.normal.textStyle.fontSize = data.a('labelFontsize');\n    cache.htmlChart.setOption(option);\n\n    // html for showing\n    return cache.htmlView;}",
+  "width": 200,
+  "height": 120,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@chartBackground",
+        "value": "#030C20"
+      },
+      "borderColor": "#979797",
+      "cornerRadius": 4,
+      "visible": false,
+      "rect": [
+        0,
+        0,
+        200,
+        120
+      ]
+    }
+  ]
+}

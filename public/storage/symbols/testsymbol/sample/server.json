@@ -1,0 +1,159 @@
+{
+  "modified": "Wed Apr 17 2019 11:18:21 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "left-startColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(29,0,145)"
+    },
+    {
+      "attr": "left-endColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(63,19,110)"
+    },
+    {
+      "attr": "top-startColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "top-endColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "right-startColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "right-endColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 100,
+  "height": 150,
+  "disableSelectedBorder": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "diamond",
+      "background": "rgba(29,0,145,0.9)",
+      "borderColor": "#979797",
+      "gradient": "linear.southeast",
+      "gradientColor": "rgb(61,77,255)",
+      "rect": [
+        0,
+        0,
+        99.91121,
+        46.53306
+      ]
+    },
+    {
+      "type": "diamond",
+      "background": "rgb(29,0,145)",
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "rgb(61,77,255)",
+      "rect": [
+        0,
+        103.30836,
+        99.91121,
+        46.53306
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(61,77,255)",
+      "borderColor": "#979797",
+      "gradient": "linear.southeast",
+      "gradientColor": "rgba(95,26,135,0.8)",
+      "closePath": true,
+      "points": [
+        50,
+        46.47149,
+        50,
+        150,
+        100,
+        127.08727,
+        100,
+        23.13534
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@left-startColor",
+        "value": "rgb(29,0,145)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": {
+        "func": "attr@left-endColor",
+        "value": "rgb(63,19,110)"
+      },
+      "closePath": true,
+      "points": [
+        0,
+        23.13534,
+        50,
+        46.43326,
+        50,
+        150,
+        0,
+        126.5199
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,6,69)",
+      "borderColor": "#979797",
+      "gradient": "linear.southeast",
+      "gradientColor": "rgba(34,0,54,0.80)",
+      "closePath": true,
+      "points": [
+        55.70215,
+        53.88816,
+        55.70215,
+        135.62977,
+        95.17997,
+        117.53888,
+        95.17997,
+        35.46295
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(61,77,255,0.5)",
+      "borderColor": "#979797",
+      "gradient": "linear.northeast",
+      "gradientColor": "rgba(34,0,54,0.5)",
+      "closePath": true,
+      "points": [
+        55.70215,
+        54.32589,
+        55.70215,
+        126.5749,
+        90.59544,
+        110.58489,
+        90.59544,
+        38.04039
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(61,77,255,0.9)",
+      "borderColor": "#979797",
+      "gradient": "linear.northeast",
+      "gradientColor": "rgba(173,106,212,0.5)",
+      "closePath": true,
+      "points": [
+        58.26302,
+        56.34857,
+        58.26302,
+        65.56276,
+        71.46876,
+        58.94183,
+        71.46876,
+        49.99999
+      ]
+    }
+  ]
+}

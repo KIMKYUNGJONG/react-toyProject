@@ -1,0 +1,201 @@
+{
+  "modified": "Mon Aug 05 2019 15:58:57 GMT+0900 (한국 표준시)",
+  "width": 132,
+  "height": 151,
+  "comps": [
+    {
+      "type": "circle",
+      "background": "rgba(66,66,66,0.80)",
+      "borderColor": "rgba(5,5,41,0.20)",
+      "borderJoin": "bevel",
+      "rect": [
+        0,
+        16.37319,
+        130.48219,
+        137.84043
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgb(12,104,135)",
+      "borderJoin": "bevel",
+      "rotation": -1.5708,
+      "points": [
+        68.57208,
+        -21.12996,
+        79.97881,
+        -10.54707,
+        79.97881,
+        45.40744,
+        68.57208,
+        57.29934,
+        57.16534,
+        45.40744,
+        57.16534,
+        -10.54707
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 17,
+      "borderColor": "rgb(12,104,135)",
+      "arcFrom": 1.0472,
+      "arcTo": -1.0472,
+      "arcClose": false,
+      "rotation": 1.5708,
+      "rect": [
+        18.75439,
+        37.09058,
+        91.99597,
+        94.60411
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 22,
+      "borderColor": "rgb(36,145,181)",
+      "arcFrom": 3.9619,
+      "arcTo": -0.90757,
+      "arcClose": false,
+      "rect": [
+        18.99756,
+        37.33375,
+        91.99597,
+        94.60411
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 1,
+      "borderColor": "rgb(124,145,155)",
+      "arcFrom": -1.0472,
+      "arcTo": -2.07694,
+      "arcClose": false,
+      "rect": [
+        3.73314,
+        0,
+        122.5248,
+        168.48186
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 18,
+      "borderColor": "rgba(20,42,122,0.45)",
+      "arcFrom": 1.0472,
+      "arcTo": -1.0472,
+      "arcClose": false,
+      "rotation": 1.5708,
+      "rect": [
+        21.2108,
+        37.39861,
+        88.05583,
+        94.60411
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rect": [
+        32.27985,
+        29.46705,
+        3.8509,
+        3.8509
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rect": [
+        93.88248,
+        29.46705,
+        3.8509,
+        3.8509
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/ht/gauge/gauge虹桥.json",
+      "displayName": "gauge",
+      "rect": [
+        13.67768,
+        33.31795,
+        102.63571,
+        102.63571
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(12,104,135)",
+      "borderJoin": "bevel",
+      "rotation": -1.5708,
+      "points": [
+        25.3537,
+        23.0934,
+        25.3537,
+        16.73231,
+        29.79279,
+        11.96354,
+        48.64286,
+        11.96006,
+        53.0852,
+        16.73231,
+        53.0852,
+        23.0934
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(12,104,135)",
+      "borderJoin": "bevel",
+      "scaleY": -1,
+      "rotation": -1.5708,
+      "points": [
+        84.05897,
+        23.0934,
+        84.05897,
+        16.73231,
+        88.49806,
+        11.96354,
+        107.34813,
+        11.96006,
+        111.79047,
+        16.73231,
+        111.79047,
+        23.0934
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "text",
+      "text": "잔여 공간",
+      "color": "rgb(247,247,247)",
+      "rect": [
+        40.2411,
+        103.63639,
+        50,
+        21.37621
+      ]
+    }
+  ]
+}

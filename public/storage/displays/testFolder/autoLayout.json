@@ -1,0 +1,93 @@
+{
+  "v": "6.3.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": true,
+    "connectActionType": "host",
+    "width": 1920,
+    "height": 1080,
+    "previewURL": "display_autoLayout.html",
+    "fitContent": true,
+    "pannable": false,
+    "zoomable": false,
+    "rectSelectable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 4718,
+      "p": {
+        "displayName": "grid",
+        "image": "symbols/testsymbol/sample/grid.json",
+        "position": {
+          "x": 956.50898,
+          "y": 521.54252
+        },
+        "width": 1996.46475,
+        "height": 1268.3914
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.visible": false
+      },
+      "a": {
+        "lineColor": "rgba(0,50,130,0.5)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4719,
+      "p": {
+        "displayName": "bg",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,0,0,0.8)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4720,
+      "p": {
+        "displayName": "background",
+        "tag": "background",
+        "position": {
+          "x": 960.00119,
+          "y": 540
+        },
+        "width": 1919.99762,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(8,2,33,0.80)",
+        "shape.border.color": "#979797",
+        "shape.gradient.color": "rgba(9,3,94,0.80)",
+        "shape.gradient": "radial.southwest",
+        "2d.movable": false,
+        "fullscreen": "fill"
+      }
+    }
+  ],
+  "modified": "Tue Apr 23 2019 11:28:29 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

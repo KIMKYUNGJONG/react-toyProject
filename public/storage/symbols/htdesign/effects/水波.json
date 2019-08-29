@@ -1,0 +1,160 @@
+{
+  "modified": "Thu Jul 04 2019 15:36:04 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "ripple_opacity",
+      "valueType": "Opacity"
+    },
+    {
+      "attr": "scale",
+      "valueType": "Number"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "interactive": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "circle",
+      "background": "rgba(49,210,235,0.53)",
+      "borderColor": "rgb(255,255,255)",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowBlur": 20,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        35.94206,
+        36.41707,
+        128.80905,
+        127.39873
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 1,
+      "borderColor": "#32D3EB",
+      "borderCap": "round",
+      "borderPattern": [
+        16,
+        16
+      ],
+      "rect": [
+        59.60978,
+        60.05202,
+        80.78046,
+        79.89599
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 1,
+      "borderColor": "#32D3EB",
+      "rect": [
+        32.93136,
+        33.66571,
+        134.13727,
+        132.66862
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 2,
+      "borderColor": "rgba(49,210,235,0.59)",
+      "borderPattern": [
+        5,
+        5
+      ],
+      "rect": [
+        10.08015,
+        10.08016,
+        179.83968,
+        179.83968
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 2,
+      "borderColor": "#32D3EB",
+      "opacity": {
+        "func": "attr@ripple_opacity",
+        "value": 1
+      },
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        9.92995,
+        17.59526,
+        180.1401,
+        164.8095
+      ]
+    },
+    {
+      "type": "circle",
+      "background": "rgba(49,210,235,0.80)",
+      "borderWidth": 2,
+      "borderColor": "#32D3EB",
+      "rect": [
+        85.69599,
+        85.96905,
+        28.608,
+        28.29478
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "rotation": 0.7854,
+      "rect": [
+        160.27881,
+        26.00913,
+        6.60822,
+        20.81588
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "rotation": 0.7854,
+      "rect": [
+        33.11295,
+        153.17499,
+        6.60822,
+        20.81588
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "rotation": 2.35619,
+      "rect": [
+        161.447,
+        152.00681,
+        6.60822,
+        20.81588
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "rotation": 2.35619,
+      "rect": [
+        34.28115,
+        24.84096,
+        6.60822,
+        20.81588
+      ]
+    }
+  ]
+}

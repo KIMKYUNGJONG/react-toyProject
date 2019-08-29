@@ -1,0 +1,20 @@
+{
+  "modified": "Thu Jul 25 2019 13:18:21 GMT+0900 (한국 표준시)",
+  "background": "rgb(0,0,0)",
+  "width": 150,
+  "height": 25,
+  "comps": [
+    {
+      "type": "text",
+      "text": "일지분석색인",
+      "color": "rgb(255,255,255)",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        2.99501,
+        0,
+        144.00997,
+        28.68966
+      ]
+    }
+  ]
+}

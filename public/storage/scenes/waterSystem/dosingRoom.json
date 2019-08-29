@@ -1,0 +1,1906 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "envmap": "assets/贴图/环境光/室内2.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 0.09,
+        "threshold": 0.46,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.006,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "a": {
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {gv.setMovableFunc(function() { return false });\r\ngv.getSelectWidth = function() {return 0};\r\n// 点击事件\r\ngv.mi(function (e) {\r\n\tif (e.kind === 'doubleClickBackground') {\r\n        changeScene();\r\n\t}\r\n})\r\n\r\n/**\r\n * 切换至外景\r\n *\r\n */\r\nfunction changeScene() {\r\n    dataModel.clear();\r\n    dataModel = new ht.DataModel();\r\n    let g3d = new ht.graph3d.Graph3dView(dataModel);\r\n\r\n    g3d.addToDOM();\r\n    g3d.deserialize('scenes/waterSystem/waterWorks.json');\r\n    g3d.setEye([452, 212, 744]);     // 设置眼睛\r\n    g3d.setCenter([111, 8, 199]);    // 设置中心点 \r\n    g3d.setFar(1000000);             // 设置远端位置\r\n}\r\n\r\nconst mapInteractor = new ht.graph3d.MapInteractor(gv)\r\ngv.setInteractors([\r\n    mapInteractor\r\n]);}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 33349,
+      "p": {
+        "displayName": "天空球",
+        "rotation": 2.20066,
+        "width": 10000,
+        "height": 10000,
+        "tall": 10000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.image": "assets/贴图/天空球/星空球1.jpg",
+        "shape3d.reverse.flip": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33350,
+      "p": {
+        "displayName": "一层",
+        "position": {
+          "x": -118.8004,
+          "y": -113.79239
+        },
+        "width": 951.22115,
+        "height": 1096.25432,
+        "tall": 179.16744,
+        "elevation": 89.58372
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33351,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -542.87689,
+          "y": 231.39182
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 200,
+          "y": 200
+        },
+        "scaleTall": 200,
+        "elevation": 78.6308
+      },
+      "s": {
+        "shape3d": "models/水厂/一期-手动阀门.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33352,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -473.01343,
+          "y": 231.39182
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 200,
+          "y": 200
+        },
+        "scaleTall": 200,
+        "elevation": 78.6308
+      },
+      "s": {
+        "shape3d": "models/水厂/一期-手动阀门.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33353,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -568.11755,
+          "y": 347.76686
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 32.2784
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/流量.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33354,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -568.11754,
+          "y": 309.88993
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 32.2784
+      },
+      "s": {
+        "shape3d": "models/HT图扑软件官方资源/传感器/流量.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33355,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -523.28453,
+          "y": 303.65908
+        },
+        "anchorElevation": 0,
+        "elevation": 30.94315
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33356,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -502.07187,
+          "y": 303.65908
+        },
+        "anchorElevation": 0,
+        "elevation": 30.94315
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33357,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -481.03167,
+          "y": 303.65908
+        },
+        "anchorElevation": 0,
+        "elevation": 30.94315
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33358,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -459.92217,
+          "y": 303.65908
+        },
+        "anchorElevation": 0,
+        "elevation": 30.94315
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33359,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -3.14159,
+        "position": {
+          "x": -133.58064,
+          "y": 363.96624
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.51049,
+        "elevation": 31.56489
+      },
+      "s": {
+        "shape3d": "models/水厂/空压罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33360,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 195.87524,
+          "y": -528.82591
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3,
+        "elevation": 30.31017
+      },
+      "s": {
+        "shape3d": "models/消防/灭火器箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33361,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -293.36417,
+          "y": 134.87126
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3,
+        "elevation": 30.31017
+      },
+      "s": {
+        "shape3d": "models/消防/灭火器箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33362,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -183.06338,
+          "y": 134.87126
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3,
+        "elevation": 30.31017
+      },
+      "s": {
+        "shape3d": "models/消防/灭火器箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33363,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 36.85754,
+          "y": 277.78371
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3,
+        "elevation": 30.31017
+      },
+      "s": {
+        "shape3d": "models/消防/灭火器箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33364,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 112.52238,
+          "y": 134.87126
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.3,
+          "y": 0.3
+        },
+        "scaleTall": 0.3,
+        "elevation": 30.31017
+      },
+      "s": {
+        "shape3d": "models/消防/灭火器箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33365,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -0.65902,
+        "position": {
+          "x": 88.10529,
+          "y": -38.54921
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 157.31267
+      },
+      "s": {
+        "shape3d": "models/机房/视频监控/摄像头方.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33366,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 0.76108,
+        "position": {
+          "x": 329.4885,
+          "y": -38.54921
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 157.31267
+      },
+      "s": {
+        "shape3d": "models/机房/视频监控/摄像头方.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33367,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 0.00268,
+        "position": {
+          "x": -239.417,
+          "y": 259.07059
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 147.19404
+      },
+      "s": {
+        "shape3d": "models/机房/视频监控/球机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33368,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 169.9019,
+          "y": -65.51079
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 147.19404
+      },
+      "s": {
+        "shape3d": "models/机房/视频监控/球机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33369,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.57687,
+        "position": {
+          "x": 202.11796,
+          "y": -525.46045
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 147.19404
+      },
+      "s": {
+        "shape3d": "models/机房/视频监控/球机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33370,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 5.35207,
+          "y": 188.29789
+        },
+        "anchorElevation": 0,
+        "elevation": 176.45384
+      },
+      "s": {
+        "shape3d": "models/水厂/AP.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33371,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 293.78702,
+          "y": -245.73993
+        },
+        "anchorElevation": 0,
+        "elevation": 176.45384
+      },
+      "s": {
+        "shape3d": "models/水厂/AP.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33372,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "image": "symbols/文本/门禁.json",
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 175.97392,
+          "y": 154.55927
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 42.75766
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33373,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "image": "symbols/文本/门禁.json",
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 175.97392,
+          "y": 94.19828
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 42.75766
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33374,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "image": "symbols/文本/门禁.json",
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -3.14159,
+        "position": {
+          "x": 207.16743,
+          "y": -53.71115
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 45.14271
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33375,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": -3.14159,
+        "position": {
+          "x": -381.08393,
+          "y": 143.09811
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.7,
+          "y": 0.55635
+        },
+        "scaleTall": 0.7,
+        "elevation": 6.6604
+      },
+      "s": {
+        "shape3d": "models/水厂/楼梯2.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33376,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -521.77551,
+          "y": 186.5261
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "elevation": 83.02449
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33377,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -508.04703,
+          "y": 327.53353
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.1,
+          "y": 1.1
+        },
+        "scaleTall": 1.1,
+        "elevation": 32.56306
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC投加泵_2.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33378,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -178.3307,
+          "y": 328.72479
+        },
+        "anchorElevation": 0,
+        "elevation": 23.49469
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC投加泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33379,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -132.95797,
+          "y": 316.11715
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "scaleTall": 0.7,
+        "elevation": 31.90614
+      },
+      "s": {
+        "shape3d": "models/水厂/空压机_2.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33380,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 292.64871,
+          "y": -495.3575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": -0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.07604
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠投加罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33381,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 130.0092,
+          "y": -356.86001
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": -0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.07604
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠投加罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33382,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 130.0092,
+          "y": -289.99386
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.07604
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠投加罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33383,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 130.0092,
+          "y": -215.87818
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": -0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.07604
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠投加罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33384,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": 130.0092,
+          "y": -148.96211
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.07604
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠投加罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33385,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -90.04928,
+          "y": 358.50441
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 21.62754
+      },
+      "s": {
+        "shape3d": "models/水厂/储液罐.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33386,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 82.17845,
+          "y": -14.37012
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 50.63527
+      },
+      "s": {
+        "shape3d": "models/水厂/加药控制箱.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33387,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 87.74931,
+          "y": 22.15374
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.49583
+        },
+        "scaleTall": 0.6,
+        "elevation": 31.1887
+      },
+      "s": {
+        "shape3d": "models/水厂/加药总配电箱.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33388,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 88.66406,
+          "y": 72.4988
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 32.11044
+      },
+      "s": {
+        "shape3d": "models/水厂/加药PLC柜.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33389,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -400.31951,
+          "y": 366.9549
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "scaleTall": 0.8,
+        "elevation": 30.88765
+      },
+      "s": {
+        "shape3d": "models/水厂/石灰活碳控制柜.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33390,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "position": {
+          "x": -114.7612,
+          "y": -136.56865
+        },
+        "width": 943.14279,
+        "height": 1050.70175,
+        "tall": 171.09492,
+        "elevation": 85.54746
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33391,
+      "p": {
+        "parent": {
+          "__i": 33390
+        },
+        "host": {
+          "__i": 33390
+        },
+        "position": {
+          "x": -116.80566,
+          "y": -138.6918
+        },
+        "anchorElevation": 0,
+        "elevation": 30.10211
+      },
+      "s": {
+        "shape3d": "models/水厂/加药间一层_wall2.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.1,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33392,
+      "p": {
+        "parent": {
+          "__i": 33390
+        },
+        "host": {
+          "__i": 33390
+        },
+        "position": {
+          "x": -115.02322,
+          "y": -135.51703
+        },
+        "anchorElevation": 0,
+        "elevation": 26.24154
+      },
+      "s": {
+        "shape3d": "models/水厂/加药间一层_wall.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33393,
+      "p": {
+        "parent": {
+          "__i": 33390
+        },
+        "host": {
+          "__i": 33390
+        },
+        "position": {
+          "x": -114.53035,
+          "y": -135.22761
+        },
+        "anchorElevation": 0,
+        "elevation": -1.34015
+      },
+      "s": {
+        "shape3d": "models/水厂/加药间一层_floor.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "envmap": 0.15
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33394,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 302.40531,
+          "y": -178.65643
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2,
+        "elevation": 29.78675
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠流量计.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33395,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 302.40531,
+          "y": -321.78559
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2,
+        "elevation": 29.78675
+      },
+      "s": {
+        "shape3d": "models/水厂/次氯酸钠流量计.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33396,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04782,
+          "y": -379.37442
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33397,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -355.15068
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33398,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -331.08019
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33399,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -306.83274
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33400,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -280.79918
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33401,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -236.16301
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33402,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -212.0193
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33403,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -187.89033
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33404,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -163.81416
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33405,
+      "p": {
+        "parent": {
+          "__i": 33350
+        },
+        "host": {
+          "__i": 33350
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 286.04781,
+          "y": -137.67527
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 29.64507
+      },
+      "s": {
+        "shape3d": "models/水厂/PAC池泵.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33406,
+      "p": {
+        "image": "symbols/文本/门禁.json",
+        "position": {
+          "x": 208.65915,
+          "y": 123.79063
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "elevation": 42.75766
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -888.39127,
+      918.70354,
+      -815.80322
+    ],
+    "center": [
+      60.66928,
+      -56.34796,
+      -34.3522
+    ],
+    "near": 1,
+    "far": 1000000,
+    "gridVisible": true,
+    "gridSize": 0,
+    "gridGap": 1,
+    "gridColor": null,
+    "editHelperDisabled": false
+  }
+}

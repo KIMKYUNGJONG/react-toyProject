@@ -1,0 +1,74 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "background": "rgb(145,125,125)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "width": 1920,
+    "height": 1080
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 58739,
+      "p": {
+        "position": {
+          "x": 822.84418,
+          "y": 517.14437
+        },
+        "width": 433.43452,
+        "height": 944.62043
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797",
+        "fullscreen": "uniform"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 58740,
+      "p": {
+        "position": {
+          "x": 662.18608,
+          "y": 114.16036
+        },
+        "width": 146.36914
+      },
+      "s": {
+        "text": "나눔고딕",
+        "text.font": "bold 38px Nanum Gothic"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 58741,
+      "p": {
+        "displayName": "date",
+        "image": "symbols/date.json",
+        "position": {
+          "x": 915.34418,
+          "y": 340.99849
+        }
+      },
+      "a": {
+        "time": "12:55",
+        "week": "목요일",
+        "date": "2019-07-11"
+      }
+    }
+  ],
+  "modified": "Thu Jul 11 2019 12:55:04 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

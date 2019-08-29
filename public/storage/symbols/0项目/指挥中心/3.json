@@ -1,0 +1,328 @@
+{
+  "modified": "Thu Jul 25 2019 13:03:24 GMT+0900 (한국 표준시)",
+  "width": 700,
+  "height": 1000,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/htdesign/box/0141.json",
+      "selectable": false,
+      "displayName": "0141",
+      "rect": [
+        0,
+        0,
+        700,
+        1000
+      ]
+    },
+    {
+      "type": "image",
+      "color": "#32D3EB",
+      "name": "symbols/htdesign/图标库/icon/机房管理.json",
+      "displayName": "精准性",
+      "rect": [
+        79.07451,
+        62.22786,
+        99,
+        99
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "bold 48px sans-serif, Arial",
+      "rect": [
+        358.7214,
+        86.72786,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        232.66334,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        326.54694,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        420.43054,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        514.31413,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        608.19773,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        702.08133,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        79.07451,
+        795.96492,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        270.60798,
+        795.96492,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        270.60798,
+        608.19773,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        295.80028,
+        237.02663,
+        282.65953,
+        248.77632,
+        295.80028,
+        261.91705
+      ]
+    },
+    {
+      "type": "text",
+      "text": "ENGLISH",
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "bold 32px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        351.38885,
+        232.66334,
+        134.82746,
+        33.61699
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "closePath": true,
+      "points": [
+        554.94566,
+        237.02663,
+        541.8049,
+        248.77632,
+        554.94566,
+        261.91705
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/effects/扫描告警.json",
+      "displayName": "扫描告警",
+      "rect": [
+        0,
+        477.31334,
+        650.19241,
+        124.00158
+      ]
+    },
+    {
+      "type": "text",
+      "text": "단위",
+      "color": "rgb(124,145,155)",
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        436.80766,
+        522.78065,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        270.60798,
+        845.96492,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "테스트",
+      "color": "rgb(124,145,155)",
+      "font": "bold 32px sans-serif, Arial",
+      "rect": [
+        270.60798,
+        895.96492,
+        136.78621,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/chart/进度条.json",
+      "displayName": "进度条",
+      "rect": [
+        265.93884,
+        704.08133,
+        335,
+        48
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/chart/进度条.json",
+      "displayName": "进度条",
+      "rect": [
+        265.93884,
+        326.54694,
+        335,
+        48
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/chart/进度条.json",
+      "displayName": "进度条",
+      "rect": [
+        265.93884,
+        420.43054,
+        335,
+        48
+      ]
+    },
+    {
+      "type": "components/textBox/numberPane.json",
+      "displayName": "numberPane",
+      "scaleX": 2,
+      "scaleY": 1.49,
+      "rect": [
+        360.40703,
+        528.21783,
+        42.81188,
+        22.1926
+      ],
+      "imgMap": {
+        "45": "symbols/demo/number/-.json",
+        "46": "symbols/demo/number/p.json",
+        "48": "symbols/demo/number/0.json",
+        "49": "symbols/demo/number/1.json",
+        "50": "symbols/demo/number/2.json",
+        "51": "symbols/demo/number/3.json",
+        "52": "symbols/demo/number/4.json",
+        "53": "symbols/demo/number/5.json",
+        "54": "symbols/demo/number/6.json",
+        "55": "symbols/demo/number/7.json",
+        "56": "symbols/demo/number/8.json",
+        "57": "symbols/demo/number/9.json",
+        "58": "symbols/demo/number/colon.json",
+        "8451": "symbols/demo/number/℃.json"
+      },
+      "value": {
+        "func": "attr@ht.value",
+        "value": "389"
+      },
+      "textAlign": {
+        "func": "attr@ht.textAlign",
+        "value": "right"
+      },
+      "gap": {
+        "func": "attr@ht.gap",
+        "value": 1
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(242,83,75)"
+      },
+      "iconHeight": 24,
+      "digitCount": {
+        "func": "attr@ht.digit",
+        "value": 0
+      },
+      "fixed": 0
+    }
+  ]
+}

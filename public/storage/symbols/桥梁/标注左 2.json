@@ -1,0 +1,135 @@
+{
+  "modified": "Wed Jun 05 2019 17:36:09 GMT+0900 (한국 표준시)",
+  "width": 64,
+  "height": 512,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "points": [
+        16.99306,
+        3.25484,
+        62.01615,
+        3.25484
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "points": [
+        16.99306,
+        82.39118,
+        62.01615,
+        82.39118
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "borderJoin": "bevel",
+      "points": [
+        31.22485,
+        13.39209,
+        28.2021,
+        7.29212,
+        28.2021,
+        77.20077,
+        25.2745,
+        70.81437
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "borderJoin": "bevel",
+      "points": [
+        30.66545,
+        95.52042,
+        28.21104,
+        90.89976,
+        28.21104,
+        204.90396,
+        25.8339,
+        200.06633
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "points": [
+        16.99306,
+        210.98232,
+        39.5063,
+        210.98232
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "borderJoin": "bevel",
+      "points": [
+        31.22485,
+        224.79944,
+        28.2021,
+        217.15802,
+        28.2021,
+        504.64821,
+        25.2745,
+        496.64799
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(61,61,61)",
+      "points": [
+        16.99306,
+        508.74516,
+        39.5063,
+        508.74516
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1000",
+      "font": "18px arial, sans-serif",
+      "rotation": 4.71239,
+      "rect": [
+        -8.10615,
+        369.65529,
+        38.7632,
+        11.43518
+      ]
+    },
+    {
+      "type": "text",
+      "text": "柱高 408.3",
+      "font": "18px arial, sans-serif",
+      "rotation": 4.71239,
+      "rect": [
+        -8.10615,
+        167.09169,
+        38.7632,
+        11.43518
+      ]
+    },
+    {
+      "type": "text",
+      "text": "180",
+      "font": "18px arial, sans-serif",
+      "rotation": 4.71239,
+      "rect": [
+        -2.28969,
+        39.45486,
+        27.13028,
+        11.43518
+      ]
+    }
+  ]
+}

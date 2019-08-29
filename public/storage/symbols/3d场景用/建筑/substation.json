@@ -1,0 +1,338 @@
+{
+  "modified": "Fri Jul 12 2019 15:15:38 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "text",
+      "valueType": "Multiline",
+      "name": "editor.content"
+    },
+    {
+      "attr": "visible",
+      "valueType": "Boolean",
+      "name": "点击进入"
+    }
+  ],
+  "width": 295,
+  "height": 122,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgba(252,205,15,0.85)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        18.24579,
+        58.92969,
+        209.43473,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(7,7,33,0.90)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "points": [
+        18.5627,
+        61.18278,
+        -0.00002,
+        50.85149,
+        -0.00002,
+        0.84194,
+        211.43721,
+        0.84194,
+        227.68051,
+        12.14425,
+        227.68051,
+        61.18278
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(77,127,176,0.05)",
+      "borderColor": "#979797",
+      "arcOval": true,
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        18.56524,
+        27.82815,
+        209.11528,
+        66.20308
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(82,76,55,0.51)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        207.31595,
+        52.15407,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#fcce10",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        208.92941,
+        53.76753,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(250,207,15)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        286.22154,
+        113.95412,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#fcce10",
+      "points": [
+        290.05279,
+        117.98757,
+        254.05719,
+        71.17268,
+        228.43909,
+        71.17268,
+        211.32738,
+        56.42585
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(82,77,56)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        287.83499,
+        115.56757,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "components/ht/text/textBox.json",
+      "displayName": "textBox",
+      "rect": [
+        46.91127,
+        6.14634,
+        164.42761,
+        37.74003
+      ],
+      "content": {
+        "func": "attr@text",
+        "value": "변전소"
+      },
+      "autoScale": false,
+      "font": "18px sans-serif, Arial",
+      "color": "#fcce10",
+      "lineHeight": 20
+    },
+    {
+      "type": "text",
+      "text": "접속하기",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "visible": {
+        "func": "attr@visible",
+        "value": true
+      },
+      "rect": [
+        147.5,
+        38.58197,
+        63.83888,
+        17.6008
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#60ACFC",
+      "visible": false,
+      "pixelPerfect": true,
+      "points": [
+        24.57526,
+        6.14634,
+        16.03172,
+        6.14634,
+        9.10599,
+        13.07216,
+        9.10599,
+        21.61557,
+        9.10599,
+        32.57573,
+        24.57526,
+        46.34116,
+        24.57526,
+        46.34116,
+        24.57526,
+        46.34116,
+        40.0444,
+        32.3849,
+        40.0444,
+        21.61557,
+        40.04436,
+        13.07202,
+        33.11872,
+        6.14634,
+        24.57526,
+        6.14634,
+        23.7174,
+        31.80507,
+        23.30467,
+        23.98749,
+        16.91777,
+        24.02296,
+        25.64305,
+        11.88796,
+        25.43484,
+        19.26089,
+        32.23263,
+        19.2767,
+        23.71749,
+        31.8052
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,204,0)",
+      "closePath": true,
+      "points": [
+        24.51076,
+        5.91306,
+        24.51076,
+        5.91306,
+        32.21289,
+        6.82645,
+        36.03082,
+        10.6918,
+        39.84874,
+        14.55715,
+        39.62035,
+        21.7404,
+        39.62035,
+        21.7404,
+        39.62035,
+        21.7404,
+        39.13207,
+        27.80644,
+        35.36158,
+        33.94832,
+        31.59108,
+        40.0902,
+        24.51076,
+        46.38001,
+        24.51076,
+        46.38001,
+        24.51076,
+        46.38001,
+        17.84349,
+        40.13762,
+        13.88329,
+        33.94832,
+        11.59298,
+        30.36886,
+        9.52553,
+        24.04758,
+        9.41407,
+        21.7404,
+        9.37346,
+        20.89986,
+        9.23874,
+        14.32806,
+        13.0896,
+        10.6918,
+        16.94046,
+        7.05554,
+        24.51076,
+        5.91306,
+        24.51076,
+        5.91306
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,204,0)",
+      "closePath": true,
+      "points": [
+        25.25791,
+        11.91542,
+        25.25791,
+        19.42607,
+        32.10796,
+        19.42607,
+        23.9218,
+        31.92605,
+        23.9218,
+        23.78941,
+        16.81579,
+        23.78941
+      ]
+    }
+  ]
+}

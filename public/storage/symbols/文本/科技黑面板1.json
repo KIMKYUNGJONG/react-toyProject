@@ -1,0 +1,403 @@
+{
+  "modified": "Wed May 22 2019 10:44:12 GMT+0800 (中国标准时间)",
+  "background": "rgb(117,117,117)",
+  "dataBindings": [
+    {
+      "attr": "title",
+      "valueType": "String",
+      "name": "设备名称"
+    },
+    {
+      "attr": "params1",
+      "valueType": "String",
+      "name": "参数1"
+    },
+    {
+      "attr": "value1",
+      "valueType": "String",
+      "name": "参数值1"
+    },
+    {
+      "attr": "titleColor",
+      "valueType": "String",
+      "name": "名称字体颜色"
+    },
+    {
+      "attr": "borderColor1",
+      "valueType": "String",
+      "name": "边框颜色"
+    },
+    {
+      "attr": "borderColor2",
+      "valueType": "String",
+      "name": "线条颜色"
+    }
+  ],
+  "width": 300,
+  "height": 265,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#000000",
+      "pixelPerfect": true,
+      "opacity": 0.25,
+      "closePath": true,
+      "points": [
+        227.56503,
+        76.40904,
+        19.65215,
+        76.40904,
+        19.65215,
+        35.4421,
+        54.08971,
+        5.18852,
+        289.68142,
+        5.18852,
+        289.68142,
+        13.00526,
+        227.56503,
+        76.40904,
+        227.56503,
+        76.40904
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@borderColor1",
+        "value": "#ffffff"
+      },
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        227.56503,
+        74.69566,
+        19.65215,
+        74.69566,
+        19.65215,
+        35.4421,
+        54.08971,
+        5.18852,
+        289.68142,
+        5.18852,
+        289.68142,
+        11.29188,
+        227.56503,
+        74.69566,
+        227.56503,
+        74.69566
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#ffffff",
+      "pixelPerfect": true,
+      "points": [
+        26.08906,
+        70.15858,
+        88.33419,
+        70.15858
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#ffffff",
+      "pixelPerfect": true,
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "points": [
+        63.61637,
+        70.14036,
+        28.66383,
+        70.14036,
+        36.64563,
+        63.70346,
+        55.63458,
+        63.70346,
+        63.61637,
+        70.14036
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#ffffff",
+      "pixelPerfect": true,
+      "points": [
+        19.33029,
+        60.32503,
+        10.31858,
+        69.33674,
+        10.31858,
+        78.99213,
+        30.72367,
+        78.99213,
+        35.55135,
+        75.12998,
+        19.13717,
+        75.12998,
+        19.33029,
+        60.32503
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "#ffffff",
+      "pixelPerfect": true,
+      "points": [
+        26.86149,
+        53.4655,
+        26.86149,
+        37.18007,
+        55.89206,
+        10.98175,
+        157.91742,
+        10.98175
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#ffffff",
+      "pixelPerfect": true,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "points": [
+        162.74513,
+        76.14492,
+        171.88556,
+        67.32633,
+        189.90897,
+        67.32633,
+        199.75749,
+        76.27367,
+        162.74513,
+        76.14492
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#ffffff",
+      "pixelPerfect": true,
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "points": [
+        270.72465,
+        30.78364,
+        270.72465,
+        22.09378,
+        286.43076,
+        6.83825,
+        286.43076,
+        4.93382,
+        290.67914,
+        4.93382,
+        290.67914,
+        9.92798,
+        270.72465,
+        30.78364,
+        270.72465,
+        30.78364
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@borderColor2",
+        "value": "#ffffff"
+      },
+      "pixelPerfect": true,
+      "points": [
+        138.73538,
+        86.08815,
+        138.73538,
+        264.39116
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": "123"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@titleColor",
+        "value": "#ffffff"
+      },
+      "font": "22px arial",
+      "pixelPerfect": true,
+      "rect": [
+        60.73783,
+        11.90009,
+        71.37664,
+        31.81748
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@params1",
+        "value": "123"
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        54.16218,
+        37.45931,
+        81.23614,
+        20.30902
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value1",
+        "value": "123"
+      },
+      "align": "center",
+      "color": "#ffb612",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        168.17904,
+        41.07019,
+        13.53936,
+        13.53936
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@单位1",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        202.0971,
+        38.96085,
+        40.61806,
+        16.9242
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@单位2",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        207.51325,
+        55.88505,
+        29.78578,
+        16.9242
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@参数4",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        54.16218,
+        86.08815,
+        81.23614,
+        20.30902
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@值4",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffb612",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        168.17904,
+        90.80526,
+        13.53936,
+        13.53936
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@单位4",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        202.0971,
+        89.11284,
+        40.61806,
+        16.9242
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@单位3",
+        "value": ""
+      },
+      "align": "center",
+      "color": "#ffffff",
+      "font": "14px arial",
+      "pixelPerfect": true,
+      "rect": [
+        207.51325,
+        72.3579,
+        29.78578,
+        16.9242
+      ]
+    }
+  ]
+}

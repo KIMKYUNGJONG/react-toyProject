@@ -1,0 +1,127 @@
+{
+  "modified": "Thu Jul 04 2019 15:24:18 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "meat",
+      "valueType": "String"
+    }
+  ],
+  "width": 709,
+  "height": 100,
+  "boundExtend": 12,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.40)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'showCabinetInfo'\n    });\n}\n}",
+      "points": [
+        15.25174,
+        0.00078,
+        691.02797,
+        0.00193,
+        701.85508,
+        3.87121,
+        701.85467,
+        90.29097,
+        691.02731,
+        95.00141,
+        15.25106,
+        95.00005,
+        4.17172,
+        90.28945,
+        4.1721,
+        3.8699
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(6,138,158)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "opacity": 0.5,
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarmData'\n    });\n}\n}",
+      "points": [
+        38.55187,
+        45.34046,
+        38.55187,
+        51.83152,
+        33.99472,
+        58.80078,
+        -20.97293,
+        58.80078,
+        -25.09127,
+        51.83152,
+        -25.09127,
+        45.34046
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(6,138,158)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "opacity": 0.5,
+      "scaleX": -1,
+      "rotation": 1.5708,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarmData'\n    });\n}\n}",
+      "points": [
+        734.09127,
+        45.34046,
+        734.09127,
+        51.83152,
+        729.53412,
+        58.80078,
+        674.56647,
+        58.80078,
+        670.44813,
+        51.83152,
+        670.44813,
+        45.34046
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@meat",
+        "value": "6/7 플랫폼"
+      },
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "64px arial, sans-serif",
+      "rect": [
+        306.66949,
+        28.00349,
+        95.66102,
+        46.7755
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(6,138,158)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": 6.28319,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarmData'\n    });\n}\n}",
+      "points": [
+        444.55533,
+        86.53968,
+        444.55533,
+        93.03074,
+        431.65857,
+        100,
+        276.09961,
+        100,
+        264.44467,
+        93.03074,
+        264.44467,
+        86.53968
+      ]
+    }
+  ]
+}

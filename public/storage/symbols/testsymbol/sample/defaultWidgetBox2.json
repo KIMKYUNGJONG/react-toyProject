@@ -1,0 +1,46 @@
+{
+  "modified": "Wed Feb 13 2019 17:22:53 GMT+0900 (한국 표준시)",
+  "width": 180,
+  "height": 100,
+  "disableSelectedBorder": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(33,33,33,0.8)",
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0,
+        180,
+        100
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#8BC34A",
+      "points": [
+        3.02884,
+        6.97562,
+        6.65757,
+        3.01198,
+        176.84067,
+        3.01198
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "#8BC34A",
+      "points": [
+        176.68528,
+        89.12753,
+        176.84067,
+        96.99778,
+        168.35183,
+        96.99778
+      ]
+    }
+  ]
+}

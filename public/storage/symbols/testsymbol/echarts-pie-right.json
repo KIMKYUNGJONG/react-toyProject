@@ -1,0 +1,76 @@
+{
+  "modified": "Mon Apr 08 2019 16:22:55 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "legendData",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "Aa",
+        "Bb",
+        "Cc"
+      ],
+      "name": "Legend"
+    },
+    {
+      "attr": "chartBackground",
+      "valueType": "Color",
+      "defaultValue": "#030C20",
+      "name": "background"
+    },
+    {
+      "attr": "pieColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#e67e22",
+        "#e74c3c",
+        "#3498db",
+        "#9b59b6"
+      ],
+      "name": "pieColor"
+    },
+    {
+      "attr": "seriesData",
+      "valueType": "ObjectArray",
+      "name": "dataArray",
+      "defaultValue": [
+        {
+          "value": 120,
+          "name": "Certificates"
+        },
+        {
+          "value": 335,
+          "name": "SSH Keys"
+        },
+        {
+          "value": 225,
+          "name": "Key Store"
+        }
+      ]
+    }
+  ],
+  "snapshotURL": "symbols/basic/snapshot_chart.json",
+  "renderHTML": "__ht__function(data, gv, cache) {var option = {\n        tooltip : {\n            trigger: 'item',\n            formatter: \"{b}: {c} ({d}%)\"\n        },\n        legend: {\n            orient: 'vertical',\n            itemHeight:10,\n            itemWidth:10,\n            x: 'right',\n            align:'left',\n            right: '5%',\n            data:[],\n            top: \"top\",\n            textStyle: {\n            color: '#f2f2f2',\n            fontSize: 25,\n\n         },\n         icon: 'roundRect',\n        },\n        series : [\n            {\n                name: '',\n                type:'pie',\n                center: ['40%', '50%'],\n                radius: ['45%', '80%'],\n                avoidLabelOverlap: false,\n                label: {\n                    normal: {\n                        show: false,\n                        position: 'center'\n                    },\n                    emphasis: {\n                        show: true,\n                        textStyle: {\n                            fontSize: '34',\n                            fontWeight: 'bold'\n                        }\n                    }\n                },\n                labelLine: {\n                    normal: {\n                        show: false\n                    }\n                },\n                data:[\n                        {value:335, name:'直接访问'},\n                    ]\n            },\n        ]\n    };\n\n    if (!cache.htmlView) {\n        cache.htmlView = document.createElement('div');\n        cache.htmlView.style.position = 'absolute';\n        cache.htmlChart = echarts.init(cache.htmlView);\n\n        // layoutHTML will be called when the data needs to be drawing\n        cache.htmlView.layoutHTML = function() {\n            gv.layoutHTML(data, cache.htmlView, false);\n            cache.htmlChart.resize();\n        };\n    }\n    // update data\n    option.color = data.a('pieColor');\n    option.legend.data = data.a('seriesData');\n    option.series[0].data = data.a('seriesData');\n    option.series[0].data.value = data.a('seriesData.value');\n    option.textStyle = { color: '#fff' };\n    option.legend.textStyle = { color: data.a('pieColor') };\n    cache.htmlChart.setOption(option);\n\n    // html for showing\n    return cache.htmlView;}",
+  "width": 200,
+  "height": 120,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@chartBackground",
+        "value": "#030C20"
+      },
+      "borderColor": "#979797",
+      "cornerRadius": 4,
+      "visible": false,
+      "rect": [
+        0,
+        0,
+        200,
+        120
+      ]
+    }
+  ]
+}

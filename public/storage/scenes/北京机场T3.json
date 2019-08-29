@@ -1,0 +1,7364 @@
+{
+  "v": "6.3.1",
+  "p": {
+    "background": "rgb(1,2,18)",
+    "envmap": "assets/贴图/环境光/黄昏.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": true,
+        "strength": 0.38,
+        "threshold": 0.3,
+        "radius": 1.32
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.021,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 124305,
+      "p": {
+        "position": {
+          "x": -183.38663,
+          "y": 29.81269
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/地面.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.05
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124306,
+      "p": {
+        "displayName": "1入口轨道交通",
+        "position": {
+          "x": 940.09126,
+          "y": 31.47078
+        },
+        "anchorElevation": 0,
+        "elevation": -8.0856
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/机场建筑1.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.05
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124307,
+      "p": {
+        "displayName": "2航站楼1",
+        "position": {
+          "x": 596.6409,
+          "y": 29.81269
+        },
+        "anchorElevation": 0,
+        "elevation": 0.54126
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/机场建筑2.json",
+        "envmap": 0.36,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124308,
+      "p": {
+        "displayName": "3航站楼2",
+        "position": {
+          "x": 176.58406,
+          "y": 29.56872
+        },
+        "anchorElevation": 0,
+        "elevation": 6
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/机场建筑3.json",
+        "envmap": 0.36,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124309,
+      "p": {
+        "displayName": "4航站楼3",
+        "position": {
+          "x": -250.95262,
+          "y": 30.14459
+        },
+        "anchorElevation": 0,
+        "elevation": 6.61439
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/机场建筑4.json",
+        "envmap": 0.36,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124310,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "rotation": 1.02305,
+        "position": {
+          "x": 779.0447,
+          "y": -161.64717
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124311,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 2.26285,
+        "position": {
+          "x": 748.86248,
+          "y": -121.48491
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124312,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 2.26285,
+        "position": {
+          "x": 722.36716,
+          "y": -96.09481
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124313,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 2.26285,
+        "position": {
+          "x": 697.92032,
+          "y": -67.84976
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124314,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 2.59948,
+        "position": {
+          "x": 650.82789,
+          "y": -27.67428
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124315,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 3.08923,
+        "position": {
+          "x": 586.60951,
+          "y": -13.29483
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 44.74294,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124316,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 3.10531,
+        "position": {
+          "x": 526.04453,
+          "y": -13.32583
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 44.74294,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "shape3d.blend": "rgb(255,13,0)",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124317,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 3.10531,
+        "position": {
+          "x": 468.36575,
+          "y": -13.32583
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 44.74294,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124318,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": -1.24816,
+        "position": {
+          "x": 386.61169,
+          "y": 68.12723
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 53.4806,
+        "height": 27.9611,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124319,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 3.10531,
+        "position": {
+          "x": 417.34916,
+          "y": -13.32583
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 44.74294,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124320,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 412.24985,
+          "y": 74.86935
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124321,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 466.7463,
+          "y": 72.79062
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124322,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 588.51757,
+          "y": 74.44415
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124323,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 527.77853,
+          "y": 76.52288
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124324,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 6.87674,
+        "position": {
+          "x": 646.57152,
+          "y": 91.06398
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124325,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 7.11355,
+        "position": {
+          "x": 692.4896,
+          "y": 129.04602
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124326,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 7.11355,
+        "position": {
+          "x": 722.1904,
+          "y": 160.51332
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124327,
+      "p": {
+        "displayName": "1航站楼登机桥",
+        "parent": {
+          "__i": 124310
+        },
+        "host": {
+          "__i": 124310
+        },
+        "rotation": 7.11355,
+        "position": {
+          "x": 743.77676,
+          "y": 187.66602
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124328,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "rotation": 1.89343,
+        "position": {
+          "x": 263.05766,
+          "y": -9.33252
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 53.4806,
+        "height": 32.30049,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124329,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 5.05387,
+        "position": {
+          "x": 82.24704,
+          "y": 68.08674
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 58.60633,
+        "height": 33.96264,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124330,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 177.15312,
+          "y": 72.92911
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 40.95948,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124331,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 228.9657,
+          "y": 77.06597
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 40.95948,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124332,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 6.28992,
+        "position": {
+          "x": 116.41408,
+          "y": 75.23319
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 40.95948,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124333,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 3.10531,
+        "position": {
+          "x": 111.18045,
+          "y": -16.44039
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 42.68845,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124334,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 3.10531,
+        "position": {
+          "x": 164.09925,
+          "y": -15.90559
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 42.68845,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124335,
+      "p": {
+        "displayName": "2航站楼登机桥",
+        "parent": {
+          "__i": 124328
+        },
+        "host": {
+          "__i": 124328
+        },
+        "rotation": 3.08923,
+        "position": {
+          "x": 211.56613,
+          "y": -15.90559
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 42.68845,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124336,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "rotation": -0.1506,
+        "position": {
+          "x": -459.57308,
+          "y": 214.34113
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": -0.6
+        },
+        "scaleTall": 0.6,
+        "width": 53.4806,
+        "height": 27.9611,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124337,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.87874,
+        "position": {
+          "x": -403.57477,
+          "y": 186.32166
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124338,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.87874,
+        "position": {
+          "x": -377.07945,
+          "y": 160.93156
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124339,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.87874,
+        "position": {
+          "x": -352.63261,
+          "y": 132.68651
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124340,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.54211,
+        "position": {
+          "x": -305.54018,
+          "y": 92.51103
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124341,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.05236,
+        "position": {
+          "x": -241.3218,
+          "y": 72.83528
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124342,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -180.75682,
+          "y": 72.83528
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124343,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -123.07804,
+          "y": 73.29823
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124344,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": 1.89343,
+        "position": {
+          "x": -37.43048,
+          "y": -8.95547
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 53.4806,
+        "height": 27.9611,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124345,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -79.52625,
+          "y": 73.88411
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124346,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -3.13486,
+        "position": {
+          "x": -63.78283,
+          "y": -16.31328
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 43.28239,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124347,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -3.13486,
+        "position": {
+          "x": -124.52187,
+          "y": -16.31328
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 43.28239,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124348,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -3.13486,
+        "position": {
+          "x": -246.70399,
+          "y": -16.31328
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 43.28239,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124349,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -3.13486,
+        "position": {
+          "x": -185.96495,
+          "y": -16.31328
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 43.28239,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124350,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -2.54804,
+        "position": {
+          "x": -304.75794,
+          "y": -30.10041
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124351,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -2.31123,
+        "position": {
+          "x": -350.52918,
+          "y": -68.41624
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124352,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": 1.89393,
+        "position": {
+          "x": -443.69217,
+          "y": 162.49123
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.66972
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124353,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": 1.89393,
+        "position": {
+          "x": -427.59253,
+          "y": 114.41363
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.66972
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124354,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": 1.12042,
+        "position": {
+          "x": -451.23425,
+          "y": -119.61713
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.66972
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124355,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": 1.12042,
+        "position": {
+          "x": -427.4859,
+          "y": -65.78208
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.66972
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124356,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -2.31123,
+        "position": {
+          "x": -380.22998,
+          "y": -99.88354
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124357,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -2.31123,
+        "position": {
+          "x": -401.81634,
+          "y": -127.03624
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 6.9518,
+        "height": 36.9535,
+        "tall": 18.0601,
+        "elevation": 6.68892
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124358,
+      "p": {
+        "displayName": "3航站楼登机桥",
+        "parent": {
+          "__i": 124336
+        },
+        "host": {
+          "__i": 124336
+        },
+        "rotation": -0.1506,
+        "position": {
+          "x": -457.46637,
+          "y": -150.70976
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 53.4806,
+        "height": 27.9611,
+        "tall": 16.4814,
+        "elevation": 6.52628
+      },
+      "s": {
+        "shape3d": "models/北京机场T3/登机口L.json",
+        "envmap": 0.15,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124359,
+      "p": {
+        "displayName": "环境球",
+        "tag": "noonLight",
+        "width": 9000,
+        "height": 9000,
+        "tall": 9000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/贴图/天空球/天空球3.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124360,
+      "p": {
+        "displayName": "地面框",
+        "parent": {
+          "__i": 124359
+        },
+        "host": {
+          "__i": 124359
+        },
+        "anchorElevation": 0,
+        "width": 4000,
+        "height": 4000,
+        "tall": 1
+      },
+      "s": {
+        "all.color": "rgba(61,61,61,0.32)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "all.transparent": true,
+        "front.transparent": false,
+        "back.transparent": false,
+        "all.reverse.cull": true,
+        "shape3d": "cylinder",
+        "shape3d.side.from": 0,
+        "shape3d.side": 6,
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "shape3d.color": "rgba(145,145,145,0.35)",
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124361,
+      "p": {
+        "displayName": "环境球夜",
+        "tag": "nightLight",
+        "width": 8992,
+        "height": 8992,
+        "tall": 8992
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/background/天空球.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124362,
+      "p": {
+        "displayName": "地面框",
+        "parent": {
+          "__i": 124361
+        },
+        "host": {
+          "__i": 124361
+        },
+        "anchorElevation": 0,
+        "width": 4000,
+        "height": 4000,
+        "tall": 1
+      },
+      "s": {
+        "all.color": "rgba(61,61,61,0.32)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "all.transparent": true,
+        "front.transparent": false,
+        "back.transparent": false,
+        "all.reverse.cull": true,
+        "shape3d": "cylinder",
+        "shape3d.side.from": 0,
+        "shape3d.side": 6,
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "shape3d.color": "rgba(0,0,0,0.35)",
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.23,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124363,
+      "p": {
+        "displayName": "登机口投影",
+        "rotation": 0.20297,
+        "position": {
+          "x": -476.7633,
+          "y": 214.34268
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124364,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 0.63867,
+        "position": {
+          "x": -410.23589,
+          "y": 180.85481
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124365,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 0.63867,
+        "position": {
+          "x": -383.74057,
+          "y": 155.46471
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124366,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 0.63867,
+        "position": {
+          "x": -358.89681,
+          "y": 127.21966
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124367,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.00466,
+        "position": {
+          "x": -312.2013,
+          "y": 86.93638
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124368,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -241.14852,
+          "y": 67.83138
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124369,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -182.66995,
+          "y": 68.46852
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124370,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -125.82774,
+          "y": 70.3337
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124371,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -78.72257,
+          "y": 70.3337
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124372,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -63.66713,
+          "y": -6.14041
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124373,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -125.47361,
+          "y": -5.93505
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124374,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -186.76621,
+          "y": -7.69917
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124375,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49779,
+        "position": {
+          "x": -246.28025,
+          "y": -7.98037
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124376,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 2.22653,
+        "position": {
+          "x": -305.43307,
+          "y": -24.7073
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124377,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 2.40931,
+        "position": {
+          "x": -355.79405,
+          "y": -61.89524
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124378,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 2.40931,
+        "position": {
+          "x": -389.09206,
+          "y": -91.34287
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124379,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 2.40931,
+        "position": {
+          "x": -407.71229,
+          "y": -119.52529
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124380,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 2.70836,
+        "position": {
+          "x": -457.16516,
+          "y": -155.81291
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124381,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -36.10373,
+          "y": -3.83289
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124382,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49054,
+        "position": {
+          "x": 112.67225,
+          "y": -4.6812
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124383,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49054,
+        "position": {
+          "x": 163.95767,
+          "y": -7.20211
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124384,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.49054,
+        "position": {
+          "x": 211.42455,
+          "y": -5.31834
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124385,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 262.65915,
+          "y": 2.86306
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124386,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 81.46001,
+          "y": 62.65951
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124387,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 115.11209,
+          "y": 66.32324
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124388,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 175.85113,
+          "y": 62.66732
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124389,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 227.66371,
+          "y": 62.66732
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124390,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 384.00248,
+          "y": 56.24713
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124391,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.73229,
+        "position": {
+          "x": 748.10688,
+          "y": 183.41634
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124392,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.73229,
+        "position": {
+          "x": 727.94074,
+          "y": 154.1508
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124393,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.73229,
+        "position": {
+          "x": 698.00506,
+          "y": 121.86482
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124394,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.91506,
+        "position": {
+          "x": 653.19132,
+          "y": 84.23261
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124395,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 587.68118,
+          "y": 66.53405
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124396,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 528.16714,
+          "y": 66.25284
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124397,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 466.87455,
+          "y": 64.48872
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124398,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 410.73375,
+          "y": 63.67052
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124399,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 418.27323,
+          "y": -3.93931
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124400,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 469.46776,
+          "y": -3.16183
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124401,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 526.26032,
+          "y": -2.43346
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124402,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -1.6438,
+        "position": {
+          "x": 585.84702,
+          "y": -1.73716
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124403,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -2.13693,
+        "position": {
+          "x": 653.50082,
+          "y": -23.9823
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124404,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -2.50293,
+        "position": {
+          "x": 702.7127,
+          "y": -65.64038
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124405,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -2.50293,
+        "position": {
+          "x": 726.04941,
+          "y": -93.33657
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124406,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -2.50293,
+        "position": {
+          "x": 753.28153,
+          "y": -118.73683
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124407,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 0.29956,
+        "position": {
+          "x": -426.54214,
+          "y": 121.97632
+        },
+        "anchorElevation": 0,
+        "width": 47.96614,
+        "height": 15.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124408,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 0.29956,
+        "position": {
+          "x": -445.41599,
+          "y": 169.74345
+        },
+        "anchorElevation": 0,
+        "width": 47.96614,
+        "height": 15.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124409,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.47396,
+        "position": {
+          "x": -420.00462,
+          "y": -62.15853
+        },
+        "anchorElevation": 0,
+        "width": 72.96614,
+        "height": 15.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124410,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": -0.47396,
+        "position": {
+          "x": -442.05686,
+          "y": -124.21139
+        },
+        "anchorElevation": 0,
+        "width": 72.96614,
+        "height": 15.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124411,
+      "p": {
+        "displayName": "登机口投影",
+        "parent": {
+          "__i": 124363
+        },
+        "host": {
+          "__i": 124363
+        },
+        "rotation": 3.7256,
+        "position": {
+          "x": 778.53434,
+          "y": -166.48853
+        },
+        "anchorElevation": 0,
+        "width": 64.96614,
+        "height": 12.2084,
+        "tall": 1,
+        "elevation": 6.31395
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fxty.png",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124412,
+      "p": {
+        "displayName": "飞机",
+        "position": {
+          "x": 118.05692,
+          "y": 33.75916
+        },
+        "width": 1244.03377,
+        "height": 365.36191,
+        "tall": 13.20282,
+        "elevation": 13.03393
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124413,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 2.25326,
+        "position": {
+          "x": -327.80402,
+          "y": 138.59478
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124414,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124413
+        },
+        "host": {
+          "__i": 124413
+        },
+        "rotation": -0.88833,
+        "position": {
+          "x": -327.80402,
+          "y": 138.59478
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124415,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124413
+        },
+        "host": {
+          "__i": 124413
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -327.2338,
+          "y": 138.84012
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "shape3d.transparent": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124416,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": -65.33525,
+          "y": 88.71569
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124417,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124416
+        },
+        "host": {
+          "__i": 124416
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": -65.33525,
+          "y": 88.71569
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124418,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124416
+        },
+        "host": {
+          "__i": 124416
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -65.01956,
+          "y": 87.62272
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124419,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": -144.02733,
+          "y": 87.14768
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124420,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124419
+        },
+        "host": {
+          "__i": 124419
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": -144.02733,
+          "y": 87.14768
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124421,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124419
+        },
+        "host": {
+          "__i": 124419
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -143.25812,
+          "y": 85.96919
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124422,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 90.20642,
+          "y": 95.60819
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124423,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124422
+        },
+        "host": {
+          "__i": 124422
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 90.20642,
+          "y": 95.60819
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124424,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 242.77769,
+          "y": 102.95471
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124425,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124424
+        },
+        "host": {
+          "__i": 124424
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 242.77769,
+          "y": 102.95471
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124426,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124424
+        },
+        "host": {
+          "__i": 124424
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 242.21021,
+          "y": 102.86349
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124427,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": -263.564,
+          "y": 96.602
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124428,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124427
+        },
+        "host": {
+          "__i": 124427
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -264.33321,
+          "y": 95.60811
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124429,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": -204.04996,
+          "y": 94.74014
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124430,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124429
+        },
+        "host": {
+          "__i": 124429
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -204.04996,
+          "y": 94.53612
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124431,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 135.77798,
+          "y": 105.37686
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.06,
+          "y": 0.06
+        },
+        "scaleTall": 0.06,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124432,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124431
+        },
+        "host": {
+          "__i": 124431
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 135.90748,
+          "y": 104.8635
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124433,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": 484.10918,
+          "y": 98.65151
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124434,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124433
+        },
+        "host": {
+          "__i": 124433
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 484.41537,
+          "y": 97.7368
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124435,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": 424.70841,
+          "y": 94.53612
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124436,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124435
+        },
+        "host": {
+          "__i": 124435
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 424.77749,
+          "y": 93.38644
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124437,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": 544.59062,
+          "y": 97.11617
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124438,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124437
+        },
+        "host": {
+          "__i": 124437
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 544.59062,
+          "y": 95.60819
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124439,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": 601.3407,
+          "y": 97.84689
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124440,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124439
+        },
+        "host": {
+          "__i": 124439
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 600.39352,
+          "y": 96.602
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124441,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.19475,
+        "position": {
+          "x": 684.19019,
+          "y": 153.82774
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124442,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124441
+        },
+        "host": {
+          "__i": 124441
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 684.31457,
+          "y": 153.82774
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124443,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.19475,
+        "position": {
+          "x": 719.39005,
+          "y": 192.17135
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124444,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124443
+        },
+        "host": {
+          "__i": 124443
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 717.8855,
+          "y": 191.5198
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124445,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 0.94684,
+        "position": {
+          "x": -378.69184,
+          "y": -127.86914
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124446,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124445
+        },
+        "host": {
+          "__i": 124445
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -379.1619,
+          "y": -128.01566
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124447,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 0.94684,
+        "position": {
+          "x": -343.49198,
+          "y": -89.52554
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124448,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124447
+        },
+        "host": {
+          "__i": 124447
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -343.72411,
+          "y": -89.37902
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124449,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -260.64249,
+          "y": -41.47526
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124450,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124449
+        },
+        "host": {
+          "__i": 124449
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -260.82675,
+          "y": -40.45675
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124451,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -203.89241,
+          "y": -41.47526
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124452,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124451
+        },
+        "host": {
+          "__i": 124451
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -204.08989,
+          "y": -42.13555
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124453,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -74.88475,
+          "y": -41.47526
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124454,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124453
+        },
+        "host": {
+          "__i": 124453
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -74.88475,
+          "y": -41.87977
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124455,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": -136.57215,
+          "y": -41.47526
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124456,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124455
+        },
+        "host": {
+          "__i": 124455
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -136.89546,
+          "y": -42.86055
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124457,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 0.62217,
+        "position": {
+          "x": -300.81541,
+          "y": -60.03302
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.06,
+          "y": 0.06
+        },
+        "scaleTall": 0.06,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124458,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124457
+        },
+        "host": {
+          "__i": 124457
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -304.17287,
+          "y": -59.0787
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124459,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.91323,
+        "position": {
+          "x": 691.55222,
+          "y": -100.58712
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124460,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124459
+        },
+        "host": {
+          "__i": 124459
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 692.4896,
+          "y": -100
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124461,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 604.26221,
+          "y": -44.93289
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124462,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -1.20009,
+        "position": {
+          "x": -455.56805,
+          "y": 145.19678
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 754.34915,
+        "height": 897.56944,
+        "tall": 290.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124463,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124462
+        },
+        "host": {
+          "__i": 124462
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -454.89232,
+          "y": 146.04734
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124464,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 97.92052,
+          "y": -38.6525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124465,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124464
+        },
+        "host": {
+          "__i": 124464
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 98.68977,
+          "y": -37.9658
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124466,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 250.49179,
+          "y": -31.30598
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124467,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124466
+        },
+        "host": {
+          "__i": 124466
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 250.49179,
+          "y": -30.10041
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124468,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 477.77592,
+          "y": -35.47857
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124469,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124468
+        },
+        "host": {
+          "__i": 124468
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 477.00667,
+          "y": -33.74344
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124470,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 406.03347,
+          "y": -37.04658
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124471,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124470
+        },
+        "host": {
+          "__i": 124470
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 406.03347,
+          "y": -36.00361
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124472,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.88833,
+        "position": {
+          "x": 668.50223,
+          "y": -74.29258
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124473,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124472
+        },
+        "host": {
+          "__i": 124472
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 669.0474,
+          "y": -73.65336
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124474,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.88833,
+        "position": {
+          "x": 721.50167,
+          "y": -130.67934
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124475,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124474
+        },
+        "host": {
+          "__i": 124474
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": 722.77265,
+          "y": -130.16487
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124476,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.06389,
+        "position": {
+          "x": -443.69217,
+          "y": -42.77504
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124477,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124476
+        },
+        "host": {
+          "__i": 124476
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -444.42282,
+          "y": -42.13555
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124478,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.06389,
+        "position": {
+          "x": -458.96932,
+          "y": -99.88354
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124479,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124478
+        },
+        "host": {
+          "__i": 124478
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -457.46637,
+          "y": -101.37204
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124480,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -1.20009,
+        "position": {
+          "x": -481.76238,
+          "y": 195.87469
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 754.34915,
+        "height": 897.56944,
+        "tall": 290.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124481,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124480
+        },
+        "host": {
+          "__i": 124480
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -481.76238,
+          "y": 194.89234
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124482,
+      "p": {
+        "displayName": "飞机模型",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 2.25326,
+        "position": {
+          "x": -380.80346,
+          "y": 194.98154
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "width": 597.5355,
+        "height": 710.98324,
+        "tall": 220.047,
+        "elevation": 6.43252
+      },
+      "s": {
+        "shape3d": "models/航天/飞机中国国际航空.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.blend": "rgb(222,222,222)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124483,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124482
+        },
+        "host": {
+          "__i": 124482
+        },
+        "rotation": -0.88833,
+        "position": {
+          "x": -380.80346,
+          "y": 194.98154
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124484,
+      "p": {
+        "displayName": "飞机标签",
+        "parent": {
+          "__i": 124482
+        },
+        "host": {
+          "__i": 124482
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -381.67982,
+          "y": 193.46247
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 36.30649,
+        "tall": 42,
+        "elevation": 10.42252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/飞机信息.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.autorotate": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.alwaysOnTop": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124485,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 1.9415,
+        "position": {
+          "x": -481.76238,
+          "y": 195.87469
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 41.61263,
+        "height": 56.51737,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124486,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": -263.564,
+          "y": 96.602
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124487,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": -204.04996,
+          "y": 94.74014
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124488,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.13672,
+        "position": {
+          "x": 135.77798,
+          "y": 105.37686
+        },
+        "anchorElevation": 0,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124489,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": 484.10918,
+          "y": 98.65151
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124490,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": 424.70841,
+          "y": 94.53612
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124491,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": 544.59062,
+          "y": 97.11617
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124492,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -0.03628,
+        "position": {
+          "x": 601.3407,
+          "y": 97.84689
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124493,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 0.94684,
+        "position": {
+          "x": 684.19019,
+          "y": 153.82774
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124494,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 0.94684,
+        "position": {
+          "x": 719.39005,
+          "y": 192.17135
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124495,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.19475,
+        "position": {
+          "x": -378.69184,
+          "y": -127.86914
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124496,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.19475,
+        "position": {
+          "x": -343.49198,
+          "y": -89.52554
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124497,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": -260.64249,
+          "y": -42.3387
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124498,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": -203.89241,
+          "y": -42.3387
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124499,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": -74.88475,
+          "y": -42.3387
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124500,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.10532,
+        "position": {
+          "x": -136.57215,
+          "y": -42.3387
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124501,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": -2.51942,
+        "position": {
+          "x": -300.81541,
+          "y": -60.03302
+        },
+        "anchorElevation": 0,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124502,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 2.22836,
+        "position": {
+          "x": 691.55222,
+          "y": -100.58712
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124503,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 604.26221,
+          "y": -44.93289
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124504,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 1.9415,
+        "position": {
+          "x": -455.56805,
+          "y": 145.19678
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 41.61263,
+        "height": 56.51737,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124505,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 97.92052,
+          "y": -38.6525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124506,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 250.49179,
+          "y": -31.30598
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124507,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 477.77592,
+          "y": -35.47857
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124508,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 3.00487,
+        "position": {
+          "x": 406.03347,
+          "y": -37.04658
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124509,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 2.25326,
+        "position": {
+          "x": 668.50223,
+          "y": -74.29258
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124510,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 2.25326,
+        "position": {
+          "x": 721.50167,
+          "y": -130.67934
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124511,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 1.0777,
+        "position": {
+          "x": -443.69217,
+          "y": -42.77504
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124512,
+      "p": {
+        "displayName": "飞机",
+        "parent": {
+          "__i": 124412
+        },
+        "host": {
+          "__i": 124412
+        },
+        "rotation": 1.0777,
+        "position": {
+          "x": -458.96932,
+          "y": -99.88354
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "scaleTall": 0.6,
+        "width": 32.96222,
+        "height": 44.76857,
+        "tall": 1,
+        "elevation": 6.43252
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "assets/贴图/fjty.png",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124513,
+      "p": {
+        "displayName": "告警弹窗",
+        "position": {
+          "x": 527.94205,
+          "y": -15.69983
+        },
+        "anchorElevation": 0,
+        "width": 61,
+        "height": 12,
+        "tall": 37,
+        "elevation": 17.97939
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/登机桥故障.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124514,
+      "p": {
+        "displayName": "告警弹窗",
+        "parent": {
+          "__i": 124513
+        },
+        "host": {
+          "__i": 124513
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 527.77853,
+          "y": -12.9009
+        },
+        "anchorElevation": 0,
+        "width": 61,
+        "height": 12,
+        "tall": 37,
+        "elevation": 17.97939
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/登机桥故障.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124515,
+      "p": {
+        "displayName": "晚点起飞",
+        "position": {
+          "x": 89.44248,
+          "y": 93.65034
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 5.72321,
+        "tall": 15,
+        "elevation": 10.66126
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/晚点起飞.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124516,
+      "p": {
+        "displayName": "晚点起飞",
+        "parent": {
+          "__i": 124515
+        },
+        "host": {
+          "__i": 124515
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 89.36449,
+          "y": 94.98524
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 5.72321,
+        "tall": 15,
+        "elevation": 10.66126
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/晚点起飞.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124517,
+      "p": {
+        "displayName": "晚点起飞",
+        "parent": {
+          "__i": 124515
+        },
+        "host": {
+          "__i": 124515
+        },
+        "position": {
+          "x": 605.10945,
+          "y": -45.57199
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 5.72321,
+        "tall": 15,
+        "elevation": 10.66126
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/晚点起飞.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 124518,
+      "p": {
+        "displayName": "晚点起飞",
+        "parent": {
+          "__i": 124515
+        },
+        "host": {
+          "__i": 124515
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 605.03146,
+          "y": -44.23708
+        },
+        "anchorElevation": 0,
+        "width": 29.093,
+        "height": 5.72321,
+        "tall": 15,
+        "elevation": 10.66126
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/机场/晚点起飞.json",
+        "shape3d.transparent": true,
+        "envmap": 0.13,
+        "shape3d.reverse.cull": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      1048.47993,
+      377.73057,
+      610.17775
+    ],
+    "center": [
+      330.83693,
+      -114.32554,
+      -14.41303
+    ],
+    "near": 1,
+    "far": 100000,
+    "background": "rgb(1,2,18)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

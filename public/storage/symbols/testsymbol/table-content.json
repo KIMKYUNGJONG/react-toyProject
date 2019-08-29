@@ -1,0 +1,245 @@
+{
+  "modified": "Wed Jul 31 2019 15:02:59 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "table.columns",
+      "valueType": "Object",
+      "name": "TableColumnDef"
+    },
+    {
+      "attr": "table.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource"
+    },
+    {
+      "attr": "table.head.background",
+      "valueType": "Color",
+      "name": "TableHeadBackground"
+    },
+    {
+      "attr": "table.body.background",
+      "valueType": "Color",
+      "name": "TableBodyBackground"
+    },
+    {
+      "attr": "table.border.width",
+      "valueType": "PositiveNumber",
+      "name": "TableBorderWidth"
+    },
+    {
+      "attr": "table.border.color",
+      "valueType": "Color",
+      "name": "TableBorderColor"
+    },
+    {
+      "attr": "table.column.line.color",
+      "valueType": "Color",
+      "name": "TableColumnLineColor"
+    },
+    {
+      "attr": "table.column.line.width",
+      "valueType": "PositiveNumber",
+      "name": "TableColumnLineWidth"
+    },
+    {
+      "attr": "table.row.line.color",
+      "valueType": "Color",
+      "name": "TableRowLineColor",
+      "defaultValue": "rgba(204,204,204,0.8)"
+    },
+    {
+      "attr": "table.row.line.width",
+      "valueType": "PositiveNumber",
+      "name": "TableRowLineWidth"
+    },
+    {
+      "attr": "table.head.font.size",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadFontSize"
+    },
+    {
+      "attr": "table.body.font.size",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyFontSize"
+    },
+    {
+      "attr": "table.head.height",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadHeight"
+    },
+    {
+      "attr": "table.body.height",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyHeight"
+    },
+    {
+      "attr": "table.head.color",
+      "valueType": "Color",
+      "name": "TableHeadColor"
+    },
+    {
+      "attr": "table.body.color",
+      "valueType": "Color",
+      "name": "TableBodyColor"
+    },
+    {
+      "attr": "table.cell.padding",
+      "valueType": "PositiveNumber",
+      "name": "TableCellPadding"
+    },
+    {
+      "attr": "table.head.font.family",
+      "valueType": "Font",
+      "name": "TableHeadFontFamily",
+      "defaultValue": "12px Godo"
+    },
+    {
+      "attr": "table.body.font.family",
+      "valueType": "Font",
+      "name": "TableBodyFontFamily"
+    }
+  ],
+  "width": 500,
+  "height": 360,
+  "fitSize": true,
+  "clip": true,
+  "comps": [
+    {
+      "type": "components/table/table.json",
+      "displayName": "tableComp",
+      "rotation": 6.28319,
+      "rect": [
+        0.00084,
+        -0.26419,
+        499.61877,
+        359.73516
+      ],
+      "columns": {
+        "func": "attr@table.columns",
+        "value": [
+          {
+            "displayName": "key1",
+            "align": "center",
+            "key": "key1",
+            "width": 120
+          },
+          {
+            "displayName": "key2",
+            "align": "center",
+            "key": "key2",
+            "width": 0.1
+          },
+          {
+            "displayName": "key3",
+            "align": "center",
+            "key": "key3",
+            "width": "30+0.1"
+          },
+          {
+            "displayName": "key4",
+            "align": "center",
+            "key": "key4",
+            "width": 180
+          }
+        ]
+      },
+      "dataSource": {
+        "func": "attr@table.dataSource",
+        "value": [
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          },
+          {
+            "key1": "value1",
+            "key2": "value2",
+            "key3": "value3",
+            "key4": "value4"
+          }
+        ]
+      },
+      "thBackground": {
+        "func": "attr@table.head.background",
+        "value": ""
+      },
+      "tdBackground": {
+        "func": "attr@table.body.background",
+        "value": ""
+      },
+      "borderWidth": {
+        "func": "attr@table.border.width",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@table.border.color",
+        "value": "rgb(255,255,255)"
+      },
+      "columnLineColor": {
+        "func": "attr@table.column.line.color",
+        "value": null
+      },
+      "columnLineWidth": {
+        "func": "attr@table.column.line.width",
+        "value": 0
+      },
+      "rowLineColor": {
+        "func": "attr@table.row.line.color",
+        "value": "rgb(36,36,36)"
+      },
+      "rowLineWidth": {
+        "func": "attr@table.row.line.width",
+        "value": 1
+      },
+      "thFontSize": {
+        "func": "attr@table.head.font.size",
+        "value": 16
+      },
+      "tdFontSize": {
+        "func": "attr@table.body.font.size",
+        "value": 14
+      },
+      "thHeight": {
+        "func": "attr@table.head.height",
+        "value": 28
+      },
+      "tdHeight": {
+        "func": "attr@table.body.height",
+        "value": 26
+      },
+      "thColor": {
+        "func": "attr@table.head.color",
+        "value": "rgb(255,255,255)"
+      },
+      "tdColor": {
+        "func": "attr@table.body.color",
+        "value": "#F6A623"
+      },
+      "cellPadding": {
+        "func": "attr@table.cell.padding",
+        "value": 0
+      },
+      "thFontFamily": {
+        "func": "attr@table.head.font.family",
+        "value": "Kai,sans-serif, arial"
+      },
+      "tdFontFamily": {
+        "func": "attr@table.body.font.family",
+        "value": "sans-serif, arial"
+      }
+    }
+  ]
+}

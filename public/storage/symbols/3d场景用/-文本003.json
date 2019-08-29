@@ -1,0 +1,112 @@
+{
+  "modified": "Thu Jul 04 2019 15:21:59 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "텍스트"
+    },
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(232,232,232)"
+    },
+    {
+      "attr": "tc",
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    }
+  ],
+  "width": 143,
+  "height": 38,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@ht.color",
+        "value": "rgb(232,232,232)"
+      },
+      "borderColor": "#979797",
+      "points": [
+        0,
+        0,
+        143,
+        0,
+        143,
+        38,
+        0,
+        38,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "텍스트"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@tc",
+        "value": "rgb(61,61,61)"
+      },
+      "font": "24px sans-serif, Arial",
+      "rect": [
+        0,
+        0.41494,
+        143,
+        36.91589
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 5.49779,
+      "rect": [
+        3.89726,
+        2.59384,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 5.49779,
+      "rect": [
+        3.89726,
+        29.90915,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 5.49779,
+      "rect": [
+        135.98064,
+        2.59384,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rotation": 5.49779,
+      "rect": [
+        135.98064,
+        29.90915,
+        4,
+        4
+      ]
+    }
+  ]
+}

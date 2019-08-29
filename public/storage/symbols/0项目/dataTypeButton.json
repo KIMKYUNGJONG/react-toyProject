@@ -1,0 +1,74 @@
+{
+  "modified": "Mon Jul 08 2019 15:10:28 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "type",
+      "valueType": "String",
+      "defaultValue": "day"
+    }
+  ],
+  "width": 56,
+  "height": 64,
+  "fitSize": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nreturn data.a('type') === 'month' ? '#00479c' : 'rgb(61,61,61)';\n}",
+        "value": "rgb(61,61,61)"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(82,106,191)",
+      "rect": [
+        3.759,
+        36.83536,
+        48.482,
+        22.41204
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('type', 'month');\n}"
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nreturn data.a('type') === 'day' ? '#00479c' : 'rgb(61,61,61)';\n}",
+        "value": "rgb(135,144,204)"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(82,106,191)",
+      "rect": [
+        3.759,
+        4.11605,
+        48.482,
+        22.41204
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('type', 'day');\n}"
+    },
+    {
+      "type": "text",
+      "text": "당일",
+      "align": "center",
+      "color": "rgb(0,200,255)",
+      "pixelPerfect": true,
+      "rect": [
+        3.759,
+        5.21243,
+        48.482,
+        22.41204
+      ]
+    },
+    {
+      "type": "text",
+      "text": "당월",
+      "align": "center",
+      "color": "rgb(0,200,255)",
+      "pixelPerfect": true,
+      "rect": [
+        3.759,
+        37.83536,
+        48.482,
+        22.95221
+      ]
+    }
+  ]
+}

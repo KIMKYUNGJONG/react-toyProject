@@ -1,0 +1,36 @@
+{
+  "modified": "Fri Mar 01 2019 10:17:44 GMT+0800 (中国标准时间)",
+  "background": "rgb(124,145,155)",
+  "width": 64,
+  "height": 64,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "text",
+      "text": "?",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "12px Arial",
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "rect": [
+        26.01404,
+        27.97955,
+        11.97192,
+        15.90281
+      ]
+    },
+    {
+      "type": "oval",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "opacity": 0.7,
+      "rect": [
+        2,
+        2,
+        60,
+        60
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/海洋/运输船.obj",
+  "mtl": "assets/objs/海洋/运输船.mtl",
+  "reverseFlipMtls": "*",
+  "s3": [
+    3,
+    3,
+    3
+  ],
+  "image": "",
+  "prefix": "assets/objs/海洋/"
+}

@@ -1,0 +1,140 @@
+{
+  "modified": "Thu Jul 04 2019 15:35:43 GMT+0900 (한국 표준시)",
+  "background": "rgb(61,61,61)",
+  "width": 285,
+  "height": 400,
+  "boundExtend": 6,
+  "fitSize": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(0,4,71,0.75)",
+      "borderColor": "rgb(41,155,217)",
+      "pixelPerfect": true,
+      "layoutH": "scale",
+      "layoutV": "scale",
+      "rotation": 3.14159,
+      "points": [
+        285.00157,
+        4.02134,
+        285.00043,
+        395.97935,
+        0.00053,
+        395.97859,
+        0.00157,
+        4.02065
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "layoutH": "center",
+      "layoutV": "bottom",
+      "points": [
+        114.23215,
+        381.42243,
+        168.67186,
+        381.42243
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderColor": "rgb(93,217,174)",
+      "borderJoin": "bevel",
+      "pixelPerfect": true,
+      "layoutH": "center",
+      "layoutV": "top",
+      "rotation": 6.28319,
+      "points": [
+        247.75927,
+        1.53752,
+        240.82332,
+        8.49818,
+        39.92232,
+        8.49811,
+        34.05445,
+        1.53745
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderColor": "rgb(93,217,174)",
+      "borderJoin": "bevel",
+      "pixelPerfect": true,
+      "layoutH": "center",
+      "layoutV": "bottom",
+      "rotation": 3.14159,
+      "points": [
+        248.30442,
+        392.49943,
+        241.36847,
+        399.46009,
+        40.46747,
+        399.46002,
+        34.5996,
+        392.49936
+      ]
+    },
+    {
+      "type": "rightTriangle",
+      "background": "rgb(158,158,158)",
+      "borderColor": "#979797",
+      "layoutH": "left",
+      "layoutV": "bottom",
+      "rect": [
+        -2.53841,
+        388,
+        12,
+        12
+      ]
+    },
+    {
+      "type": "rightTriangle",
+      "background": "rgb(158,158,158)",
+      "borderColor": "#979797",
+      "layoutH": "right",
+      "layoutV": "bottom",
+      "rotation": 4.71239,
+      "rect": [
+        275.53907,
+        386.49908,
+        12,
+        12
+      ]
+    },
+    {
+      "type": "rightTriangle",
+      "background": "rgb(158,158,158)",
+      "borderColor": "#979797",
+      "layoutH": "right",
+      "layoutV": "top",
+      "rotation": 3.14159,
+      "rect": [
+        275.53906,
+        2.0107,
+        12,
+        12
+      ]
+    },
+    {
+      "type": "rightTriangle",
+      "background": "rgb(158,158,158)",
+      "borderColor": "#979797",
+      "layoutH": "left",
+      "layoutV": "top",
+      "rotation": 1.5708,
+      "rect": [
+        -2.53839,
+        2.01069,
+        12,
+        12
+      ]
+    }
+  ]
+}

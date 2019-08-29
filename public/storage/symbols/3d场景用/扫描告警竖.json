@@ -1,0 +1,158 @@
+{
+  "modified": "Fri Mar 01 2019 15:58:20 GMT+0800 (中国标准时间)",
+  "width": 256,
+  "height": 256,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(255,51,51,0.29)",
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "rgba(0,0,0,0.00)",
+      "opacity": 0.5,
+      "shadow": true,
+      "shadowColor": "rgb(51,153,255)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 0,
+      "rect": [
+        0.99988,
+        54.89712,
+        253.99999,
+        201.0705
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#FEB64D",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#FEB64D",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        127.00001,
+        128.96763,
+        2,
+        253.99999
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#FEB64D",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#FEB64D",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        127.00001,
+        -126.99999,
+        2,
+        253.99999
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#FF7C7C",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": -1.57079,
+      "points": [
+        258.0949,
+        238.16901,
+        265.42209,
+        245.54545,
+        244.68965,
+        245.54545,
+        237.20134,
+        238.16901
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(255,125,125,0.60)",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": -1.57079,
+      "points": [
+        258.0949,
+        212.11785,
+        265.42209,
+        219.49429,
+        244.68964,
+        219.49429,
+        237.20134,
+        212.11785
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(255,125,125,0.30)",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": -1.57079,
+      "points": [
+        258.0949,
+        186.06668,
+        265.42209,
+        193.44312,
+        244.68965,
+        193.44312,
+        237.20134,
+        186.06668
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#FF7C7C",
+      "fillRule": "evenodd",
+      "rotation": -1.57079,
+      "points": [
+        11.47148,
+        63.52495,
+        18.79867,
+        70.90139,
+        -1.93378,
+        70.90139,
+        -9.42208,
+        63.52495
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(255,125,125,0.60)",
+      "fillRule": "evenodd",
+      "rotation": -1.57079,
+      "points": [
+        11.47148,
+        37.47378,
+        18.79867,
+        44.85022,
+        -1.93378,
+        44.85022,
+        -9.42209,
+        37.47378
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(255,125,125,0.30)",
+      "fillRule": "evenodd",
+      "rotation": -1.57079,
+      "points": [
+        11.47148,
+        11.42262,
+        18.79867,
+        18.79906,
+        -1.93378,
+        18.79906,
+        -9.42208,
+        11.42262
+      ]
+    }
+  ]
+}

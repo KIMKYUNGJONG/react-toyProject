@@ -1,0 +1,915 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "envmap": "assets/贴图/环境光/室内2.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 0.09,
+        "threshold": 0.46,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.006,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "a": {
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {gv.setMovableFunc(function() { return false });\r\ngv.getSelectWidth = function() {return 0};\r\ng3d.setEye([290, 27, 759]);     // 设置眼睛\r\ng3d.setCenter([258, 3, 722]);    // 设置中心点\r\n// 点击事件\r\ngv.mi(function (e) {\r\n\tif (e.kind === 'doubleClickBackground') {\r\n        changeScene();\r\n\t}\r\n})\r\n\r\n/**\r\n * 切换至外景\r\n *\r\n */\r\nfunction changeScene() {\r\n    dataModel.clear();\r\n    dataModel = new ht.DataModel();\r\n    let g3d = new ht.graph3d.Graph3dView(dataModel);\r\n\r\n    g3d.addToDOM();\r\n    g3d.deserialize('scenes/waterSystem/waterWorks.json');\r\n    g3d.setEye([452, 212, 744]);     // 设置眼睛\r\n    g3d.setCenter([111, 8, 199]);    // 设置中心点 \r\n    g3d.setFar(1000000);             // 设置远端位置\r\n    clearInterval(tn);\r\n}\r\n\r\nconst mapInteractor = new ht.graph3d.MapInteractor(gv)\r\ngv.setInteractors([\r\n    mapInteractor\r\n]);\r\n// 面板数据\r\ndm.getDataByTag('panel').a('title', '');\r\ndm.getDataByTag('panel').a('params1', '액상');\r\ndm.getDataByTag('panel').a('params2', '온도');\r\ndm.getDataByTag('panel').a('params3', '탁도');\r\ndm.getDataByTag('panel').a('params4', '잔여염소');\r\ndm.getDataByTag('panel').a('params5', 'PH');\r\ndm.getDataByTag('panel').a('params6', '유량');\r\n\r\nvar tn = setInterval(function(){\r\n    var random = Math.random() * (50 - 10 + 1) + 10; \r\n    var randomPH = Math.random() * (12 - 1 + 1) + 1;\r\n    var randomCl = Math.random() * (0.5 - 0.02 + 1) + 0.02;\r\n    dm.getDataByTag('panel').a('value1', (random).toFixed(2) + '  %');\r\n    dm.getDataByTag('panel').a('value2', (random * 0.8).toFixed(2) + '  ℃');\r\n    dm.getDataByTag('panel').a('value3', (random * 0.6).toFixed(2) + '  FTU');\r\n    dm.getDataByTag('panel').a('value4', randomCl.toFixed(2) + '  mg/L');\r\n    dm.getDataByTag('panel').a('value5' , randomPH.toFixed(2));\r\n    dm.getDataByTag('panel').a('value6' , (random / 1.5).toFixed(2) + '  L/min');\r\n}, 1000);}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 7306,
+      "p": {
+        "rotation": -3.09229,
+        "width": 100000,
+        "height": 100000,
+        "tall": 100000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.image": "assets/贴图/天空球/星空球1.jpg",
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7307,
+      "p": {
+        "position": {
+          "x": 260.48142,
+          "y": 725.15571
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 15,
+          "y": 15
+        },
+        "scaleTall": 15
+      },
+      "s": {
+        "shape3d": "models/水厂/配水井-底.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7308,
+      "p": {
+        "rotation": -1.5708,
+        "position": {
+          "x": 266.86106,
+          "y": 723.9831
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "elevation": 9.59645
+      },
+      "s": {
+        "shape3d": "models/水厂/格栅机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7309,
+      "p": {
+        "rotation": -1.5708,
+        "position": {
+          "x": 260.51166,
+          "y": 725.77095
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "elevation": 13.27917
+      },
+      "s": {
+        "shape3d": "models/水厂/格栅机皮带.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7310,
+      "p": {
+        "rotation": -1.5708,
+        "position": {
+          "x": 260.83944,
+          "y": 723.9831
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "elevation": 9.59645
+      },
+      "s": {
+        "shape3d": "models/水厂/格栅机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7311,
+      "p": {
+        "rotation": -1.5708,
+        "position": {
+          "x": 254.73621,
+          "y": 723.9831
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "elevation": 9.59645
+      },
+      "s": {
+        "shape3d": "models/水厂/格栅机.json",
+        "wf.visible": "selected",
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7312,
+      "p": {
+        "rotation": -1.5708,
+        "position": {
+          "x": 252.40932,
+          "y": 733.33634
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.06,
+          "y": 0.06
+        },
+        "scaleTall": 0.06,
+        "elevation": 0.19141
+      },
+      "s": {
+        "shape3d": "models/水厂/原水流量计.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7313,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": 270.7848,
+          "y": 727.98596
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 15,
+          "y": 15.01066
+        },
+        "scaleTall": 15,
+        "elevation": 14.34465
+      },
+      "s": {
+        "shape3d": "models/水厂/电控箱_2.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7314,
+      "p": {
+        "position": {
+          "x": 271.67087,
+          "y": 728.55008
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.05
+        },
+        "scaleTall": 0.05,
+        "elevation": 12.66646
+      },
+      "s": {
+        "shape3d": "models/水厂/加药总配电箱.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7315,
+      "p": {
+        "position": {
+          "x": 273.47043,
+          "y": 728.85034
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.03354
+        },
+        "scaleTall": 0.05,
+        "elevation": 12.4549
+      },
+      "s": {
+        "shape3d": "models/水厂/加药PLC柜.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7316,
+      "p": {
+        "position": {
+          "x": 260.59344,
+          "y": 724.78758
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 15,
+          "y": 15
+        },
+        "scaleTall": 15,
+        "elevation": 0.71571
+      },
+      "s": {
+        "shape3d": "models/水厂/配水井-围栏.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7317,
+      "p": {
+        "position": {
+          "x": 270.19927,
+          "y": 728.0015
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 15,
+          "y": 12
+        },
+        "scaleTall": 15,
+        "elevation": 12.60617
+      },
+      "s": {
+        "shape3d": "models/水厂/配水井-金属底座.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7318,
+      "p": {
+        "rotation": -1.5708,
+        "rotationX": 1.5708,
+        "position": {
+          "x": 254.30124,
+          "y": 729.71525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.11868
+        },
+        "scaleTall": 0.05,
+        "elevation": 13.63943
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_2.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7319,
+      "p": {
+        "displayName": "泵房开关_3",
+        "rotation": -3.14159,
+        "position": {
+          "x": 254.50204,
+          "y": 730.02677
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "elevation": 13.51247
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_3.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7320,
+      "p": {
+        "rotation": -1.5708,
+        "rotationX": 1.5708,
+        "position": {
+          "x": 260.32733,
+          "y": 729.71525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.11868
+        },
+        "scaleTall": 0.05,
+        "elevation": 13.63942
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_2.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7321,
+      "p": {
+        "displayName": "泵房开关_3",
+        "rotation": -3.14159,
+        "position": {
+          "x": 260.52813,
+          "y": 730.02677
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "elevation": 13.51247
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_3.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7322,
+      "p": {
+        "rotation": -1.5708,
+        "rotationX": 1.5708,
+        "position": {
+          "x": 266.39021,
+          "y": 729.71525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.11868
+        },
+        "scaleTall": 0.05,
+        "elevation": 13.63942
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_2.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7323,
+      "p": {
+        "displayName": "泵房开关_3",
+        "rotation": -3.14159,
+        "position": {
+          "x": 266.59101,
+          "y": 730.02677
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.04,
+        "elevation": 13.51247
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_3.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,171,168)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7324,
+      "p": {
+        "rotationZ": -1.5708,
+        "position": {
+          "x": 269.38941,
+          "y": 712.55588
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 13.24,
+          "y": 14.97477
+        },
+        "scaleTall": 14.98906,
+        "elevation": 6.04879
+      },
+      "s": {
+        "shape3d": "models/水厂/管子.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7325,
+      "p": {
+        "rotation": -3.14159,
+        "rotationZ": -1.5708,
+        "position": {
+          "x": 251.58764,
+          "y": 725.76066
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 13.24,
+          "y": 14.97477
+        },
+        "scaleTall": 14.98906,
+        "elevation": 6.67259
+      },
+      "s": {
+        "shape3d": "models/水厂/管子.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7326,
+      "p": {
+        "position": {
+          "x": 249.32169,
+          "y": 729.79985
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "elevation": 0.23789
+      },
+      "s": {
+        "shape3d": "models/水厂/配水井-水仪表.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 7327,
+      "p": {
+        "displayName": "水",
+        "position": {
+          "x": 260.10638,
+          "y": 717.84791
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": -0.00279,
+          "y": -0.00645
+        },
+        "width": 6333,
+        "height": 2508,
+        "tall": 10,
+        "elevation": 1.70311,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -2906.39362,
+              "y": -536.15209
+            },
+            {
+              "x": -2906.39362,
+              "y": 1971.84791
+            },
+            {
+              "x": 3426.60638,
+              "y": 1971.84791
+            },
+            {
+              "x": 3426.60638,
+              "y": -536.15209
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.image": "assets/贴图/水.jpg",
+        "shape3d.visible": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.top.uv.scale": [
+          3,
+          3
+        ],
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.7,
+        "envmap": 0.1,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 7328,
+      "p": {
+        "displayName": "水",
+        "position": {
+          "x": 260.10638,
+          "y": 733.45697
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": -0.0042,
+          "y": -0.00288
+        },
+        "width": 6808,
+        "height": 2553,
+        "tall": 10,
+        "elevation": 1.09329,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -3143.89362,
+              "y": -543.04303
+            },
+            {
+              "x": -3143.89362,
+              "y": 2009.95697
+            },
+            {
+              "x": 3664.10638,
+              "y": 2009.95697
+            },
+            {
+              "x": 3664.10638,
+              "y": -543.04303
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.image": "assets/贴图/水.jpg",
+        "shape3d.visible": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.top.uv.scale": [
+          6,
+          2
+        ],
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.7,
+        "envmap": 0.1,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7329,
+      "p": {
+        "tag": "panel",
+        "image": "symbols/文本/科技黑面板6.json",
+        "position": {
+          "x": 265.78663,
+          "y": 733.58446
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.02,
+          "y": 0.02
+        },
+        "scaleTall": 0.02,
+        "elevation": 13.69061
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/科技黑面板6.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7330,
+      "p": {
+        "displayName": "门禁",
+        "image": "symbols/文本/门禁.json",
+        "rotation": -1.5708,
+        "position": {
+          "x": 249.91096,
+          "y": 741.84739
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.02,
+          "y": 0.02
+        },
+        "scaleTall": 0.02,
+        "elevation": 5.47829
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.image.cache": true,
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7331,
+      "p": {
+        "position": {
+          "x": 270.12285,
+          "y": 712.57579
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.05
+        },
+        "scaleTall": 0.03198,
+        "elevation": 6.54192
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_4.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(255,255,255)",
+        "shape3d.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7332,
+      "p": {
+        "position": {
+          "x": 270.12285,
+          "y": 712.57579
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04,
+          "y": 0.04
+        },
+        "scaleTall": 0.18406,
+        "elevation": 6.65714
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_4.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(255,255,255)",
+        "shape3d.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7333,
+      "p": {
+        "position": {
+          "x": 270.12285,
+          "y": 712.57579
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.05,
+          "y": 0.05
+        },
+        "scaleTall": 0.03198,
+        "elevation": 7.88022
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_4.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(255,255,255)",
+        "shape3d.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7334,
+      "p": {
+        "position": {
+          "x": 270.12285,
+          "y": 712.57579
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04387,
+          "y": 0.04422
+        },
+        "scaleTall": 0.11206,
+        "elevation": 6.95849
+      },
+      "s": {
+        "shape3d": "models/水厂/泵房开关_4.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(255,255,255)",
+        "shape3d.color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7335,
+      "p": {
+        "rotation": -3.14159,
+        "position": {
+          "x": 271.20924,
+          "y": 712.56749
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.01551,
+          "y": 0.01718
+        },
+        "scaleTall": -0.01779,
+        "elevation": 7.81294
+      },
+      "s": {
+        "shape3d": "models/水厂/仪表.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7336,
+      "p": {
+        "position": {
+          "x": 271.02201,
+          "y": 712.56749
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.01382,
+          "y": 0.01065
+        },
+        "scaleTall": -0.01015,
+        "elevation": 7.61722
+      },
+      "s": {
+        "shape3d": "models/水厂/仪表.json",
+        "wf.visible": "selected"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7337,
+      "p": {
+        "displayName": "门禁",
+        "image": "symbols/文本/门禁.json",
+        "rotation": -1.5708,
+        "position": {
+          "x": 270.55986,
+          "y": 741.84739
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.02,
+          "y": 0.02
+        },
+        "scaleTall": 0.02,
+        "elevation": 5.47829
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/文本/门禁.json",
+        "shape3d.image.cache": true,
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7338,
+      "p": {
+        "rotation": -1.5708,
+        "rotationX": 1.5708,
+        "rotationZ": 3.14159,
+        "position": {
+          "x": 269.41509,
+          "y": 712.3909
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.04618,
+          "y": 0.04647
+        },
+        "scaleTall": 0.04479,
+        "elevation": 4.41937
+      },
+      "s": {
+        "shape3d": "models/水厂/地下管线阀门1.json",
+        "wf.visible": "selected",
+        "shape3d.blend": "rgb(0,128,255)"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      289.46662,
+      43.33065,
+      744.03013
+    ],
+    "center": [
+      258.64723,
+      3.8923,
+      722.11455
+    ],
+    "near": 1,
+    "far": 1000000,
+    "gridVisible": true,
+    "gridSize": 0,
+    "gridGap": 1,
+    "gridColor": null,
+    "editHelperDisabled": false
+  }
+}

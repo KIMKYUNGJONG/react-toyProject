@@ -1,0 +1,171 @@
+{
+  "modified": "Thu Jul 25 2019 15:16:44 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "titleName",
+      "valueType": "String",
+      "name": "标题"
+    },
+    {
+      "attr": "legendName",
+      "valueType": "String",
+      "name": "图例名称"
+    },
+    {
+      "attr": "lengendColor",
+      "valueType": "Color",
+      "name": "图例颜色"
+    }
+  ],
+  "width": 475,
+  "height": 190,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "points": [
+        9.51265,
+        -0.00063,
+        465.67634,
+        0.00054,
+        473.7665,
+        6.63697,
+        473.76643,
+        46.16865,
+        470.51593,
+        51.37069,
+        470.51593,
+        119.50574,
+        473.76627,
+        125.49941,
+        473.76614,
+        180.88394,
+        465.67578,
+        188.96302,
+        365.74512,
+        189.99937,
+        345.19992,
+        171.01735,
+        9.51214,
+        171.01644,
+        1.23349,
+        162.93705,
+        1.23357,
+        125.49793,
+        5.53597,
+        119.50511,
+        5.53597,
+        51.37006,
+        1.23372,
+        46.16717,
+        1.2338,
+        6.63549,
+        9.51259,
+        -0.00063
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": {
+        "func": "attr@legendColor",
+        "value": "rgb(47,112,250)"
+      },
+      "borderCap": "round",
+      "displayName": "legend",
+      "points": [
+        201.0773,
+        39.87018,
+        230.59566,
+        39.87018
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@legendName",
+        "value": "온도"
+      },
+      "color": "rgb(247,247,247)",
+      "rect": [
+        237.87683,
+        33.58499,
+        36.04587,
+        13.57038
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@titleName",
+        "value": "정보"
+      },
+      "align": "center",
+      "color": "rgb(76,205,252)",
+      "font": "16px arial, sans-serif",
+      "movable": false,
+      "editable": false,
+      "displayName": "机柜指标信息",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        13.65732,
+        0,
+        93.92181,
+        32.48658
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        152.12022,
+        7.40085,
+        160.02282,
+        15.24322,
+        137.66223,
+        15.24322,
+        129.58586,
+        7.40085
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "rotation": 6.28319,
+      "points": [
+        184.30833,
+        7.40085,
+        192.21093,
+        15.24322,
+        169.85034,
+        15.24322,
+        161.77397,
+        7.40085
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "rotation": 6.28319,
+      "points": [
+        216.49644,
+        7.40085,
+        224.39904,
+        15.24322,
+        202.03845,
+        15.24322,
+        193.96208,
+        7.40085
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "modified": "Wed Jun 05 2019 15:20:04 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "shape.background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "shape.gradient.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "bar.background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "bar.gradient.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "clip0",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "clip1",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "clip2",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "clip3",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "clip4",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "clip5",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "num0",
+      "valueType": "String"
+    },
+    {
+      "attr": "num1",
+      "valueType": "String"
+    },
+    {
+      "attr": "num2",
+      "valueType": "String"
+    },
+    {
+      "attr": "num3",
+      "valueType": "String"
+    },
+    {
+      "attr": "num4",
+      "valueType": "String"
+    },
+    {
+      "attr": "num5",
+      "valueType": "String"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color"
+    }
+  ],
+  "width": 529,
+  "height": 316,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@shape.background",
+        "value": "rgba(0,0,0,0.60)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": {
+        "func": "attr@shape.gradient.color",
+        "value": "rgba(0,0,0,0.40)"
+      },
+      "pixelPerfect": true,
+      "rect": [
+        35.85584,
+        1.63351,
+        491.2233,
+        311.40113
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@shape.background",
+        "value": "rgba(0,0,0,0.60)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": {
+        "func": "attr@shape.gradient.color",
+        "value": "rgba(0,0,0,0.40)"
+      },
+      "pixelPerfect": true,
+      "rect": [
+        1.78435,
+        1.63351,
+        30.60524,
+        311.40113
+      ]
+    },
+    {
+      "type": "text",
+      "text": "수",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(8,194,172)",
+      "shadowBlur": 11,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "pixelPerfect": true,
+      "rect": [
+        7.70254,
+        35.0397,
+        18.76886,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "공",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(8,194,172)",
+      "shadowBlur": 11,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "pixelPerfect": true,
+      "rect": [
+        7.70254,
+        64.56665,
+        18.76886,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "소",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(8,194,172)",
+      "shadowBlur": 11,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "pixelPerfect": true,
+      "rect": [
+        7.70254,
+        94.09359,
+        18.76886,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "수",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(8,194,172)",
+      "shadowBlur": 11,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "pixelPerfect": true,
+      "rect": [
+        7.70254,
+        123.62054,
+        18.76886,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "질",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "22px sans-serif, Arial",
+      "shadow": true,
+      "shadowColor": "rgb(8,194,172)",
+      "shadowBlur": 11,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "pixelPerfect": true,
+      "rect": [
+        7.70254,
+        152.28647,
+        18.76886,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "8000",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "bold 14px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        53.8698,
+        82.66654,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "6000",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "bold 14px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        53.8698,
+        127.21832,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "4000",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "bold 14px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        53.8698,
+        171.77011,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2000",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "bold 14px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        53.8698,
+        216.3219,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "bold 14px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        53.8698,
+        260.87368,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "장흥수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        112.40279,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "링차오수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        181.07966,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "갑북수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        249.75653,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "월포수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        318.4334,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "남하수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        387.11027,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": "후이난수공장",
+      "align": "center",
+      "color": "rgb(0,255,251)",
+      "font": "12px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        455.70531,
+        280.25657,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.6,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        98.43581,
+        47.46967,
+        98.43581,
+        267.34572,
+        503.87898,
+        267.34572
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        98.43581,
+        222.11716,
+        503.87898,
+        222.11716
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        98.43581,
+        176.22856,
+        503.87898,
+        176.22856
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        98.43581,
+        131.31987,
+        503.87898,
+        131.31987
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        98.43581,
+        87.88007,
+        503.87898,
+        87.88007
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip0",
+        "value": 1
+      },
+      "rect": [
+        122.19574,
+        105.13648,
+        18.69841,
+        161.77468
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip1",
+        "value": 1
+      },
+      "rect": [
+        190.83783,
+        171.77011,
+        18.69841,
+        95.14105
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip2",
+        "value": 1
+      },
+      "rect": [
+        259.47992,
+        157.4077,
+        18.69841,
+        109.50346
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip3",
+        "value": 1
+      },
+      "rect": [
+        328.122,
+        117.49208,
+        18.69841,
+        149.41908
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip4",
+        "value": 1
+      },
+      "rect": [
+        396.76409,
+        157.4077,
+        18.69841,
+        109.50346
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@bar.background",
+        "value": "rgb(49,235,213)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": {
+        "func": "attr@bar.gradient.color",
+        "value": "rgb(255,173,110)"
+      },
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clip5",
+        "value": 1
+      },
+      "rect": [
+        465.40618,
+        212.15943,
+        18.69841,
+        54.75173
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num0",
+        "value": "7000"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        112.40279,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num1",
+        "value": "4000"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        181.06329,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num2",
+        "value": "5000"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        249.7238,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num3",
+        "value": "6800"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        318.3843,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num4",
+        "value": "5000"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        387.04481,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@num5",
+        "value": "3000"
+      },
+      "align": "center",
+      "color": "rgb(255,176,115)",
+      "font": "14px sans-serif, Arial",
+      "shadowColor": "rgb(255,85,0)",
+      "pixelPerfect": true,
+      "rect": [
+        455.70531,
+        301.60758,
+        38.26377,
+        11.42706
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(8,194,172)"
+      },
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        4.23717,
+        11.52403,
+        25.6996,
+        3.85315
+      ]
+    }
+  ]
+}

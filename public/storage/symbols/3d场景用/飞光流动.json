@@ -1,0 +1,65 @@
+{
+  "modified": "Wed Apr 03 2019 14:12:22 GMT+0800 (中国标准时间)",
+  "width": 1024,
+  "height": 64,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(75,192,242)",
+      "borderColor": "#979797",
+      "gradientColor": "rgba(67,175,222,0.00)",
+      "shadow": true,
+      "shadowColor": "rgb(76,205,252)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": -3.14159,
+      "rect": [
+        0,
+        30.00068,
+        1024.37276,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(108,230,190)",
+      "gradient": "linear.west",
+      "gradientColor": "rgb(67,176,222)",
+      "shadow": true,
+      "shadowColor": "rgb(108,230,190)",
+      "shadowBlur": 24,
+      "shadowOffsetX": -1,
+      "shadowOffsetY": 0,
+      "rotation": 3.14159,
+      "points": [
+        154.87862,
+        31.91099,
+        154.87862,
+        31.91099,
+        223.28824,
+        24.74397,
+        231.05572,
+        26.02903,
+        237.17824,
+        27.3734,
+        237.17824,
+        36.26846,
+        231.05572,
+        37.63883,
+        223.28824,
+        39.25623,
+        154.87862,
+        31.91099,
+        154.87862,
+        31.91099
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

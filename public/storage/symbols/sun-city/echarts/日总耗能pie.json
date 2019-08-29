@@ -1,0 +1,234 @@
+{
+  "modified": "Tue Jul 16 2019 12:58:04 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "pieData",
+      "valueType": "ObjectArray",
+      "name": "pieData"
+    },
+    {
+      "attr": "radius",
+      "valueType": "StringArray",
+      "name": "radius"
+    },
+    {
+      "attr": "center",
+      "valueType": "StringArray",
+      "name": "center"
+    },
+    {
+      "attr": "startAngle",
+      "valueType": "PositiveNumber",
+      "name": "startAngle"
+    },
+    {
+      "attr": "labelLine",
+      "valueType": "Object",
+      "name": "labelLine"
+    },
+    {
+      "attr": "roseType",
+      "valueType": "Boolean",
+      "name": "roseType"
+    },
+    {
+      "attr": "label",
+      "valueType": "Object",
+      "name": "label"
+    },
+    {
+      "attr": "seriesName",
+      "valueType": "String",
+      "name": "seriesName"
+    },
+    {
+      "attr": "hoverOffset",
+      "valueType": "PositiveNumber",
+      "name": "hoverOffset"
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Object",
+      "name": "tooltip",
+      "defaultValue": {
+        "show": true,
+        "formatter": "{b} : {d} ({c})"
+      }
+    },
+    {
+      "attr": "avoidLabelOver",
+      "valueType": "Boolean",
+      "name": "avoidLabelOver"
+    }
+  ],
+  "width": 300,
+  "height": 300,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "components/ht/ui/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onLeave.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": [
+          {
+            "name": "CDA 전기",
+            "value": 5.33,
+            "itemStyle": {
+              "color": "#60ACFC"
+            },
+            "labelLine": {
+              "normal": {
+                "lineColor": "#60ACFC",
+                "textColor": "#60ACFC"
+              },
+              "emphasis": {
+                "lineColor": "#60ACFC",
+                "textColor": "#60ACFC"
+              }
+            }
+          },
+          {
+            "name": "3폴리 공장",
+            "value": 7.03,
+            "itemStyle": {
+              "color": "rgb(240,225,19)"
+            },
+            "labelLine": {
+              "normal": {
+                "lineColor": "rgb(240,225,19)",
+                "textColor": "rgb(240,225,19)"
+              },
+              "emphasis": {
+                "lineColor": "rgb(240,225,19)",
+                "textColor": "rgb(240,225,19)"
+              }
+            }
+          },
+          {
+            "name": "CM 공장",
+            "value": 6.23,
+            "itemStyle": {
+              "color": "rgb(167,90,250)"
+            },
+            "labelLine": {
+              "normal": {
+                "lineColor": "rgb(167,90,250)",
+                "textColor": "rgb(167,90,250)"
+              },
+              "emphasis": {
+                "lineColor": "rgb(167,90,250)",
+                "textColor": "rgb(167,90,250)"
+              }
+            }
+          },
+          {
+            "name": "WCM 공장",
+            "value": 74.36,
+            "itemStyle": {
+              "color": "rgb(129,214,101)"
+            },
+            "labelLine": {
+              "normal": {
+                "lineColor": "rgb(129,214,101)",
+                "textColor": "rgb(129,214,101)"
+              },
+              "emphasis": {
+                "lineColor": "rgb(129,214,101)",
+                "textColor": "rgb(129,214,101)"
+              }
+            }
+          },
+          {
+            "name": "냉소 전력",
+            "value": 7.05,
+            "itemStyle": {
+              "color": "rgb(250,121,70)"
+            },
+            "labelLine": {
+              "normal": {
+                "lineColor": "rgb(250,121,70)",
+                "textColor": "rgb(250,121,70)"
+              },
+              "emphasis": {
+                "lineColor": "rgb(250,121,70)",
+                "textColor": "rgb(250,121,70)"
+              }
+            }
+          }
+        ]
+      },
+      "labelLine": {
+        "func": "attr@ht.labelLine",
+        "value": {
+          "normal": {
+            "show": true,
+            "formatter": "{b}:{d}"
+          },
+          "emphasis": {
+            "show": true,
+            "formatter": "{b}:{d}"
+          }
+        }
+      },
+      "label": {
+        "func": "attr@ht.label",
+        "value": {
+          "normal": {
+            "show": false
+          }
+        }
+      },
+      "tooltip": {
+        "func": "attr@ht.tooltip",
+        "value": {
+          "show": true,
+          "formatter": "{b} : {d} ({c})"
+        }
+      },
+      "radius": {
+        "func": "attr@ht.radius",
+        "value": [
+          0,
+          0.25
+        ]
+      },
+      "center": {
+        "func": "attr@ht.center",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "startAngle": {
+        "func": "attr@ht.startAngle",
+        "value": 90
+      },
+      "hoverOffset": {
+        "func": "attr@ht.hoverOffset",
+        "value": 4
+      },
+      "seriesName": {
+        "func": "attr@ht.seriesName",
+        "value": "에너지 통계"
+      },
+      "roseType": {
+        "func": "attr@ht.roseType",
+        "value": false
+      },
+      "avoidLabelOverlap": {
+        "func": "attr@ht.avoidLabelOverlap",
+        "value": false
+      }
+    }
+  ]
+}

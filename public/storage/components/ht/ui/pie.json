@@ -1,0 +1,101 @@
+{
+  "modified": "Tue Jul 16 2019 12:49:05 GMT+0900 (한국 표준시)",
+  "width": 300,
+  "height": 300,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.pie.apply(null, arguments);\n}",
+  "properties": {
+    "dataSource": {
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "name": "pie",
+          "value": 1
+        }
+      ],
+      "name": "dataSource"
+    },
+    "labelLine": {
+      "valueType": "Object",
+      "defaultValue": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": true
+        }
+      },
+      "name": "labelLine",
+      "group": "이름 그룹"
+    },
+    "label": {
+      "valueType": "Object",
+      "defaultValue": {},
+      "name": "label"
+    },
+    "tooltip": {
+      "valueType": "Object",
+      "defaultValue": {
+        "show": true,
+        "formatter": "{a} <br/>{b}: {c} ({d}%)"
+      },
+      "name": "tooltip"
+    },
+    "radius": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0.25
+      ],
+      "name": "radius",
+      "group": "이름 그룹"
+    },
+    "center": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0.5,
+        0.5
+      ],
+      "name": "center"
+    },
+    "startAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "startAngle",
+      "group": "이름 그룹"
+    },
+    "hoverOffset": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 4,
+      "name": "hoverOffset"
+    },
+    "seriesName": {
+      "valueType": "String",
+      "defaultValue": "seriesName",
+      "name": "seriesName",
+      "group": "이름 그룹"
+    },
+    "roseType": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "roseType",
+      "group": "이름 그룹"
+    },
+    "avoidLabelOverlap": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "avoidLabelOverlap"
+    },
+    "series": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "series",
+      "group": "이름 그룹"
+    }
+  },
+  "events": {
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

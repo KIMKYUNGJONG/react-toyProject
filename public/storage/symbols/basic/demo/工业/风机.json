@@ -1,0 +1,36 @@
+{
+  "modified": "Thu Jul 25 2019 13:41:48 GMT+0900 (한국 표준시)",
+  "background": "rgb(61,61,61)",
+  "width": 156,
+  "height": 115,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "gradient": "radial.west",
+      "gradientColor": "rgba(230,230,230,0.00)",
+      "rect": [
+        2.60171,
+        69.80022,
+        95.39829,
+        42.69978
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "gradient": "radial.center",
+      "gradientColor": "rgba(230,230,230,0.00)",
+      "rect": [
+        43,
+        2.5,
+        110,
+        110
+      ]
+    }
+  ]
+}

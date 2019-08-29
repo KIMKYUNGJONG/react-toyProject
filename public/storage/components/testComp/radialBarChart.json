@@ -1,0 +1,39 @@
+{
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\n// * 获取四舍五入的两位小数\r\nfunction getTwoDecimalPoints(num) {\r\n    return parseFloat(num.toFixed(2));\r\n}\r\n\r\n// * 获取并定义变量\r\nvar rectWidth = rect.width;\r\nvar rectHeight = rect.height;\r\nvar width = rectWidth > rectHeight ? rectHeight : rectWidth;\r\nvar posX = rectWidth / 2;\r\nvar posY = rectHeight / 2;\r\nvar blankCirclePercent = comp.getValue('blankCirclePercent');\r\nvar progressPercentage = comp.getValue('progressPercentage');\r\nvar progressValueName = comp.getValue('progressValueName');\r\nvar progressColor = comp.getValue('progressColor');\r\nvar innerWidth = width * blankCirclePercent;\r\nvar lineGap = getTwoDecimalPoints((2 / 252) * width);\r\nvar proAngleStart = (Math.PI / 2) * 3;\r\nvar percentageAndColor = progressPercentage.map(function(item, index) {\r\n    var color = progressColor.filter(function(item, idx) { return index === idx; })[0];\r\n    return {\r\n        percentage: item,\r\n        color: color,\r\n        id: index\r\n    };\r\n});\r\nvar lineWidth = (width / 2 - innerWidth / 2 - (percentageAndColor.length - 1) * lineGap) / percentageAndColor.length;\r\n\r\n// * 裁切\r\ng.beginPath();\r\ng.rect(0, 0, rectWidth, rectHeight);\r\ng.clip();\r\n// * 绘制\r\nfunction drawProgress(index, strokeStyle, start, end, isProgress) {\r\n    g.save();\r\n    g.beginPath();\r\n    g.arc(\r\n        posX,\r\n        posY,\r\n        innerWidth / 2 + (lineWidth + lineGap) * index + lineWidth / 2,\r\n        start,\r\n        end\r\n    );\r\n    if (!isProgress) g.globalAlpha = 0.2;\r\n    g.lineWidth = lineWidth;\r\n    g.strokeStyle = strokeStyle;\r\n    g.lineCap = 'round';\r\n    g.stroke();\r\n    g.restore();\r\n}\r\n\r\nfunction textProgress(index) {\r\n    g.textAlign = 'center';\r\n    g.textBaseline = 'middle';\r\n    g.font = 'bold 54px san-serif';\r\n    g.fillStyle = '#fff';\r\n    g.fillText(progressValueName[index], posX, posY-82);\r\n    g.font = 'bold 140px san-serif';\r\n    g.fillStyle = progressColor[index];\r\n    g.fillText(progressPercentage[index], posX, posY);\r\n    g.fillStyle = '#fff';\r\n    g.font = '60px Arial';\r\n    g.fillText('%', posX+150, posY+30);\r\n}\r\npercentageAndColor.forEach(function(item, index) {\r\n    var start = proAngleStart;\r\n    var end = proAngleStart + ((Math.PI * 2) / 100) * item.percentage;\r\n    drawProgress(index, item.color, 0, Math.PI * 2, false);\r\n    drawProgress(index, item.color, start, end, true); //실제 퍼센티지\r\n});\n}",
+  "properties": {
+    "progressPercentage": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        100,
+        50,
+        50
+      ],
+      "name": "progressPercentage"
+    },
+    "progressColor": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#19D4DD",
+        "#9DF902",
+        "#E8223A"
+      ],
+      "name": "progressColor"
+    },
+    "blankCirclePercent": {
+      "valueType": "Percentage",
+      "defaultValue": 0.35,
+      "name": "blankPercentage"
+    },
+    "progressValueName": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  }
+}

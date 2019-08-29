@@ -1,0 +1,795 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": true,
+    "connectActionType": "host",
+    "width": 1920,
+    "height": 1080,
+    "fitContent": true,
+    "pannable": false,
+    "zoomable": false,
+    "rectSelectable": true,
+    "onPreDeserialize": "__ht__function(json, dm, gv) {dm.enableAnimation();\r\ngraphView.enableDashFlow();}",
+    "previewURL": "displayLayout.html",
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {let list = dm.toDatas();\r\nconsole.log(list);\r\ngraphView.mi(function(e) {\r\n   const lineGlow = () => {\r\n      for (let i = 0, size = list.size(); i < size; i++) {\r\n          const dpName = list.get(i).getDisplayName();\r\n        if (dpName === 'edge-link') {\r\n            \r\n          var o = Math.round, r = Math.random, s = 255;\r\n          list.get(i).s({\r\n            shadow: true,\r\n            'shadow.color': 'rgb(255,255,255)',\r\n            'shadow.offset.x': '0',\r\n            'shadow.offset.y': '0',\r\n            'edge.width': 1,\r\n            'edge.color':'rgba(246, 229, 141,1.0)',\r\n            'edge.background': null,\r\n            flow: true,\r\n            'flow.count': 2,\r\n            'flow.step': 10,\r\n            'flow.element.shadow.begincolor':'rgba(' + o(r() * s) +',' +o(r() * s) +',' +o(r() * s) + ',' + 0.3 + ')',\r\n            'flow.element.shadow.endcolor': 'rgba(255,255,255,0)',\r\n            'flow.element.autorotate': true\r\n          });\r\n        }\r\n      }\r\n    }\r\n\r\n    const effectOff = () => {   \r\n        for (let i = 0, size = list.size(); i < size; i++) {\r\n            const dpName = list.get(i).getDisplayName();\r\n          if (dpName === 'edge-link') {\r\n            list.get(i).s({\r\n              shadow: false,\r\n              flow: false,\r\n              'edge.width': 1,\r\n              'edge.color':'rgb(145,115,205)',\r\n              'edge.background': null,\r\n            });\r\n          };\r\n          if (dpName === 'edge-sub') {\r\n            list.get(i).s({\r\n              shadow: false,\r\n              flow:false,\r\n              'edge.width': 1,\r\n              'edge.color':'rgb(145,115,205)',\r\n              'edge.background': null,\r\n            });\r\n          };\r\n        }     \r\n    }\r\n\r\n    const animateFlow = () => {\r\n      for (let i = 0, size = list.size(); i < size; i++) {\r\n          const dpName = list.get(i).getDisplayName();\r\n        if (dpName === 'edge-sub') {\r\n          list.get(i).s({\r\n            flow: true,\r\n            'flow.count': 2,\r\n            'edge.width': 1,\r\n            'edge.color': 'rgba(246, 229, 141,1.0)',\r\n            shadow: true,\r\n            'select.color': '#fabc37',\r\n            'shadow.offset.x': 0,\r\n            'shadow.offset.y': 0,\r\n            'edge.background': null,\r\n            'flow.step': 3,\r\n            'flow.element.count':2,\r\n            'flow.element.min':1,\r\n            'flow.element.max':1,\r\n            'flow.element.space':2,\r\n            'flow.element.shadow.begincolor':'rgba(196, 255, 251,0.8)',\r\n            'flow.element.shadow.endcolor': 'rgba(255,255,255,0)',\r\n            'flow.element.autorotate': true\r\n          });\r\n        }\r\n      }\r\n    }\r\n    const dashFlow = () => {\r\n        const flowDash = dataModel.getDataByTag('flowDash');\r\n        flowDash.s({\r\n            'edge.dash':true,\r\n            'edge.dash.flow': true,\r\n            'edge.ripple.size': 3,\r\n            'edge.dash.color': \"rgba(255, 250, 101,1.0)\",\r\n            'edge.ripple.elevation': 20,\r\n            'edge.pattern': [3, 3],\r\n            'edge.center': true,\r\n            'edge.dash.offset.flow':true,\r\n            'edge.dash.offset': 0,\r\n            'edge.width': 1,\r\n            'edge.color': 'rgba(255, 250, 101,1.0)',\r\n            'edge.background': null,\r\n            shadow: true,\r\n            'select.color': '#ffffff',\r\n            'shadow.offset.x': 0,\r\n            'shadow.offset.y': 0,\r\n        });\r\n    }\r\n    \r\n    if (e.kind === 'clickData') {\r\n        var getName = e.data.getDisplayName();\r\n        var getData = e.data.getTag();\r\n        var getParent = e.data.getParent();\r\n        \r\n        if(getData == 'routerMain'){\r\n          lineGlow();\r\n        }\r\n        if(getData == 'routerSub'){\r\n          animateFlow();\r\n        }\r\n        if(getData == 'base'){\r\n            dashFlow();\r\n        }\r\n        else {\r\n      }\r\n    }\r\n  if (e.kind === 'clickBackground') {\r\n    effectOff();\r\n  }\r\n  });}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 13950,
+      "p": {
+        "position": {
+          "x": 960,
+          "y": 541.62555
+        },
+        "width": 1920,
+        "height": 1083.2511
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(21,79,79,0.8)",
+        "shape.border.color": "#979797",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "shape.gradient.color": "rgba(29,29,89,0.8)",
+        "shape.gradient": "linear.east"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13951,
+      "p": {
+        "position": {
+          "x": 997.4723,
+          "y": 523.74168
+        },
+        "width": 1764.93562,
+        "height": 955.50922
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 13952,
+      "p": {
+        "position": {
+          "x": 956.12635,
+          "y": 720.48221
+        },
+        "width": 1995.51028,
+        "height": 814.55913,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -41.62879,
+              "y": 1127.76178
+            },
+            {
+              "x": 1067.23009,
+              "y": 578.3524
+            },
+            {
+              "x": 688.17027,
+              "y": 826.78099
+            },
+            {
+              "x": 1067.23009,
+              "y": 578.3524
+            },
+            {
+              "x": 1446.2899,
+              "y": 329.92381
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 313.20265
+            },
+            {
+              "x": 1953.88149,
+              "y": 1039.11639
+            },
+            {
+              "x": 1953.88149,
+              "y": 1106.26315
+            },
+            {
+              "x": 1953.88149,
+              "y": 1039.11639
+            },
+            {
+              "x": 457.43618,
+              "y": 1127.76178
+            },
+            {
+              "x": -41.62879,
+              "y": 1127.76178
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgba(20,49,99,0.20)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(9,0,20,0.1)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 13953,
+      "p": {
+        "rotation": 0.07632,
+        "position": {
+          "x": 951.49161,
+          "y": 960.49606
+        },
+        "width": 2175.56586,
+        "height": 804.78621,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -136.29132,
+              "y": 1095.99577
+            },
+            {
+              "x": -85.7816,
+              "y": 1080.16427
+            },
+            {
+              "x": -54.49067,
+              "y": 1009.4014
+            },
+            {
+              "x": -10.08966,
+              "y": 995.3975
+            },
+            {
+              "x": 598.31533,
+              "y": 966.65513
+            },
+            {
+              "x": 628.3872,
+              "y": 838.25425
+            },
+            {
+              "x": 878.97275,
+              "y": 777.77674
+            },
+            {
+              "x": 1389.05949,
+              "y": 654.66998
+            },
+            {
+              "x": 1837.72861,
+              "y": 701.81478
+            },
+            {
+              "x": 1884.81878,
+              "y": 629.95886
+            },
+            {
+              "x": 1931.90895,
+              "y": 558.10295
+            },
+            {
+              "x": 2039.27454,
+              "y": 1032.35197
+            },
+            {
+              "x": 2039.27454,
+              "y": 1032.35197
+            },
+            {
+              "x": 1995.95158,
+              "y": 1344.41192
+            },
+            {
+              "x": -128.75689,
+              "y": 1362.88916
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "rgba(135,68,207,0.10)",
+        "shape.border.color": "#979797",
+        "shape.foreground.clip.percentage": 0,
+        "shape.foreground": "rgb(145,67,67)",
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(0,40,89,0.1)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 13954,
+      "p": {
+        "host": {
+          "__i": 13950
+        },
+        "position": {
+          "x": 960,
+          "y": 476.33528
+        },
+        "width": 552.43283,
+        "height": 417.97705
+      },
+      "s": {
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13955,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-sub",
+        "source": {
+          "__i": 13969
+        },
+        "target": {
+          "__i": 13970
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "v.h",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13956,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-sub",
+        "source": {
+          "__i": 13969
+        },
+        "target": {
+          "__i": 13971
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "boundary",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13957,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-sub",
+        "source": {
+          "__i": 13969
+        },
+        "target": {
+          "__i": 13968
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "v.h",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13958,
+      "p": {
+        "displayName": "edge",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "flowDash",
+        "source": {
+          "__i": 13977
+        },
+        "target": {
+          "__i": 13967
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "v.h",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13959,
+      "p": {
+        "displayName": "edge-link",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13967
+        },
+        "target": {
+          "__i": 13966
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "v.h",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13960,
+      "p": {
+        "displayName": "edge-link",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13967
+        },
+        "target": {
+          "__i": 13972
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "v.h",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13961,
+      "p": {
+        "displayName": "edge-link",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13966
+        },
+        "target": {
+          "__i": 13969
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "boundary",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13962,
+      "p": {
+        "displayName": "edge-link",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13972
+        },
+        "target": {
+          "__i": 13973
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "h.v",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13963,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13973
+        },
+        "target": {
+          "__i": 13975
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "h.v",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13964,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13973
+        },
+        "target": {
+          "__i": 13974
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "boundary",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 13965,
+      "p": {
+        "displayName": "edge-sub",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "edge-link",
+        "source": {
+          "__i": 13973
+        },
+        "target": {
+          "__i": 13976
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "edge.type": "h.v",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13966,
+      "p": {
+        "displayName": "base",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "base",
+        "image": "storage/symbols/testsymbol/sample/base.json",
+        "position": {
+          "x": 1002.60945,
+          "y": 580.23339
+        },
+        "width": 39.18756,
+        "height": 61.37692
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13967,
+      "p": {
+        "displayName": "router",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "routerMain",
+        "image": "storage/symbols/testsymbol/sample/router.json",
+        "position": {
+          "x": 928.60219,
+          "y": 498.14471
+        },
+        "width": 33.09655,
+        "height": 33.09655
+      },
+      "s": {
+        "interactive": true,
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "select.color": "rgba(255,255,255,0.1)",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13968,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1220.71045,
+          "y": 498.14471
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13969,
+      "p": {
+        "displayName": "router",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "routerSub",
+        "image": "storage/symbols/testsymbol/sample/router.json",
+        "position": {
+          "x": 1109.90446,
+          "y": 580.23339
+        },
+        "width": 31.3716,
+        "height": 31.3716
+      },
+      "s": {
+        "interactive": true,
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "select.color": "rgba(255,255,255,0.1)",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13970,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1220.71045,
+          "y": 662.06486
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13971,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1220.71045,
+          "y": 580.23339
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13972,
+      "p": {
+        "displayName": "base",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "base",
+        "image": "storage/symbols/testsymbol/sample/base.json",
+        "position": {
+          "x": 1002.60945,
+          "y": 431.44583
+        },
+        "width": 39.18756,
+        "height": 61.37692
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13973,
+      "p": {
+        "displayName": "router",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "routerSub",
+        "image": "storage/symbols/testsymbol/sample/router.json",
+        "position": {
+          "x": 1154.53174,
+          "y": 385.07157
+        },
+        "width": 31.3716,
+        "height": 31.3716
+      },
+      "s": {
+        "interactive": true,
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "select.color": "rgba(255,255,255,0.1)",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13974,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1154.71158,
+          "y": 290.6057
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13975,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1094.03883,
+          "y": 290.6057
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13976,
+      "p": {
+        "displayName": "server",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "server",
+        "image": "storage/symbols/testsymbol/sample/server.json",
+        "position": {
+          "x": 1220.71045,
+          "y": 290.6057
+        },
+        "width": 31.01193,
+        "height": 46.51789
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 13977,
+      "p": {
+        "displayName": "base",
+        "parent": {
+          "__i": 13954
+        },
+        "tag": "base",
+        "image": "storage/symbols/testsymbol/sample/base.json",
+        "position": {
+          "x": 722.93911,
+          "y": 407.39911
+        },
+        "width": 78.31105,
+        "height": 109.47036
+      },
+      "s": {
+        "interactive": true,
+        "2d.editable": false
+      }
+    }
+  ],
+  "modified": "Wed Aug 28 2019 16:59:48 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  }
+}

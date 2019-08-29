@@ -1,0 +1,4630 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": "host"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 20146,
+      "p": {
+        "position": {
+          "x": 928.82878,
+          "y": 516.40611
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(61,61,61)",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797",
+        "pixelPerfect": false,
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20147,
+      "p": {
+        "displayName": "intelligent-new",
+        "image": "assets/intelligent-new.png",
+        "position": {
+          "x": 928.82878,
+          "y": 516.40611
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "fullscreen": "fill",
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20148,
+      "p": {
+        "displayName": "leftPanel",
+        "tag": "leftPanel",
+        "image": "symbols/leftPanel.json",
+        "host": {
+          "__i": 20146
+        },
+        "position": {
+          "x": 620.57753,
+          "y": 525.01143
+        },
+        "width": 300,
+        "height": 970
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.visible": false
+      },
+      "a": {
+        "value": 0.73,
+        "title": "단지"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20149,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 20148
+        },
+        "image": "symbols/basic/textBox.json",
+        "host": {
+          "__i": 20148
+        },
+        "position": {
+          "x": 642.41693,
+          "y": 346.19504
+        },
+        "width": 170.75467,
+        "height": 64.56065
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.visible": false
+      },
+      "a": {
+        "cacheScaleMap": {
+          "key": "99-10014px sans-serif, arial18",
+          "content": "通过下面firePropertyChange的代码片段可以知道，oldValue和newValue相同时属性变化事件不会派发， 属性变化事件通过handleDataPropertyChange传递给DataModel继续做处理， 后续处理包括继续派发事件给通过addDataPropertyChangeListener添加到DataModel的属性变化监听器。",
+          "scale": 0.49147
+        },
+        "tb.content": "상세주소：경기도 성남시 분당구 대왕판교로645번길 12 테크노밸리",
+        "tb.autoScale": false,
+        "tb.color": "rgb(255,255,255)",
+        "tb.fontSize": 16
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20150,
+      "p": {
+        "displayName": "leftPanel",
+        "dataBindings": {
+          "p": {}
+        },
+        "image": "symbols/testsymbol/intelligent/leftPanel.json",
+        "host": {
+          "__i": 20146
+        },
+        "position": {
+          "x": 118.82878,
+          "y": 511.36829
+        },
+        "width": 300,
+        "height": 1000
+      },
+      "s": {
+        "layout.h": "left",
+        "layout.v": "center",
+        "2d.movable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "bgColor2": "rgba(255,255,255,0)",
+        "bgColor1": "rgba(255,255,255,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20151,
+      "p": {
+        "parent": {
+          "__i": 20150
+        },
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 162.17698,
+          "y": 554.67141
+        },
+        "width": 367.36122,
+        "height": 955.87769
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(112,129,186,0.1)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(37,47,69,0.1)",
+        "2d.movable": false,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 20152,
+      "p": {
+        "displayName": "line",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "line",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 99.49637,
+          "y": 498
+        },
+        "width": 265.57244,
+        "height": 1010.09975,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 232.28259,
+              "y": -7.04988
+            },
+            {
+              "x": 161.79114,
+              "y": 56.88423
+            },
+            {
+              "x": -33.28985,
+              "y": 56.88423
+            },
+            {
+              "x": -33.28985,
+              "y": 329.32984
+            },
+            {
+              "x": -13.61782,
+              "y": 342.1287
+            },
+            {
+              "x": -13.61782,
+              "y": 626.20723
+            },
+            {
+              "x": -29.18991,
+              "y": 641.77932
+            },
+            {
+              "x": -29.18991,
+              "y": 1003.04988
+            },
+            {
+              "x": -30.01118,
+              "y": 1002.78111
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": null,
+        "shape.border.color": "rgba(250,200,0,0.20)",
+        "shape.border.width": 4.5,
+        "shape.gradient.color": "rgb(201,48,48)",
+        "layout.h": "left",
+        "layout.v": "topbottom",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20153,
+      "p": {
+        "displayName": "placeName",
+        "parent": {
+          "__i": 20150
+        },
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 118.49637,
+          "y": 10
+        },
+        "width": 280,
+        "height": 38
+      },
+      "s": {
+        "text": "판교 오픈소스 데이터 센터",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "24px Godo",
+        "text.align": "center",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.color": "rgba(227,245,88,0.3)",
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20154,
+      "p": {
+        "displayName": "landChart",
+        "parent": {
+          "__i": 20150
+        },
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 160.55473,
+          "y": 215.28193
+        },
+        "width": 347.26093,
+        "height": 253.66804
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20155,
+      "p": {
+        "displayName": "echarts-rose",
+        "parent": {
+          "__i": 20154
+        },
+        "image": "symbols/testsymbol/intelligent/echarts-rose.json",
+        "position": {
+          "x": 157.73474,
+          "y": 236.64011
+        },
+        "width": 332.48255,
+        "height": 210.95167
+      },
+      "s": {
+        "2d.selectable": false
+      },
+      "a": {
+        "seriesData1": 12000,
+        "seriesData2": 22000
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20156,
+      "p": {
+        "parent": {
+          "__i": 20154
+        },
+        "position": {
+          "x": 160.55473,
+          "y": 212.48028
+        },
+        "width": 347.26093,
+        "height": 248.06474
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20157,
+      "p": {
+        "parent": {
+          "__i": 20154
+        },
+        "position": {
+          "x": 160.55473,
+          "y": 109.80609
+        },
+        "width": 347.26093,
+        "height": 42.71637
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20158,
+      "p": {
+        "parent": {
+          "__i": 20154
+        },
+        "position": {
+          "x": 65.44264,
+          "y": 110.75151
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "단지 부지 면적",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20159,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20154
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 313.03522,
+          "y": 108.86068
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20160,
+      "p": {
+        "displayName": "yearBarChart",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "yearBarChart",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 716.40351
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20161,
+      "p": {
+        "parent": {
+          "__i": 20160
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 716.40351
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20162,
+      "p": {
+        "parent": {
+          "__i": 20160
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 642.20711
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20163,
+      "p": {
+        "parent": {
+          "__i": 20160
+        },
+        "position": {
+          "x": 64.65659,
+          "y": 642.20711
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "연간 IT 총 규모",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20164,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20160
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 232.17353,
+          "y": 642.20711
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20165,
+      "p": {
+        "displayName": "echarts-bar",
+        "parent": {
+          "__i": 20160
+        },
+        "tag": "barChart",
+        "image": "symbols/testsymbol/intelligent/echarts-bar.json",
+        "position": {
+          "x": 122.71032,
+          "y": 738.70711
+        },
+        "width": 262.43371,
+        "height": 148.3928
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesDataA": [
+          300,
+          400,
+          300,
+          300
+        ]
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20166,
+      "p": {
+        "displayName": "yearRadarChart",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "yearRadarChart",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 716.40351
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20167,
+      "p": {
+        "parent": {
+          "__i": 20166
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 716.40351
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20168,
+      "p": {
+        "parent": {
+          "__i": 20166
+        },
+        "position": {
+          "x": 122.71032,
+          "y": 642.20711
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20169,
+      "p": {
+        "parent": {
+          "__i": 20166
+        },
+        "position": {
+          "x": 64.65659,
+          "y": 642.20711
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "IT 전력 소비 비율",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20170,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20166
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 232.17353,
+          "y": 642.20711
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20171,
+      "p": {
+        "displayName": "echarts rader",
+        "parent": {
+          "__i": 20166
+        },
+        "image": "symbols/testsymbol/intelligent/echarts rader.json",
+        "position": {
+          "x": 121.1202,
+          "y": 738.17779
+        },
+        "width": 238.56719,
+        "height": 137.54857
+      },
+      "a": {
+        "lineDataType2": "solid",
+        "lineDataType1": "dashed",
+        "indicator": [
+          {
+            "name": "A팀",
+            "max": 1000
+          },
+          {
+            "name": "개발팀",
+            "max": 1000
+          },
+          {
+            "name": "마케팅",
+            "max": 1000
+          },
+          {
+            "name": "소비자 대응팀",
+            "max": 1000
+          },
+          {
+            "name": "연구실",
+            "max": 1000
+          },
+          {
+            "name": "B팀",
+            "max": 1000
+          }
+        ],
+        "areaColor1": "rgb(95,170,245)",
+        "areaArrayColor": [],
+        "shape": "polygon",
+        "lineData1": [
+          450,
+          855,
+          456,
+          756,
+          444,
+          787
+        ],
+        "lineData2": [
+          888,
+          343,
+          666,
+          725,
+          290,
+          554
+        ],
+        "areaColor2": "rgb(137,204,86)",
+        "lineDataColor1": "rgb(9,89,133)",
+        "lineDataColor2": "rgb(59,161,5)",
+        "selectMode": "single"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20172,
+      "p": {
+        "displayName": "RackUsage",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "RackUsage",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 917.46852
+        },
+        "width": 271.57211,
+        "height": 195.213
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20173,
+      "p": {
+        "parent": {
+          "__i": 20172
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 918.25285
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20174,
+      "p": {
+        "parent": {
+          "__i": 20172
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 842.16562
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20175,
+      "p": {
+        "parent": {
+          "__i": 20172
+        },
+        "position": {
+          "x": 65.44265,
+          "y": 842.16562
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "랙 사용율",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20176,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20172
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 232.95959,
+          "y": 842.16562
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20177,
+      "p": {
+        "displayName": "echarts-bar",
+        "parent": {
+          "__i": 20172
+        },
+        "image": "symbols/testsymbol/intelligent/echarts-bar2.json",
+        "position": {
+          "x": 123.49637,
+          "y": 942.67939
+        },
+        "width": 266.37744,
+        "height": 144.79127
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20178,
+      "p": {
+        "displayName": "rackFlow",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "rackFlow",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 917.30743
+        },
+        "width": 271.57211,
+        "height": 194.89083
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20179,
+      "p": {
+        "parent": {
+          "__i": 20178
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 918.25285
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20180,
+      "p": {
+        "parent": {
+          "__i": 20178
+        },
+        "position": {
+          "x": 123.49637,
+          "y": 842.16562
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20181,
+      "p": {
+        "parent": {
+          "__i": 20178
+        },
+        "position": {
+          "x": 65.44265,
+          "y": 842.16562
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "랙 점유율",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20182,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20178
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 232.95959,
+          "y": 842.16562
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20183,
+      "p": {
+        "displayName": "echarts",
+        "parent": {
+          "__i": 20178
+        },
+        "image": "symbols/testsymbol/intelligent/echarts.json",
+        "position": {
+          "x": 117.00327,
+          "y": 943.47881
+        },
+        "width": 251.01961,
+        "height": 134.84029
+      },
+      "a": {
+        "legendData1": "A팀",
+        "legendData2": "B팀"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20184,
+      "p": {
+        "displayName": " widgetBtn",
+        "parent": {
+          "__i": 20150
+        },
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 301.37659,
+          "y": 817.48927
+        },
+        "width": 67.08041,
+        "height": 395.17152
+      },
+      "s": {
+        "layout.h": "left",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20185,
+      "p": {
+        "displayName": "barChartBtn",
+        "parent": {
+          "__i": 20184
+        },
+        "tag": "barChartBtn",
+        "position": {
+          "x": 301.37659,
+          "y": 665.40351
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar chart1 = view.getDataModel().getDataByTag('yearBarChart');\r\nvar chart1Btn = view.getDataModel().getDataByTag('barBtnBody');\r\nchart1.s({\r\n    '2d.visible':true\r\n});\r\nchart1Btn.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nvar chart2 = view.getDataModel().getDataByTag('yearRadarChart');\r\nvar chart2Btn = view.getDataModel().getDataByTag('radarBtnBody');\r\nchart2.s({\r\n    '2d.visible':false\r\n});\r\nchart2Btn.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\n}",
+        "select.color": "rgba(255,255,255,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20186,
+      "p": {
+        "displayName": "barBtnBody",
+        "parent": {
+          "__i": 20185
+        },
+        "tag": "barBtnBody",
+        "position": {
+          "x": 301.37659,
+          "y": 665.40351
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(28,63,105,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20187,
+      "p": {
+        "parent": {
+          "__i": 20185
+        },
+        "position": {
+          "x": 289.77964,
+          "y": 670.41875
+        },
+        "width": 8.66648,
+        "height": 34.5417
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20188,
+      "p": {
+        "parent": {
+          "__i": 20185
+        },
+        "position": {
+          "x": 302.16028,
+          "y": 675.31304
+        },
+        "width": 8.66648,
+        "height": 24.75313
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20189,
+      "p": {
+        "parent": {
+          "__i": 20185
+        },
+        "position": {
+          "x": 314.36846,
+          "y": 681.50132
+        },
+        "width": 8.66648,
+        "height": 12.37657
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20190,
+      "p": {
+        "displayName": "radarChartBtn",
+        "parent": {
+          "__i": 20184
+        },
+        "tag": "radarChartBtn",
+        "position": {
+          "x": 301.74239,
+          "y": 767.40351
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar chart1 = view.getDataModel().getDataByTag('yearBarChart');\r\nvar chart1Btn = view.getDataModel().getDataByTag('barBtnBody');\r\nchart1.s({\r\n    '2d.visible':false\r\n});\r\nchart1Btn.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nvar chart2 = view.getDataModel().getDataByTag('yearRadarChart');\r\nvar chart2Btn = view.getDataModel().getDataByTag('radarBtnBody');\r\nchart2.s({\r\n    '2d.visible':true\r\n});\r\nchart2Btn.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\n}",
+        "select.color": "rgba(255,255,255,0)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20191,
+      "p": {
+        "displayName": "radarBtnBody",
+        "parent": {
+          "__i": 20190
+        },
+        "tag": "radarBtnBody",
+        "position": {
+          "x": 301.74239,
+          "y": 767.40351
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20192,
+      "p": {
+        "parent": {
+          "__i": 20190
+        },
+        "rotation": 5.75959,
+        "position": {
+          "x": 302.16028,
+          "y": 767.40351
+        },
+        "width": 44.10845,
+        "height": 44.10845
+      },
+      "s": {
+        "shape": "polygon",
+        "shape.background": "rgba(102,129,189,0.2)",
+        "shape.border.width": 2,
+        "shape.border.color": "rgba(84,203,227,0.8)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20193,
+      "p": {
+        "parent": {
+          "__i": 20190
+        },
+        "rotation": 5.75959,
+        "position": {
+          "x": 302.09443,
+          "y": 767.40351
+        },
+        "width": 22.76225,
+        "height": 22.76225
+      },
+      "s": {
+        "shape": "polygon",
+        "shape.background": "rgba(0,178,255,0.2)",
+        "shape.border.width": 2,
+        "shape.border.color": "rgba(84,203,227,0.8)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20194,
+      "p": {
+        "displayName": "barChartBtn2",
+        "parent": {
+          "__i": 20184
+        },
+        "tag": "barChartBtn2",
+        "position": {
+          "x": 301.01079,
+          "y": 867.57503
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "onClick": "__ht__function(event, data, view) {\nvar chart3 = view.getDataModel().getDataByTag('RackUsage');\r\nvar chart3Btn = view.getDataModel().getDataByTag('rackBtnBody');\r\nchart3.s({\r\n    '2d.visible':true\r\n});\r\nchart3Btn.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nvar chart4 = view.getDataModel().getDataByTag('rackFlow');\r\nvar chart4Btn = view.getDataModel().getDataByTag('flowBtnBody');\r\nchart4.s({\r\n    '2d.visible':false\r\n});\r\nchart4Btn.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\n}",
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20195,
+      "p": {
+        "displayName": "rackBtnBody",
+        "parent": {
+          "__i": 20194
+        },
+        "tag": "rackBtnBody",
+        "position": {
+          "x": 301.01079,
+          "y": 867.57503
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(28,63,105,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20196,
+      "p": {
+        "parent": {
+          "__i": 20194
+        },
+        "position": {
+          "x": 287.65417,
+          "y": 879.01269
+        },
+        "width": 8.66648,
+        "height": 17.27085
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20197,
+      "p": {
+        "parent": {
+          "__i": 20194
+        },
+        "position": {
+          "x": 300.03481,
+          "y": 876.05867
+        },
+        "width": 8.66648,
+        "height": 23.17889
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20198,
+      "p": {
+        "parent": {
+          "__i": 20194
+        },
+        "position": {
+          "x": 312.24299,
+          "y": 870.37726
+        },
+        "width": 8.66648,
+        "height": 34.5417
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20199,
+      "p": {
+        "displayName": "flowChartBtn",
+        "parent": {
+          "__i": 20184
+        },
+        "tag": "flowChartBtn",
+        "position": {
+          "x": 301.37659,
+          "y": 969.57503
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.color": "rgba(26,189,156,0)",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar chart3 = view.getDataModel().getDataByTag('RackUsage');\r\nvar chart3Btn = view.getDataModel().getDataByTag('rackBtnBody');\r\nchart3.s({\r\n    '2d.visible':false\r\n});\r\nchart3Btn.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nvar chart4 = view.getDataModel().getDataByTag('rackFlow');\r\nvar chart4Btn = view.getDataModel().getDataByTag('flowBtnBody');\r\nchart4.s({\r\n    '2d.visible':true\r\n});\r\nchart4Btn.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20200,
+      "p": {
+        "displayName": "flowBtnBody",
+        "parent": {
+          "__i": 20199
+        },
+        "tag": "flowBtnBody",
+        "position": {
+          "x": 301.37659,
+          "y": 969.57503
+        },
+        "width": 66.34881,
+        "height": 91
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 20201,
+      "p": {
+        "parent": {
+          "__i": 20199
+        },
+        "position": {
+          "x": 302.42065,
+          "y": 969.57503
+        },
+        "width": 38.19944,
+        "height": 33.35425,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            4,
+            4,
+            4,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 283.32093,
+              "y": 986.25215
+            },
+            {
+              "x": 283.32093,
+              "y": 954.79838
+            },
+            {
+              "x": 283.32093,
+              "y": 954.79838
+            },
+            {
+              "x": 289.78253,
+              "y": 952.89791
+            },
+            {
+              "x": 295.67398,
+              "y": 963.54054
+            },
+            {
+              "x": 301.35459,
+              "y": 973.80229
+            },
+            {
+              "x": 307.83699,
+              "y": 973.04288
+            },
+            {
+              "x": 314.67868,
+              "y": 975.70354
+            },
+            {
+              "x": 321.52037,
+              "y": 978.3642
+            },
+            {
+              "x": 319.6199,
+              "y": 986.25215
+            },
+            {
+              "x": 319.6199,
+              "y": 986.25215
+            },
+            {
+              "x": 283.32093,
+              "y": 986.25215
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "rgba(102,129,189,0.2)",
+        "shape.border.color": "rgba(84,203,227,0.8)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 20202,
+      "p": {
+        "parent": {
+          "__i": 20199
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 300.44431,
+          "y": 975.39534
+        },
+        "width": 21.71363,
+        "height": 38.91492,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            4,
+            4,
+            4,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 289.5875,
+              "y": 994.8528
+            },
+            {
+              "x": 289.5875,
+              "y": 958.15519
+            },
+            {
+              "x": 289.5875,
+              "y": 958.15519
+            },
+            {
+              "x": 293.26045,
+              "y": 955.93788
+            },
+            {
+              "x": 296.60932,
+              "y": 968.3548
+            },
+            {
+              "x": 299.83834,
+              "y": 980.32735
+            },
+            {
+              "x": 303.52311,
+              "y": 979.44134
+            },
+            {
+              "x": 307.41212,
+              "y": 982.54557
+            },
+            {
+              "x": 311.30113,
+              "y": 985.6498
+            },
+            {
+              "x": 310.22085,
+              "y": 994.8528
+            },
+            {
+              "x": 310.22085,
+              "y": 994.8528
+            },
+            {
+              "x": 289.5875,
+              "y": 994.8528
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "shape.background": "rgba(102,129,189,0.2)",
+        "shape.border.color": "rgba(84,203,227,0.8)",
+        "shape.border.width": 2
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20203,
+      "p": {
+        "displayName": "middleBlock",
+        "parent": {
+          "__i": 20150
+        },
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 160.23525,
+          "y": 477.25803
+        },
+        "width": 348.26801,
+        "height": 260.29615
+      },
+      "s": {
+        "layout.h": "left",
+        "2d.editable": false,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20204,
+      "p": {
+        "displayName": "adminStatus",
+        "parent": {
+          "__i": 20203
+        },
+        "tag": "adminStatus",
+        "position": {
+          "x": 210,
+          "y": 477.25803
+        },
+        "width": 248.73851,
+        "height": 260.29615
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false,
+        "2d.visible": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20205,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 210,
+          "y": 477
+        },
+        "width": 248.73851,
+        "height": 259.78009
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20206,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 174.50882,
+          "y": 374.16721
+        },
+        "width": 148.02793,
+        "height": 28.63189
+      },
+      "s": {
+        "text": "건물 관리 인원",
+        "text.font": "24px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20207,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 207.99556,
+          "y": 397.53674
+        },
+        "width": 231.96091,
+        "height": 2.01122
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,60,133,0.60)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.northwest",
+        "shape.gradient.color": "rgba(34,52,117,0.60)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20208,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 164.15018,
+          "y": 431.61879
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "설비팀",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20209,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 281.52938,
+          "y": 431.61879
+        },
+        "width": 34.97386,
+        "height": 21.11255
+      },
+      "s": {
+        "text": "팀",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20210,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 213.54893,
+          "y": 431.61879
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "A",
+        "text.align": "right",
+        "text.font": "bold 24px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20211,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 163.54893,
+          "y": 472.79788
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "총 책임자",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20212,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 252.88307,
+          "y": 472.79788
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "이의경",
+        "text.align": "right",
+        "text.font": "bold 20px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20213,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 164.15018,
+          "y": 511.36829
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "팀원 수",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20214,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 282.52386,
+          "y": 511.36829
+        },
+        "width": 34.97386,
+        "height": 21.11255
+      },
+      "s": {
+        "text": "명",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20215,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 213.54893,
+          "y": 511.36829
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "36",
+        "text.align": "right",
+        "text.font": "bold 24px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20216,
+      "p": {
+        "displayName": "identification",
+        "parent": {
+          "__i": 20204
+        },
+        "image": "symbols/testsymbol/identification.json",
+        "position": {
+          "x": 145.14239,
+          "y": 570.92616
+        },
+        "width": 72.95991,
+        "height": 72.95991
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(84,203,227,0.8)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20217,
+      "p": {
+        "displayName": "historyBtn",
+        "parent": {
+          "__i": 20204
+        },
+        "tag": "historyBtn",
+        "position": {
+          "x": 258.49637,
+          "y": 570.92616
+        },
+        "width": 105.03966,
+        "height": 30
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(9,47,61,0.5)",
+        "shape.border.width": 2,
+        "shape.border.color": "rgba(84,203,227,0.8)",
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true,
+        "onLeave": "__ht__function(event, data, view) {\nvar historyBtn = view.getDataModel().getDataByTag('historyBtn');\r\nhistoryBtn.s({\r\n    'shape.background' : 'rgba(9,47,61,0.5)'\r\n});\n}",
+        "onEnter": "__ht__function(event, data, view) {\nvar historyBtn = view.getDataModel().getDataByTag('historyBtn');\r\nhistoryBtn.s({\r\n    'shape.background' : 'rgba(0,168,230,0.50)'\r\n});\n}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20218,
+      "p": {
+        "parent": {
+          "__i": 20204
+        },
+        "position": {
+          "x": 258.49637,
+          "y": 570.92616
+        },
+        "width": 105.03966,
+        "height": 30
+      },
+      "s": {
+        "text": "관리 기록",
+        "text.align": "center",
+        "text.font": "12px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20219,
+      "p": {
+        "displayName": "locationStatus",
+        "parent": {
+          "__i": 20203
+        },
+        "tag": "locationStatus",
+        "position": {
+          "x": 210,
+          "y": 477
+        },
+        "width": 248.73851,
+        "height": 259.78009
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20220,
+      "p": {
+        "parent": {
+          "__i": 20219
+        },
+        "position": {
+          "x": 210,
+          "y": 477
+        },
+        "width": 248.73851,
+        "height": 259.78009
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20221,
+      "p": {
+        "displayName": "statusLevel",
+        "parent": {
+          "__i": 20219
+        },
+        "position": {
+          "x": 209.18406,
+          "y": 426.09922
+        },
+        "width": 232.80639,
+        "height": 151.25624
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20222,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 130.18406,
+          "y": 386.71451
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20223,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 130.18406,
+          "y": 371.88375
+        },
+        "width": 30.21707,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "등급",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20224,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 130.18406,
+          "y": 465.48393
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20225,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 131,
+          "y": 448
+        },
+        "width": 45.44328,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "보온시설",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20226,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.18406,
+          "y": 388.25096
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20227,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.81594,
+          "y": 371.88375
+        },
+        "width": 30.21707,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "PUE",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20228,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 288.18406,
+          "y": 388.25096
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20229,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 289,
+          "y": 371.88375
+        },
+        "width": 42.00422,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "배전시설",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20230,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.18406,
+          "y": 465.48393
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20231,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.81594,
+          "y": 448
+        },
+        "width": 61.17572,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "디젤 발전기",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20232,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 288.18406,
+          "y": 465.48393
+        },
+        "width": 74.80639,
+        "height": 72.48682
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(3,9,23,0.90)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20233,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 289,
+          "y": 448
+        },
+        "width": 49.34987,
+        "height": 19.48454
+      },
+      "s": {
+        "text": "축냉 탱크",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "12px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20234,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 130.18406,
+          "y": 398
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "T3",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "text.font": "20px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20235,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.18406,
+          "y": 398
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "1.4",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "text.font": "20px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20236,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 288.18406,
+          "y": 398
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "2N",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "text.font": "20px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20237,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 130.18406,
+          "y": 477
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "N+1",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "text.font": "20px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20238,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 209.18406,
+          "y": 477
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "13",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "text.font": "20px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20239,
+      "p": {
+        "parent": {
+          "__i": 20221
+        },
+        "position": {
+          "x": 288.18406,
+          "y": 477
+        },
+        "width": 74.80639,
+        "height": 35.87557
+      },
+      "s": {
+        "text": "2277*2 m³",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.shadow.color": "rgb(0,43,255)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 2,
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20240,
+      "p": {
+        "parent": {
+          "__i": 20219
+        },
+        "position": {
+          "x": 210,
+          "y": 511.89565
+        },
+        "width": 231.96091,
+        "height": 2.01122
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,60,133,0.60)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.northwest",
+        "shape.gradient.color": "rgba(34,52,117,0.60)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20241,
+      "p": {
+        "displayName": "progress",
+        "parent": {
+          "__i": 20219
+        },
+        "position": {
+          "x": 209.99999,
+          "y": 557.86325
+        },
+        "width": 231.96091,
+        "height": 76.31771
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20242,
+      "p": {
+        "displayName": "progress",
+        "parent": {
+          "__i": 20241
+        },
+        "tag": "progress",
+        "image": "symbols/testsymbol/intelligent/progress.json",
+        "position": {
+          "x": 210,
+          "y": 577.15341
+        },
+        "width": 208.13129,
+        "height": 37.73738
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "fontColor": "rgba(255,255,255,0.8)",
+        "bgColor": "rgba(125,125,125,0.50)",
+        "barColor": "rgb(84,203,227)",
+        "percentageValue": "20%"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20243,
+      "p": {
+        "parent": {
+          "__i": 20241
+        },
+        "position": {
+          "x": 144.01954,
+          "y": 539.59907
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "전기용량 ",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20244,
+      "p": {
+        "parent": {
+          "__i": 20241
+        },
+        "position": {
+          "x": 308.49352,
+          "y": 539.59907
+        },
+        "width": 34.97386,
+        "height": 21.11255
+      },
+      "s": {
+        "text": "kVA",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20245,
+      "p": {
+        "displayName": "capacity",
+        "parent": {
+          "__i": 20241
+        },
+        "tag": "capacity",
+        "position": {
+          "x": 242.51307,
+          "y": 539.59907
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "9000",
+        "text.align": "right",
+        "text.font": "bold 24px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20246,
+      "p": {
+        "displayName": "infoStatus",
+        "parent": {
+          "__i": 20203
+        },
+        "tag": "infoStatus",
+        "position": {
+          "x": 210,
+          "y": 477
+        },
+        "width": 248.73851,
+        "height": 259.78009
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20247,
+      "p": {
+        "parent": {
+          "__i": 20246
+        },
+        "position": {
+          "x": 210,
+          "y": 477
+        },
+        "width": 248.73851,
+        "height": 259.78009
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20248,
+      "p": {
+        "parent": {
+          "__i": 20246
+        },
+        "position": {
+          "x": 210,
+          "y": 460.50291
+        },
+        "width": 231.96091,
+        "height": 2.01122
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,60,133,0.60)",
+        "shape.border.color": "#979797",
+        "shape.gradient": "linear.northwest",
+        "shape.gradient.color": "rgba(34,52,117,0.60)",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20249,
+      "p": {
+        "displayName": "mapLocation",
+        "parent": {
+          "__i": 20246
+        },
+        "image": "symbols/testsymbol/mapLocation.json",
+        "position": {
+          "x": 105.93435,
+          "y": 366.6282
+        },
+        "width": 15.66915,
+        "height": 15.47993
+      },
+      "a": {
+        "color": "rgb(84,203,227)",
+        "borderWidth": 30
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20250,
+      "p": {
+        "parent": {
+          "__i": 20246
+        },
+        "position": {
+          "x": 165.49636,
+          "y": 366.06975
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "상세주소",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20251,
+      "p": {
+        "displayName": "textBox",
+        "parent": {
+          "__i": 20246
+        },
+        "image": "symbols/ht/text/textBox.json",
+        "position": {
+          "x": 211.0379,
+          "y": 416.62602
+        },
+        "width": 225.87623,
+        "height": 68.61559
+      },
+      "a": {
+        "ht.content": "경기도 성남시 분당구 \n대왕 판교로 645번길 12 테크노 벨리",
+        "ht.wordBreak": true,
+        "ht.color": "rgb(255,255,255)",
+        "ht.font": "14px Godo"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20252,
+      "p": {
+        "displayName": "land",
+        "parent": {
+          "__i": 20246
+        },
+        "tag": "land",
+        "position": {
+          "x": 217.99023,
+          "y": 505.11675
+        },
+        "width": 215.98045,
+        "height": 39.78936
+      },
+      "s": {
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20253,
+      "p": {
+        "parent": {
+          "__i": 20252
+        },
+        "position": {
+          "x": 160,
+          "y": 505.11675
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "부지면적 :",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20254,
+      "p": {
+        "parent": {
+          "__i": 20252
+        },
+        "position": {
+          "x": 308.49352,
+          "y": 505.11675
+        },
+        "width": 34.97386,
+        "height": 21.11255
+      },
+      "s": {
+        "text": "㎡",
+        "text.font": "20px Godo",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20255,
+      "p": {
+        "displayName": "floorSpace",
+        "parent": {
+          "__i": 20252
+        },
+        "tag": "floorSpace",
+        "position": {
+          "x": 242.51307,
+          "y": 505.11675
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "8000",
+        "text.align": "right",
+        "text.font": "bold 24px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20256,
+      "p": {
+        "displayName": "building",
+        "parent": {
+          "__i": 20246
+        },
+        "tag": "building",
+        "position": {
+          "x": 217.99023,
+          "y": 560.01434
+        },
+        "width": 215.98046,
+        "height": 39.78936
+      },
+      "s": {
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20257,
+      "p": {
+        "parent": {
+          "__i": 20256
+        },
+        "position": {
+          "x": 160,
+          "y": 560.01434
+        },
+        "height": 21.11255
+      },
+      "s": {
+        "text": "건물면적 :",
+        "text.font": "16px Godo",
+        "text.color": "rgb(255,255,255)",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20258,
+      "p": {
+        "parent": {
+          "__i": 20256
+        },
+        "position": {
+          "x": 308.49352,
+          "y": 560.01434
+        },
+        "width": 34.97386,
+        "height": 21.11255
+      },
+      "s": {
+        "text": "㎡",
+        "text.font": "20px Godo",
+        "text.color": "rgb(255,255,255)",
+        "text.align": "right",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20259,
+      "p": {
+        "displayName": "area",
+        "parent": {
+          "__i": 20256
+        },
+        "tag": "area",
+        "dataBindings": {
+          "s": {}
+        },
+        "position": {
+          "x": 242.51307,
+          "y": 560.01434
+        },
+        "width": 96.98705,
+        "height": 39.78936
+      },
+      "s": {
+        "text": "22000",
+        "text.align": "right",
+        "text.font": "bold 24px sans-serif, Arial",
+        "text.color": "rgb(84,203,227)",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.blur": 3,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20260,
+      "p": {
+        "displayName": "locationBtn",
+        "parent": {
+          "__i": 20203
+        },
+        "position": {
+          "x": 31.10124,
+          "y": 544.90611
+        },
+        "width": 90,
+        "height": 125
+      },
+      "s": {
+        "2d.editable": false,
+        "2d.movable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar location = view.getDataModel().getDataByTag('locationBox');\r\nvar locationP = view.getDataModel().getDataByTag('locationPoint');\r\nvar locationS = view.getDataModel().getDataByTag('locationStatus');\r\n\r\nlocation.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nlocationP.s({\r\n    'shape.background':'rgba(84,203,227,0.8)'\r\n});\r\nlocationS.s({\r\n    '2d.visible':true\r\n});\r\n\r\nvar info = view.getDataModel().getDataByTag('infoBox');\r\nvar infoP = view.getDataModel().getDataByTag('infoPoint');\r\nvar infoS = view.getDataModel().getDataByTag('infoStatus');\r\n\r\ninfo.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\ninfoP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\ninfoS.s({\r\n    '2d.visible':false\r\n});\r\n\r\nvar status = view.getDataModel().getDataByTag('statusBox');\r\nvar statusP = view.getDataModel().getDataByTag('statusPoint');\r\nvar adminS = view.getDataModel().getDataByTag('adminStatus');\r\n\r\nstatus.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nstatusP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\nadminS.s({\r\n    '2d.visible':false\r\n});\n}",
+        "select.color": "",
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20261,
+      "p": {
+        "displayName": "locationBox",
+        "parent": {
+          "__i": 20260
+        },
+        "tag": "locationBox",
+        "position": {
+          "x": 31.51275,
+          "y": 544.90611
+        },
+        "width": 89.17698,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(28,63,105,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,45,99,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20262,
+      "p": {
+        "displayName": "notification",
+        "parent": {
+          "__i": 20260
+        },
+        "image": "symbols/testsymbol/notification.json",
+        "position": {
+          "x": 33.53439,
+          "y": 544.90611
+        },
+        "width": 39.78936,
+        "height": 39.78936
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20263,
+      "p": {
+        "displayName": "locationPoint",
+        "parent": {
+          "__i": 20260
+        },
+        "tag": "locationPoint",
+        "position": {
+          "x": -10.80417,
+          "y": 544.90611
+        },
+        "width": 6.18917,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20264,
+      "p": {
+        "displayName": "infoBtn",
+        "parent": {
+          "__i": 20203
+        },
+        "position": {
+          "x": 31.10124,
+          "y": 443.62602
+        },
+        "width": 90,
+        "height": 58
+      },
+      "s": {
+        "2d.editable": false,
+        "2d.movable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar location = view.getDataModel().getDataByTag('locationBox');\r\nvar locationP = view.getDataModel().getDataByTag('locationPoint');\r\nvar locationS = view.getDataModel().getDataByTag('locationStatus');\r\nlocation.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nlocationP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\nlocationS.s({\r\n    '2d.visible':false\r\n});\r\n\r\nvar info = view.getDataModel().getDataByTag('infoBox');\r\nvar infoP = view.getDataModel().getDataByTag('infoPoint');\r\nvar infoS = view.getDataModel().getDataByTag('infoStatus');\r\ninfo.s({\r\n    'shape.background':'rgba(28,63,105,0.8)' //'rgba(28,63,105,0.8)'\r\n});\r\ninfoP.s({\r\n    'shape.background':'rgba(84,203,227,0.8)'\r\n});\r\ninfoS.s({\r\n    '2d.visible': true\r\n})\r\nvar status = view.getDataModel().getDataByTag('statusBox');\r\nvar statusP = view.getDataModel().getDataByTag('statusPoint');\r\nvar adminS = view.getDataModel().getDataByTag('adminStatus');\r\nstatus.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nstatusP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\nadminS.s({\r\n    '2d.visible':false\r\n});\n}",
+        "select.color": "",
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20265,
+      "p": {
+        "displayName": "infoBox",
+        "parent": {
+          "__i": 20264
+        },
+        "tag": "infoBox",
+        "position": {
+          "x": 31.10124,
+          "y": 443.62602
+        },
+        "width": 90,
+        "height": 58
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20266,
+      "p": {
+        "displayName": "infoPoint",
+        "parent": {
+          "__i": 20264
+        },
+        "tag": "infoPoint",
+        "position": {
+          "x": -10.80417,
+          "y": 443.62602
+        },
+        "width": 6.18917,
+        "height": 58
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgb(12,47,89)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20267,
+      "p": {
+        "displayName": "mapLocation",
+        "parent": {
+          "__i": 20264
+        },
+        "image": "symbols/testsymbol/mapLocation.json",
+        "position": {
+          "x": 31.51275,
+          "y": 443.62602
+        },
+        "width": 37.23117,
+        "height": 37.23117
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20268,
+      "p": {
+        "displayName": "statusBtn",
+        "parent": {
+          "__i": 20203
+        },
+        "position": {
+          "x": 31.10124,
+          "y": 376.62603
+        },
+        "width": 90,
+        "height": 58
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false,
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "select.color": "",
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar location = view.getDataModel().getDataByTag('locationBox');\r\nvar locationP = view.getDataModel().getDataByTag('locationPoint');\r\nvar locationS = view.getDataModel().getDataByTag('locationStatus');\r\n\r\nlocation.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nlocationP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\nlocationS.s({\r\n    '2d.visible':false\r\n})\r\n\r\nvar info = view.getDataModel().getDataByTag('infoBox');\r\nvar infoP = view.getDataModel().getDataByTag('infoPoint');\r\nvar infoS = view.getDataModel().getDataByTag('infoStatus');\r\n\r\ninfo.s({\r\n    'shape.background':'rgba(22,29,51,0.60)' //'rgba(28,63,105,0.8)'\r\n});\r\ninfoP.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\r\ninfoS.s({\r\n    '2d.visible':false\r\n})\r\n\r\nvar status = view.getDataModel().getDataByTag('statusBox');\r\nvar statusP = view.getDataModel().getDataByTag('statusPoint');\r\nvar adminS = view.getDataModel().getDataByTag('adminStatus');\r\nstatus.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nstatusP.s({\r\n    'shape.background':'rgba(84,203,227,0.8)'\r\n});\r\nadminS.s({\r\n    '2d.visible':true\r\n})\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20269,
+      "p": {
+        "displayName": "statusBox",
+        "parent": {
+          "__i": 20268
+        },
+        "tag": "statusBox",
+        "position": {
+          "x": 31.10124,
+          "y": 376.62603
+        },
+        "width": 90,
+        "height": 58
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20270,
+      "p": {
+        "displayName": "statusPoint",
+        "parent": {
+          "__i": 20268
+        },
+        "tag": "statusPoint",
+        "position": {
+          "x": -10.80417,
+          "y": 376.62603
+        },
+        "width": 6.18917,
+        "height": 58
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgb(12,47,89)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20271,
+      "p": {
+        "displayName": "identification",
+        "parent": {
+          "__i": 20268
+        },
+        "image": "symbols/testsymbol/identification.json",
+        "position": {
+          "x": 31.51275,
+          "y": 376.62603
+        },
+        "width": 43.83264,
+        "height": 43.83264
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(255,255,255,0.9)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20272,
+      "p": {
+        "displayName": "subTitle",
+        "parent": {
+          "__i": 20150
+        },
+        "tag": "title",
+        "host": {
+          "__i": 20150
+        },
+        "position": {
+          "x": 128.92427,
+          "y": 51.73257
+        },
+        "width": 280,
+        "height": 38
+      },
+      "s": {
+        "text": "A단지",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "18px Godo",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.color": "rgba(227,245,88,0.3)",
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20273,
+      "p": {
+        "displayName": "rightPanel",
+        "dataBindings": {
+          "p": {}
+        },
+        "image": "symbols/testsymbol/intelligent/rightPanel.json",
+        "host": {
+          "__i": 20146
+        },
+        "position": {
+          "x": 1738.82878,
+          "y": 526.36829
+        },
+        "width": 300,
+        "height": 1000
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "center",
+        "2d.movable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "bgColor2": "rgba(255,255,255,0)",
+        "bgColor1": "rgba(255,255,255,0)",
+        "title": "타이틀 삽입테스트"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20274,
+      "p": {
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20273
+        },
+        "position": {
+          "x": 1695.75567,
+          "y": 225.29469
+        },
+        "width": 367.36122,
+        "height": 273.69357
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(112,129,186,0.1)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "shape.gradient": "linear.south",
+        "shape.gradient.color": "rgba(37,47,69,0.1)",
+        "2d.movable": false,
+        "layout.h": "right",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20275,
+      "p": {
+        "displayName": "date",
+        "parent": {
+          "__i": 20273
+        },
+        "image": "symbols/testsymbol/intelligent/date.json",
+        "host": {
+          "__i": 20274
+        },
+        "position": {
+          "x": 1722.4508,
+          "y": 41.61532
+        },
+        "width": 275.70988,
+        "height": 61.26886
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right"
+      },
+      "a": {
+        "time": "13:29",
+        "week": "월요일",
+        "date": "2019.08.26",
+        "color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20276,
+      "p": {
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20273
+        },
+        "position": {
+          "x": 1734.07526,
+          "y": 697.37587
+        },
+        "width": 290.25154,
+        "height": 670.46878
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(112,129,186,0.1)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "shape.gradient": "linear.north",
+        "shape.gradient.color": "rgba(37,47,69,0.1)",
+        "2d.movable": false,
+        "layout.h": "right",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20277,
+      "p": {
+        "displayName": "itElectroUsage",
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20276
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 458.16456
+        },
+        "width": 271.57211,
+        "height": 193.0137
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20278,
+      "p": {
+        "parent": {
+          "__i": 20277
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 458.17141
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20279,
+      "p": {
+        "parent": {
+          "__i": 20277
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 383.96131
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20280,
+      "p": {
+        "parent": {
+          "__i": 20277
+        },
+        "position": {
+          "x": 1676.0499,
+          "y": 385.32731
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "IT 전력 사용량",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20281,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20277
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1849.36495,
+          "y": 383.96131
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20282,
+      "p": {
+        "displayName": "echarts-singleBar",
+        "parent": {
+          "__i": 20277
+        },
+        "tag": "singleBarChart",
+        "image": "symbols/testsymbol/intelligent/echarts-singleBar.json",
+        "position": {
+          "x": 1736.7334,
+          "y": 479.86302
+        },
+        "width": 247.14467,
+        "height": 127.66424
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "seriesData": [
+          4,
+          3,
+          4.5,
+          8,
+          5.6,
+          7.7,
+          3.8
+        ]
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20283,
+      "p": {
+        "displayName": "buildingStock",
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20276
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 658.0006
+        },
+        "width": 271.57211,
+        "height": 193.0137
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20284,
+      "p": {
+        "parent": {
+          "__i": 20283
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 658.00745
+        },
+        "width": 271.57211,
+        "height": 193
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20285,
+      "p": {
+        "parent": {
+          "__i": 20283
+        },
+        "position": {
+          "x": 1734.10362,
+          "y": 583.79735
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20286,
+      "p": {
+        "parent": {
+          "__i": 20283
+        },
+        "position": {
+          "x": 1676.0499,
+          "y": 585.16335
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "빌딩창고 대여율",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20287,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20283
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1849.36495,
+          "y": 583.79735
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20288,
+      "p": {
+        "displayName": "echarts-flow",
+        "parent": {
+          "__i": 20283
+        },
+        "tag": "flowChart",
+        "image": "symbols/testsymbol/intelligent/echarts-flow.json",
+        "position": {
+          "x": 1738.18492,
+          "y": 686.60692
+        },
+        "width": 253.12651,
+        "height": 135.80106
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "legendData1": "A",
+        "legendData2": "B",
+        "lineData1": [
+          120,
+          132,
+          101,
+          134,
+          90
+        ],
+        "lineData2": [
+          220,
+          182,
+          191,
+          234,
+          290
+        ],
+        "xAxisData": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20289,
+      "p": {
+        "displayName": "rightTopBlock",
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20274
+        },
+        "position": {
+          "x": 1695.38641,
+          "y": 224.81966
+        },
+        "width": 347.5295,
+        "height": 259.78008
+      },
+      "s": {
+        "layout.h": "center",
+        "2d.editable": false,
+        "2d.selectable": false,
+        "interactive": true,
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20290,
+      "p": {
+        "displayName": "building",
+        "parent": {
+          "__i": 20289
+        },
+        "tag": "building",
+        "image": "symbols/testsymbol/intelligent/building.json",
+        "position": {
+          "x": 1745.15116,
+          "y": 224.9711
+        },
+        "width": 248,
+        "height": 259
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "floorSpace": "1400",
+        "area": "11000",
+        "electricalCapacity": "9000",
+        "title": "테스트",
+        "value": 0.9
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20291,
+      "p": {
+        "displayName": "buildingBtn",
+        "parent": {
+          "__i": 20289
+        },
+        "tag": "buildingBtn",
+        "position": {
+          "x": 1566.62166,
+          "y": 157.42962
+        },
+        "width": 90,
+        "height": 125
+      },
+      "s": {
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar building = view.getDataModel().getDataByTag('buildingBox');\r\nvar buildingP = view.getDataModel().getDataByTag('buildingPoint');\r\n\r\nbuilding.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nbuildingP.s({\r\n    'shape.background':'rgba(84,203,227,0.8)' //rgb(12,47,89)\r\n});\r\n\r\nvar building2 = view.getDataModel().getDataByTag('buildingBox2');\r\nvar buildingP2 = view.getDataModel().getDataByTag('buildingPoint2');\r\n\r\nbuilding2.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nbuildingP2.s({\r\n    'shape.background':'rgb(12,47,89)'\r\n});\n}",
+        "select.color": "",
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20292,
+      "p": {
+        "displayName": "buildingBox",
+        "parent": {
+          "__i": 20291
+        },
+        "tag": "buildingBox",
+        "position": {
+          "x": 1567.03317,
+          "y": 157.42962
+        },
+        "width": 89.17698,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(28,63,105,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,45,99,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20293,
+      "p": {
+        "displayName": "notification",
+        "parent": {
+          "__i": 20291
+        },
+        "image": "symbols/testsymbol/notification.json",
+        "position": {
+          "x": 1569.05481,
+          "y": 157.42962
+        },
+        "width": 39.78936,
+        "height": 39.78936
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20294,
+      "p": {
+        "displayName": "buildingPoint",
+        "parent": {
+          "__i": 20291
+        },
+        "tag": "buildingPoint",
+        "position": {
+          "x": 1524.71625,
+          "y": 157.42962
+        },
+        "width": 6.18917,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(84,203,227,0.8)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20295,
+      "p": {
+        "displayName": "buildingBtn2",
+        "parent": {
+          "__i": 20289
+        },
+        "tag": "buildingBtn2",
+        "position": {
+          "x": 1566.62166,
+          "y": 292.2097
+        },
+        "width": 90,
+        "height": 125
+      },
+      "s": {
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar building = view.getDataModel().getDataByTag('buildingBox');\r\nvar buildingP = view.getDataModel().getDataByTag('buildingPoint');\r\n\r\nbuilding.s({\r\n    'shape.background':'rgba(22,29,51,0.60)'\r\n});\r\nbuildingP.s({\r\n    'shape.background':'rgb(12,47,89)' //rgb(12,47,89)\r\n});\r\nvar building2 = view.getDataModel().getDataByTag('buildingBox2');\r\nvar buildingP2 = view.getDataModel().getDataByTag('buildingPoint2');\r\n\r\nbuilding2.s({\r\n    'shape.background':'rgba(28,63,105,0.8)'\r\n});\r\nbuildingP2.s({\r\n    'shape.background':'rgba(84,203,227,0.8)'\r\n});\n}",
+        "select.color": "",
+        "select.type": "shadow",
+        "shadow.offset.x": 0,
+        "shadow.offset.y": 0,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20296,
+      "p": {
+        "displayName": "buildingBox2",
+        "parent": {
+          "__i": 20295
+        },
+        "tag": "buildingBox2",
+        "position": {
+          "x": 1567.03317,
+          "y": 292.2097
+        },
+        "width": 89.17698,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "shape.gradient.color": "rgba(7,45,99,0.40)",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20297,
+      "p": {
+        "displayName": "notification",
+        "parent": {
+          "__i": 20295
+        },
+        "image": "symbols/testsymbol/notification.json",
+        "position": {
+          "x": 1569.05481,
+          "y": 292.2097
+        },
+        "width": 39.78936,
+        "height": 39.78936
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20298,
+      "p": {
+        "displayName": "buildingPoint2",
+        "parent": {
+          "__i": 20295
+        },
+        "tag": "buildingPoint2",
+        "position": {
+          "x": 1524.71625,
+          "y": 292.2097
+        },
+        "width": 6.18917,
+        "height": 125
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgb(12,47,89)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20299,
+      "p": {
+        "displayName": "buildingStock",
+        "parent": {
+          "__i": 20273
+        },
+        "host": {
+          "__i": 20276
+        },
+        "position": {
+          "x": 1734.07526,
+          "y": 881.01269
+        },
+        "width": 271.57211,
+        "height": 238.82002
+      },
+      "s": {
+        "layout.v": "center",
+        "2d.editable": false,
+        "pixelPerfect": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20300,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1734.07526,
+          "y": 881.01954
+        },
+        "width": 271.57211,
+        "height": 238.80632
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(22,29,51,0.60)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20301,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1734.07526,
+          "y": 783.90628
+        },
+        "width": 271.57211,
+        "height": 44.6072
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(1,7,18,0.80)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 3,
+        "shape.dash.color": null,
+        "2d.selectable": false,
+        "shape.gradient": "linear.east",
+        "shape.gradient.color": "rgba(7,14,28,0.40)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20302,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1676.02154,
+          "y": 785.27228
+        },
+        "width": 116.10745,
+        "height": 44.6072
+      },
+      "s": {
+        "text": "현재 고장 설비",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Godo",
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20303,
+      "p": {
+        "displayName": "plusCircle",
+        "parent": {
+          "__i": 20299
+        },
+        "image": "symbols/testsymbol/plusCircle.json",
+        "position": {
+          "x": 1849.33659,
+          "y": 783.90628
+        },
+        "width": 21.88158,
+        "height": 21.88158
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgba(201,209,255,0.30)"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 20304,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1678.89294,
+          "y": 903.19479
+        },
+        "width": 149.23543,
+        "height": 104.46601
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.editable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20305,
+      "p": {
+        "parent": {
+          "__i": 20304
+        },
+        "position": {
+          "x": 1738.80279,
+          "y": 930.4278
+        },
+        "width": 29.41572
+      },
+      "s": {
+        "text": "대",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "25px Godo",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20306,
+      "p": {
+        "displayName": "number-pane",
+        "parent": {
+          "__i": 20304
+        },
+        "image": "symbols/basic/number-pane.json",
+        "position": {
+          "x": 1658.4798,
+          "y": 894.84861
+        },
+        "scale": {
+          "x": 3,
+          "y": 3
+        },
+        "width": 36.13639,
+        "height": 29.25788
+      },
+      "s": {
+        "pixelPerfect": false,
+        "layout.h": "left",
+        "layout.v": "topbottom",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.value": "0",
+        "ht.color": "rgb(242,83,75)",
+        "ht.digit": 0,
+        "ht.textAlign": "right"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20307,
+      "p": {
+        "displayName": "pc",
+        "parent": {
+          "__i": 20299
+        },
+        "image": "symbols/玖佰/icon/机房.json",
+        "position": {
+          "x": 1794.03349,
+          "y": 836.8179
+        },
+        "width": 32,
+        "height": 32
+      },
+      "s": {
+        "shape.foreground": null,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(235,96,96)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20308,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1828.97536,
+          "y": 836.8179
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "0",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow": true,
+        "text.shadow.color": "rgb(242,83,75)",
+        "text.shadow.blur": 2,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20309,
+      "p": {
+        "displayName": "pc2",
+        "parent": {
+          "__i": 20299
+        },
+        "image": "symbols/玖佰/icon/机柜 2.json",
+        "position": {
+          "x": 1794.03349,
+          "y": 883.28642
+        },
+        "width": 32,
+        "height": 32
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(235,96,96)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20310,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1828.97536,
+          "y": 883.28642
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "0",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow": true,
+        "text.shadow.color": "rgb(242,83,75)",
+        "text.shadow.blur": 2,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20311,
+      "p": {
+        "displayName": "pc3",
+        "parent": {
+          "__i": 20299
+        },
+        "image": "symbols/玖佰/icon/板卡.json",
+        "position": {
+          "x": 1794.03349,
+          "y": 967.39293
+        },
+        "width": 32,
+        "height": 32
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(235,96,96)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20312,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1828.97536,
+          "y": 924.49729
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "0",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow": true,
+        "text.shadow.color": "rgb(242,83,75)",
+        "text.shadow.blur": 2,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 20313,
+      "p": {
+        "displayName": "pc3",
+        "parent": {
+          "__i": 20299
+        },
+        "image": "symbols/玖佰/icon/板卡.json",
+        "position": {
+          "x": 1794.03349,
+          "y": 924.49729
+        },
+        "width": 32,
+        "height": 32
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "color": "rgb(235,96,96)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20314,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1828.97536,
+          "y": 967.39293
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "0",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow": true,
+        "text.shadow.color": "rgb(242,83,75)",
+        "text.shadow.blur": 2,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20315,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1843.97536,
+          "y": 836.8179
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "대",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20316,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1843.97536,
+          "y": 883.28642
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "대",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20317,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1843.97536,
+          "y": 924.49729
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "대",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 20318,
+      "p": {
+        "parent": {
+          "__i": 20299
+        },
+        "position": {
+          "x": 1843.97536,
+          "y": 967.39293
+        },
+        "width": 27.2214,
+        "height": 23.93026
+      },
+      "s": {
+        "text": "대",
+        "text.align": "right",
+        "text.font": "12px Godo",
+        "text.color": "rgb(242,83,75)",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2019 13:29:30 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": -31.17122,
+    "y": -15,
+    "width": 1920,
+    "height": 1047.61026
+  }
+}

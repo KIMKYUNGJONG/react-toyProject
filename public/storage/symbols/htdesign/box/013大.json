@@ -1,0 +1,82 @@
+{
+  "modified": "Wed Jun 05 2019 13:01:04 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "yesno1",
+      "valueType": "Opacity",
+      "defaultValue": 0
+    },
+    {
+      "attr": "yesno2",
+      "valueType": "Opacity",
+      "defaultValue": 0
+    },
+    {
+      "attr": "yesno3",
+      "valueType": "Opacity",
+      "defaultValue": 0
+    }
+  ],
+  "width": 652,
+  "height": 728,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/htdesign/box/013.json",
+      "displayName": "013",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        163,
+        182,
+        326,
+        364
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/effects/扫描告警.json",
+      "opacity": {
+        "func": "attr@yesno1",
+        "value": 1
+      },
+      "displayName": "扫描告警",
+      "rect": [
+        2.71,
+        72.84781,
+        646.58,
+        190.63878
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/effects/扫描告警.json",
+      "opacity": {
+        "func": "attr@yesno2",
+        "value": 1
+      },
+      "displayName": "扫描告警",
+      "rect": [
+        0,
+        281.36122,
+        646.58,
+        256
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/htdesign/effects/扫描告警.json",
+      "opacity": {
+        "func": "attr@yesno3",
+        "value": 1
+      },
+      "displayName": "扫描告警",
+      "rect": [
+        2.71,
+        537.36122,
+        646.58,
+        190.63878
+      ]
+    }
+  ]
+}

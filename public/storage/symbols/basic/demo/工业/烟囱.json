@@ -1,0 +1,74 @@
+{
+  "modified": "Thu Jul 25 2019 13:41:33 GMT+0900 (한국 표준시)",
+  "background": "rgb(61,61,61)",
+  "width": 56,
+  "height": 290,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "gradient": "radial.center",
+      "gradientColor": "rgba(232,232,232,0.00)",
+      "rotation": -1.5708,
+      "closePath": true,
+      "points": [
+        -111.55469,
+        119.76658,
+        -111.55469,
+        168.82401,
+        167.48576,
+        157.84592,
+        167.48576,
+        129.84831,
+        23.08343,
+        124.84595,
+        -111.55469,
+        119.76658
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "gradientColor": "rgba(232,232,232,0.00)",
+      "rotation": -1.5708,
+      "closePath": true,
+      "points": [
+        19.51657,
+        3.66366,
+        19.51657,
+        40.3204,
+        36.48344,
+        40.3204,
+        36.48344,
+        3.66366,
+        19.51657,
+        3.66366
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(230,230,230,0.67)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "gradientColor": "rgba(232,232,232,0.00)",
+      "rotation": -1.5708,
+      "closePath": true,
+      "points": [
+        26.66469,
+        260.87033,
+        26.66469,
+        313.72925,
+        29.26638,
+        313.72925,
+        29.26638,
+        260.87033,
+        26.66469,
+        260.87033
+      ]
+    }
+  ]
+}

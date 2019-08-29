@@ -1,0 +1,4270 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "background": "rgb(255,255,255)",
+    "layers": [
+      {
+        "name": "0",
+        "visible": true,
+        "selectable": true,
+        "movable": true,
+        "editable": true
+      }
+    ],
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": "host",
+    "previewURL": "display-testDp.html",
+    "fitContent": true
+  },
+  "d": [
+    {
+      "c": "ht.Data",
+      "i": 5035,
+      "p": {
+        "displayName": "layout"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5036,
+      "p": {
+        "displayName": "frame",
+        "parent": {
+          "__i": 5035
+        },
+        "tag": "frame",
+        "position": {
+          "x": 190.56882,
+          "y": -8.16162
+        },
+        "width": 1929.79562,
+        "height": 1080.0856,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "fullscreen.lock": "v",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5037,
+      "p": {
+        "displayName": "bg-img",
+        "parent": {
+          "__i": 5036
+        },
+        "tag": "bg-img",
+        "position": {
+          "x": 190.57447,
+          "y": -8.14445
+        },
+        "width": 1924.89781,
+        "height": 1080.01709
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.color": "#979797",
+        "2d.movable": false,
+        "fullscreen.lock": "v",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.editable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5038,
+      "p": {
+        "displayName": "bg",
+        "parent": {
+          "__i": 5036
+        },
+        "image": "assets/background/Digital-circuits-Logonscreen-Designfjotten-Edition.png",
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": 190.56882,
+          "y": -8.19587
+        },
+        "width": 1929.79562,
+        "height": 1080.01709
+      },
+      "s": {
+        "fullscreen.lock": "h",
+        "2d.selectable": false,
+        "fullscreen.gap": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5039,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 5036
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": -22.48665,
+          "y": -512.79365
+        },
+        "width": 1500,
+        "height": 67.71406
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(138,194,74,0.8)",
+        "shape.border.color": "rgb(47,138,8)",
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5040,
+      "p": {
+        "displayName": "title",
+        "parent": {
+          "__i": 5036
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": -22.48665,
+          "y": -514.29596
+        },
+        "width": 1503.66201,
+        "height": 67.71406
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.color": "#979797",
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5041,
+      "p": {
+        "parent": {
+          "__i": 5040
+        },
+        "host": {
+          "__i": 5040
+        },
+        "position": {
+          "x": -568.01737,
+          "y": -519.75078
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.42025
+        },
+        "width": 124.79363,
+        "height": 67.70644
+      },
+      "s": {
+        "text": "Display TITLE",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 20px Arial",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5042,
+      "p": {
+        "parent": {
+          "__i": 5040
+        },
+        "tag": "digital-clock",
+        "host": {
+          "__i": 5040
+        },
+        "position": {
+          "x": 638.51278,
+          "y": -512.79365
+        },
+        "width": 185.12891,
+        "height": 55.43513
+      },
+      "s": {
+        "text": "2019-01-01 | 24:00:00",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 16px Arial",
+        "layout.h": "right",
+        "text.align": "center",
+        "text.shadow": true,
+        "text.shadow.offset.x": 0,
+        "text.shadow.offset.y": 0,
+        "text.shadow.color": "rgba(51,255,0,0.8)",
+        "text.shadow.blur": 2,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5043,
+      "p": {
+        "displayName": "sideMenu",
+        "parent": {
+          "__i": 5036
+        },
+        "tag": "sideMenu",
+        "position": {
+          "x": 953.4324,
+          "y": -8.19586
+        },
+        "width": 404.06845,
+        "height": 1080.01712,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5044,
+      "p": {
+        "displayName": "sideMenu",
+        "parent": {
+          "__i": 5043
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": 953.4324,
+          "y": -8.19586
+        },
+        "width": 404.06845,
+        "height": 1080.01712
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,0,0,0.8)",
+        "shape.border.color": "rgb(61,61,61)",
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5045,
+      "p": {
+        "displayName": "homeInfo",
+        "parent": {
+          "__i": 5043
+        },
+        "tag": "homeInfo",
+        "host": {
+          "__i": 5044
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.07709
+        },
+        "width": 357.84764,
+        "height": 883.47966,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5046,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5047,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "host": {
+          "__i": 5046
+        },
+        "position": {
+          "x": 778.96624,
+          "y": -394.83543
+        },
+        "width": 5.98579,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5048,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5049,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5050,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5051,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5052,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5053,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5054,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5055,
+      "p": {
+        "parent": {
+          "__i": 5045
+        },
+        "host": {
+          "__i": 5046
+        },
+        "position": {
+          "x": 959.79434,
+          "y": -394.83543
+        }
+      },
+      "s": {
+        "text": "Home",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5056,
+      "p": {
+        "displayName": "batteryInfo",
+        "parent": {
+          "__i": 5043
+        },
+        "tag": "batteryInfo",
+        "host": {
+          "__i": 5044
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.0514
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5057,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5058,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5059,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5060,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5061,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5062,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5063,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5064,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5065,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "host": {
+          "__i": 5063
+        },
+        "position": {
+          "x": 778.96624,
+          "y": -394.78405
+        },
+        "width": 5.98579,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5066,
+      "p": {
+        "parent": {
+          "__i": 5056
+        },
+        "host": {
+          "__i": 5063
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        }
+      },
+      "s": {
+        "text": "Battery",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5067,
+      "p": {
+        "displayName": "gridInfo",
+        "parent": {
+          "__i": 5043
+        },
+        "tag": "gridInfo",
+        "host": {
+          "__i": 5044
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.05138
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5068,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.0073
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5069,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.0073
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5070,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62573
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5071,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62573
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5072,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64276
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5073,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64276
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5074,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78404
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5075,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.8969
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5076,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "host": {
+          "__i": 5074
+        },
+        "position": {
+          "x": 778.96624,
+          "y": -394.78404
+        },
+        "width": 5.98579,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5077,
+      "p": {
+        "parent": {
+          "__i": 5067
+        },
+        "host": {
+          "__i": 5074
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78404
+        }
+      },
+      "s": {
+        "text": "Grid",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5078,
+      "p": {
+        "displayName": "evInfo",
+        "parent": {
+          "__i": 5043
+        },
+        "tag": "evInfo",
+        "host": {
+          "__i": 5044
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -0.0514
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.visible": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5079,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 862.16115,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5080,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5081,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 862.16115,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5082,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5083,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 862.16115,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5084,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5085,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5086,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "position": {
+          "x": 954.89716,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5087,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "host": {
+          "__i": 5085
+        },
+        "position": {
+          "x": 778.96623,
+          "y": -394.78405
+        },
+        "width": 5.98579,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5088,
+      "p": {
+        "parent": {
+          "__i": 5078
+        },
+        "host": {
+          "__i": 5085
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -394.78405
+        }
+      },
+      "s": {
+        "text": "Fit EV",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5089,
+      "p": {
+        "displayName": "solarInfo",
+        "parent": {
+          "__i": 5043
+        },
+        "tag": "solarInfo",
+        "host": {
+          "__i": 5044
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.0514
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5090,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 6980,
+      "p": {
+        "displayName": "top_app",
+        "parent": {
+          "__i": 5089
+        },
+        "image": "symbols/testsymbol/top_app.json",
+        "host": {
+          "__i": 5090
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -209.62817
+        },
+        "width": 122.06054,
+        "height": 123.02164
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9637,
+      "p": {
+        "displayName": "TextArea",
+        "parent": {
+          "__i": 5089
+        },
+        "image": "symbols/testsymbol/TextArea.json",
+        "position": {
+          "x": 862.16116,
+          "y": -208.80643
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5091,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5092,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5093,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5094,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5095,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5096,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5097,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5204,
+      "p": {
+        "displayName": "echarts-bar",
+        "parent": {
+          "__i": 5089
+        },
+        "image": "symbols/testsymbol/echarts-bar.json",
+        "host": {
+          "__i": 5097
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 363.99449
+        },
+        "width": 336.6779,
+        "height": 120
+      },
+      "s": {
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5098,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "host": {
+          "__i": 5096
+        },
+        "position": {
+          "x": 778.96624,
+          "y": -394.78405
+        },
+        "width": 5.98579,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.h": "left"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5099,
+      "p": {
+        "parent": {
+          "__i": 5089
+        },
+        "host": {
+          "__i": 5096
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        }
+      },
+      "s": {
+        "text": "Solar",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5100,
+      "p": {
+        "displayName": "sideMenu2",
+        "parent": {
+          "__i": 5036
+        },
+        "tag": "sideMenu2",
+        "position": {
+          "x": 953.4324,
+          "y": -8.19586
+        },
+        "width": 404.06845,
+        "height": 1080.01712,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5101,
+      "p": {
+        "displayName": "sideMenu2",
+        "parent": {
+          "__i": 5100
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": 953.4324,
+          "y": -8.19586
+        },
+        "width": 404.06845,
+        "height": 1080.01712
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(0,0,0,0.8)",
+        "shape.border.color": "rgb(61,61,61)",
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "2d.movable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5102,
+      "p": {
+        "displayName": "lightInfo",
+        "parent": {
+          "__i": 5100
+        },
+        "tag": "lightInfo",
+        "host": {
+          "__i": 5101
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.05139
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5103,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5104,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5105,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5106,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5107,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5108,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5109,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5110,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5111,
+      "p": {
+        "parent": {
+          "__i": 5102
+        },
+        "host": {
+          "__i": 5103
+        },
+        "position": {
+          "x": 959.79434,
+          "y": -394.83543
+        }
+      },
+      "s": {
+        "text": "Light",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5112,
+      "p": {
+        "displayName": "avInfo",
+        "parent": {
+          "__i": 5100
+        },
+        "tag": "avInfo",
+        "host": {
+          "__i": 5101
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.0514
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5113,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5114,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5115,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5116,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5117,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5118,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5119,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5120,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5121,
+      "p": {
+        "parent": {
+          "__i": 5112
+        },
+        "host": {
+          "__i": 5119
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78405
+        }
+      },
+      "s": {
+        "text": "A / V",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5122,
+      "p": {
+        "displayName": "networkInfo",
+        "parent": {
+          "__i": 5100
+        },
+        "tag": "networkInfo",
+        "host": {
+          "__i": 5101
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -0.05139
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5123,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -206.0073
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5124,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -206.0073
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5125,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 862.16116,
+          "y": -38.62573
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5126,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": -38.62573
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5127,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 862.16116,
+          "y": 128.64276
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5128,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 1047.63317,
+          "y": 128.64276
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5129,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78404
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5130,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "position": {
+          "x": 954.89717,
+          "y": 357.8969
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5131,
+      "p": {
+        "parent": {
+          "__i": 5122
+        },
+        "host": {
+          "__i": 5129
+        },
+        "position": {
+          "x": 954.89717,
+          "y": -394.78404
+        }
+      },
+      "s": {
+        "text": "Network",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5132,
+      "p": {
+        "displayName": "chargingInfo",
+        "parent": {
+          "__i": 5100
+        },
+        "tag": "chargingInfo",
+        "host": {
+          "__i": 5101
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -0.0514
+        },
+        "width": 357.84764,
+        "height": 883.42828,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5133,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 862.16115,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5134,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": -206.00731
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5135,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 862.16115,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5136,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": -38.62574
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5137,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 862.16115,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5138,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 1047.63316,
+          "y": 128.64275
+        },
+        "width": 172.37563,
+        "height": 156.4549
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5139,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -394.78405
+        },
+        "width": 357.84764,
+        "height": 93.96297
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "layout.v": "top",
+        "layout.h": "center",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5140,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "position": {
+          "x": 954.89716,
+          "y": 357.89689
+        },
+        "width": 357.84764,
+        "height": 167.53171
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgba(64,64,64,0.50)",
+        "shape.border.color": "#979797",
+        "shape.corner.radius": 2,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5141,
+      "p": {
+        "parent": {
+          "__i": 5132
+        },
+        "host": {
+          "__i": 5139
+        },
+        "position": {
+          "x": 954.89716,
+          "y": -394.78405
+        }
+      },
+      "s": {
+        "text": "Charging",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "bold 24px Arial",
+        "text.align": "center",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5142,
+      "p": {
+        "displayName": "bottomMenu",
+        "parent": {
+          "__i": 5036
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": -21.62588,
+          "y": 478.08225
+        },
+        "width": 1505.40622,
+        "height": 107.59785,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.h": "leftright",
+        "layout.v": "bottom",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5143,
+      "p": {
+        "parent": {
+          "__i": 5142
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -21.62588,
+          "y": 478.32171
+        },
+        "width": 1505.40572,
+        "height": 107.11187
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.color": "rgb(0,0,0)",
+        "layout.v": "bottom",
+        "fullscreen.lock": "h",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "2d.selectable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5144,
+      "p": {
+        "parent": {
+          "__i": 5142
+        },
+        "rotation": 6.28319,
+        "position": {
+          "x": -21.68859,
+          "y": 425.28687
+        },
+        "width": 1505.28077,
+        "height": 2
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "rgb(0,0,0)",
+        "layout.v": "bottom",
+        "fullscreen.lock": "h",
+        "layout.h": "leftright",
+        "2d.editable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5145,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag1",
+        "dataBindings": {
+          "a": {},
+          "s": {}
+        },
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": -648.9108,
+          "y": 479.07727
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "left",
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    var scene1 = view.getDataModel().getDataByTag('scene1');\r\n    var scene2 = view.getDataModel().getDataByTag('scene2');\r\n    var side = view.getDataModel().getDataByTag('sideMenu');\r\n    var side2 = view.getDataModel().getDataByTag('sideMenu2');\r\n    tag1.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\r\n    side.s('2d.visible',true);\r\n    side2.s('2d.visible',false);\r\n    scene1.s('2d.visible',true);\r\n    scene2.s('2d.visible',false);\r\n    tag2.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag3.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag4.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag5.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag6.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\n}"
+      },
+      "a": {
+        "ht.text": "tag1",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "#212121",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "#558B2F",
+        "ht.disabled": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5146,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag2",
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": -398.09774,
+          "y": 479.07727
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.editable": false,
+        "interactive": true,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    var scene1 = view.getDataModel().getDataByTag('scene1');\r\n    var scene2 = view.getDataModel().getDataByTag('scene2');\r\n    var side = view.getDataModel().getDataByTag('sideMenu');\r\n    var side2 = view.getDataModel().getDataByTag('sideMenu2');    \r\n    side2.s('2d.visible',true);\r\n    side.s('2d.visible',false);    \r\n    scene1.s('2d.visible',false);\r\n    scene2.s('2d.visible',true);\r\n    tag1.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag2.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\r\n    tag3.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag4.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag5.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag6.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\n}"
+      },
+      "a": {
+        "ht.text": "tag2",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5147,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag3",
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": -147.28469,
+          "y": 479.07727
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.editable": false,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    tag1.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag2.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag3.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\r\n    tag4.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag5.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag6.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\n}",
+        "interactive": true
+      },
+      "a": {
+        "ht.text": "tag3",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5148,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag4",
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": 103.52837,
+          "y": 479.07726
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.editable": false,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    tag1.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag2.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag3.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag4.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\r\n    tag5.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag6.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\n}",
+        "interactive": true
+      },
+      "a": {
+        "ht.text": "tag4",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5149,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag5",
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": 354.34142,
+          "y": 479.07726
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.editable": false,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    tag1.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag2.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag3.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag4.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag5.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\r\n    tag6.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\n}",
+        "interactive": true
+      },
+      "a": {
+        "ht.text": "tag5",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5150,
+      "p": {
+        "displayName": "button",
+        "parent": {
+          "__i": 5142
+        },
+        "tag": "tag6",
+        "image": "symbols/testsymbol/sample/button.json",
+        "rotation": 6.28319,
+        "position": {
+          "x": 605.15449,
+          "y": 479.07726
+        },
+        "width": 250.81306,
+        "height": 105.57249
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.v": "center",
+        "layout.h": "right",
+        "2d.editable": false,
+        "onClick": "__ht__function(event, data, view) {\nvar tag1 = view.getDataModel().getDataByTag('tag1');    \r\n    var tag2 = view.getDataModel().getDataByTag('tag2');\r\n    var tag3 = view.getDataModel().getDataByTag('tag3');\r\n    var tag4 = view.getDataModel().getDataByTag('tag4');\r\n    var tag5 = view.getDataModel().getDataByTag('tag5');\r\n    var tag6 = view.getDataModel().getDataByTag('tag6');\r\n    tag1.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag2.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag3.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag4.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag5.a({\"ht.background\": 'rgba(0,0,0,0)',\"ht.textColor\":\"#fff\"});\r\n    tag6.a({\"ht.background\": '#212121',\"ht.textColor\":\"#558B2F\"});\n}",
+        "interactive": true
+      },
+      "a": {
+        "ht.text": "tag6",
+        "ht.iconWidth": 20,
+        "ht.iconHeight": 20,
+        "ht.borderWidth": 0,
+        "ht.borderColor": "",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.font": "bold 24px Arial",
+        "ht.textColor": "rgb(255,255,255)",
+        "ht.onClick": "__ht__function(e, data, view) {\n}"
+      }
+    },
+    {
+      "c": "ht.Data",
+      "i": 5151,
+      "p": {
+        "displayName": "tag--scene",
+        "parent": {
+          "__i": 5035
+        },
+        "layer": "home",
+        "tag": "tag--scene"
+      },
+      "s": {
+        "editor.folder": true
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5152,
+      "p": {
+        "displayName": "bg--tag1",
+        "parent": {
+          "__i": 5151
+        },
+        "tag": "scene1",
+        "dataBindings": {
+          "p": {
+            "layer": {
+              "id": "layer1"
+            }
+          }
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": -10.5789,
+          "y": -28
+        },
+        "width": 1523.95415,
+        "height": 903.98899,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.h": "center",
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5153,
+      "p": {
+        "displayName": "scene--bg",
+        "parent": {
+          "__i": 5152
+        },
+        "tag": "sceneBg",
+        "position": {
+          "x": -10.5789,
+          "y": -28
+        },
+        "width": 1523.95415,
+        "height": 903.98899
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(92,92,92)",
+        "shape.border.color": "#979797",
+        "fullscreen.gap": 0,
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.visible": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5154,
+      "p": {
+        "displayName": "iconBox",
+        "parent": {
+          "__i": 5152
+        },
+        "tag": "home",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -545.17517,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\n\r\nhome.s('2d.visible',true);\r\nbattery.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5155,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5154
+        },
+        "tag": "defaultWidgetBox",
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -545.17517,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\nvar ev = view.getDataModel().getDataByTag('evInfo');\r\nvar solar = view.getDataModel().getDataByTag('solarInfo');\r\nvar grid =  view.getDataModel().getDataByTag('gridInfo');\r\ngrid.s('2d.visible',false);\r\nhome.s('2d.visible',true);\r\nbattery.s('2d.visible',false);\r\nev.s('2d.visible',false);\r\nsolar.s('2d.visible',false);\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5156,
+      "p": {
+        "parent": {
+          "__i": 5154
+        },
+        "host": {
+          "__i": 5155
+        },
+        "position": {
+          "x": -545.17517,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "home",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5157,
+      "p": {
+        "displayName": "iconBox",
+        "parent": {
+          "__i": 5152
+        },
+        "tag": "battery",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -310.0881,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5158,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5157
+        },
+        "tag": "defaultWidgetBox",
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -310.0881,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\nvar ev = view.getDataModel().getDataByTag('evInfo');\r\nvar solar = view.getDataModel().getDataByTag('solarInfo');\r\nvar grid =  view.getDataModel().getDataByTag('gridInfo');\r\nhome.s('2d.visible',false);\r\nbattery.s('2d.visible',true);\r\nev.s('2d.visible',false);\r\nsolar.s('2d.visible',false);\r\ngrid.s('2d.visible',false);\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5159,
+      "p": {
+        "parent": {
+          "__i": 5157
+        },
+        "host": {
+          "__i": 5158
+        },
+        "position": {
+          "x": -310.0881,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "battery",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5160,
+      "p": {
+        "displayName": "iconBox--fitEV",
+        "parent": {
+          "__i": 5152
+        },
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -75.84759,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\n\r\nhome.s('2d.visible',true);\r\nbattery.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5161,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5160
+        },
+        "tag": "defaultWidgetBox",
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -75.84759,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\nvar ev = view.getDataModel().getDataByTag('evInfo');\r\nvar solar = view.getDataModel().getDataByTag('solarInfo');\r\nvar grid =  view.getDataModel().getDataByTag('gridInfo');\r\nhome.s('2d.visible',false);\r\nbattery.s('2d.visible',false);\r\nev.s('2d.visible',true);\r\nsolar.s('2d.visible',false);\r\ngrid.s('2d.visible',false);\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5162,
+      "p": {
+        "parent": {
+          "__i": 5160
+        },
+        "host": {
+          "__i": 5161
+        },
+        "position": {
+          "x": -75.84759,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "Fit EV",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5163,
+      "p": {
+        "displayName": "iconBox--Solar",
+        "parent": {
+          "__i": 5152
+        },
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 159.23947,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5164,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5163
+        },
+        "tag": "defaultWidgetBox",
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 159.23947,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\nvar ev = view.getDataModel().getDataByTag('evInfo');\r\nvar solar = view.getDataModel().getDataByTag('solarInfo');\r\nvar grid =  view.getDataModel().getDataByTag('gridInfo');\r\nhome.s('2d.visible',false);\r\nbattery.s('2d.visible',false);\r\nev.s('2d.visible',false);\r\nsolar.s('2d.visible',true);\r\ngrid.s('2d.visible',false);\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5165,
+      "p": {
+        "parent": {
+          "__i": 5163
+        },
+        "host": {
+          "__i": 5164
+        },
+        "position": {
+          "x": 159.23947,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "Solar",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5166,
+      "p": {
+        "displayName": "iconBox--Grid",
+        "parent": {
+          "__i": 5152
+        },
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 391.32266,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5167,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5166
+        },
+        "tag": "defaultWidgetBox",
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 391.32266,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\nvar ev = view.getDataModel().getDataByTag('evInfo');\r\nvar solar = view.getDataModel().getDataByTag('solarInfo');\r\nvar grid = view.getDataModel().getDataByTag('gridInfo');\r\nhome.s('2d.visible',false);\r\nbattery.s('2d.visible',false);\r\nev.s('2d.visible',false);\r\nsolar.s('2d.visible',false);\r\ngrid.s('2d.visible',true);\n}",
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5168,
+      "p": {
+        "parent": {
+          "__i": 5166
+        },
+        "host": {
+          "__i": 5167
+        },
+        "position": {
+          "x": 391.32266,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "Grid",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5169,
+      "p": {
+        "displayName": "iconBox--chart",
+        "parent": {
+          "__i": 5152
+        },
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -432.99407,
+          "y": 159.23196
+        },
+        "width": 442.39798,
+        "height": 240.59783,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5170,
+      "p": {
+        "displayName": "defaultWidgetBox2",
+        "parent": {
+          "__i": 5169
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox2.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -432.99407,
+          "y": 159.23196
+        },
+        "width": 442.39798,
+        "height": 240.59783
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5171,
+      "p": {
+        "displayName": "progressChrt",
+        "parent": {
+          "__i": 5169
+        },
+        "host": {
+          "__i": 5170
+        },
+        "position": {
+          "x": -432.09464,
+          "y": 157.68474
+        },
+        "width": 391.10144,
+        "height": 196.59682,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5172,
+      "p": {
+        "displayName": "progressChart",
+        "parent": {
+          "__i": 5171
+        },
+        "image": "symbols/testsymbol/sample/progressChart.json",
+        "position": {
+          "x": -330.6685,
+          "y": 157.68474
+        },
+        "width": 188.24916,
+        "height": 196.59682
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "progressPercentage": [
+          10
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5173,
+      "p": {
+        "displayName": "percentageText",
+        "parent": {
+          "__i": 5171
+        },
+        "image": "symbols/testsymbol/sample/percentageText.json",
+        "host": {
+          "__i": 5172
+        },
+        "position": {
+          "x": -330.6685,
+          "y": 159.90062
+        },
+        "width": 114.09906,
+        "height": 40
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      },
+      "a": {
+        "circleValue": "10"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5174,
+      "p": {
+        "displayName": "checkbox",
+        "parent": {
+          "__i": 5171
+        },
+        "image": "symbols/testsymbol/sample/checkbox.json",
+        "position": {
+          "x": -582.6891,
+          "y": 239.4861
+        },
+        "width": 89.91252,
+        "height": 32.99411
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "checkbox.checked": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5175,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5152
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": -75.84759,
+          "y": 159.90062
+        },
+        "width": 218,
+        "height": 240.59783
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5176,
+      "p": {
+        "displayName": "defaultWidgetBox3",
+        "parent": {
+          "__i": 5152
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox3.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 275.28107,
+          "y": 84.1593
+        },
+        "width": 450.08319,
+        "height": 390.74316
+      },
+      "s": {
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5178,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5152
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5153
+        },
+        "position": {
+          "x": 632.23771,
+          "y": -54.81673
+        },
+        "width": 238.32094,
+        "height": 668.69521
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5179,
+      "p": {
+        "displayName": "echarts-liquid",
+        "parent": {
+          "__i": 5152
+        },
+        "image": "symbols/testsymbol/echarts-liquid.json",
+        "host": {
+          "__i": 5178
+        },
+        "position": {
+          "x": 175.95841,
+          "y": 50.4153
+        },
+        "width": 198.64531,
+        "height": 254.35241
+      },
+      "s": {
+        "layout.v": "bottom",
+        "interactive": true
+      },
+      "a": {
+        "seriesColor": "rgba(0,0,0,0.4)",
+        "labelFontsize": 35,
+        "sampleDataTitle": "Usage State",
+        "sampleDataArray": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "sampleData": 0.7
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5180,
+      "p": {
+        "displayName": "bg--tag2",
+        "parent": {
+          "__i": 5151
+        },
+        "tag": "scene2",
+        "dataBindings": {
+          "p": {
+            "layer": {
+              "id": "layer1_copied"
+            }
+          }
+        },
+        "host": {
+          "__i": 5037
+        },
+        "position": {
+          "x": -22,
+          "y": -28
+        },
+        "width": 1501.11195,
+        "height": 903.98899,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.movable": false,
+        "layout.h": "center",
+        "2d.editable": false,
+        "2d.visible": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5181,
+      "p": {
+        "displayName": "scene--bg",
+        "parent": {
+          "__i": 5180
+        },
+        "tag": "sceneBg",
+        "position": {
+          "x": -22,
+          "y": -28
+        },
+        "width": 1501.11195,
+        "height": 903.98899
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(92,92,92)",
+        "shape.border.color": "#979797",
+        "fullscreen.gap": 0,
+        "layout.h": "center",
+        "layout.v": "center",
+        "2d.movable": false,
+        "2d.visible": false
+      },
+      "a": {
+        "ht.onClick": "__ht__function(e, data, view) {\n    var tag1 = view.getDataModel().getDataByTag('tag1');    \n    var tag2 = view.getDataModel().getDataByTag('tag2');\n    var tag3 = view.getDataModel().getDataByTag('tag3');\n    var tag4 = view.getDataModel().getDataByTag('tag4');\n    var tag5 = view.getDataModel().getDataByTag('tag5');\n    var tag6 = view.getDataModel().getDataByTag('tag6');\n    tag1.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag2.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag3.a(\"ht.background\", '#fabc37');\n    tag4.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag5.a(\"ht.background\", 'rgba(0,0,0,0)');\n    tag6.a(\"ht.background\", 'rgba(0,0,0,0)');\n}"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5182,
+      "p": {
+        "displayName": "iconBox--light",
+        "parent": {
+          "__i": 5180
+        },
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -568.71722,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5183,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5182
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -568.71722,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar light = view.getDataModel().getDataByTag('lightInfo');\r\nvar av = view.getDataModel().getDataByTag('avInfo');\r\nvar network = view.getDataModel().getDataByTag('networkInfo');\r\nvar charging = view.getDataModel().getDataByTag('chargingInfo');\r\nlight.s('2d.visible',true);\r\nav.s('2d.visible',false);\r\nnetwork.s('2d.visible',false);\r\ncharging.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5184,
+      "p": {
+        "parent": {
+          "__i": 5182
+        },
+        "host": {
+          "__i": 5183
+        },
+        "position": {
+          "x": -568.71722,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "Light",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5185,
+      "p": {
+        "displayName": "iconBox--A/V",
+        "parent": {
+          "__i": 5180
+        },
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -332.9303,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5186,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5185
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -332.9303,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar light = view.getDataModel().getDataByTag('lightInfo');\r\nvar av = view.getDataModel().getDataByTag('avInfo');\r\nvar network = view.getDataModel().getDataByTag('networkInfo');\r\nvar charging = view.getDataModel().getDataByTag('chargingInfo');\r\nlight.s('2d.visible',false);\r\nav.s('2d.visible',true);\r\nnetwork.s('2d.visible',false);\r\ncharging.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5187,
+      "p": {
+        "parent": {
+          "__i": 5185
+        },
+        "host": {
+          "__i": 5186
+        },
+        "position": {
+          "x": -332.9303,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "A / V",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5188,
+      "p": {
+        "displayName": "iconBox--Network",
+        "parent": {
+          "__i": 5180
+        },
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -98.68979,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar home = view.getDataModel().getDataByTag('homeInfo');\r\nvar battery = view.getDataModel().getDataByTag('batteryInfo');\r\n\r\nhome.s('2d.visible',true);\r\nbattery.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5189,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5188
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": -98.68979,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar light = view.getDataModel().getDataByTag('lightInfo');\r\nvar av = view.getDataModel().getDataByTag('avInfo');\r\nvar network = view.getDataModel().getDataByTag('networkInfo');\r\nvar charging = view.getDataModel().getDataByTag('chargingInfo');\r\nlight.s('2d.visible',false);\r\nav.s('2d.visible',false);\r\nnetwork.s('2d.visible',true);\r\ncharging.s('2d.visible',false);\n}",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5190,
+      "p": {
+        "parent": {
+          "__i": 5188
+        },
+        "host": {
+          "__i": 5189
+        },
+        "position": {
+          "x": -98.68979,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "NetWork",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.movable": false,
+        "2d.editable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5191,
+      "p": {
+        "displayName": "iconBox--Charging",
+        "parent": {
+          "__i": 5180
+        },
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": 136.39727,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5192,
+      "p": {
+        "displayName": "defaultWidgetBox",
+        "parent": {
+          "__i": 5191
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox.json",
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": 136.39727,
+          "y": -258.80643
+        },
+        "width": 218,
+        "height": 260.71582
+      },
+      "s": {
+        "interactive": true,
+        "onDown": "__ht__function(event, data, view) {\nvar light = view.getDataModel().getDataByTag('lightInfo');\r\nvar av = view.getDataModel().getDataByTag('avInfo');\r\nvar network = view.getDataModel().getDataByTag('networkInfo');\r\nvar charging = view.getDataModel().getDataByTag('chargingInfo');\r\nlight.s('2d.visible',false);\r\nav.s('2d.visible',false);\r\nnetwork.s('2d.visible',false);\r\ncharging.s('2d.visible',true);\n}",
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 5193,
+      "p": {
+        "parent": {
+          "__i": 5191
+        },
+        "host": {
+          "__i": 5192
+        },
+        "position": {
+          "x": 136.39727,
+          "y": -258.80643
+        }
+      },
+      "s": {
+        "text": "Charging",
+        "text.align": "center",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.color": "rgb(255,255,255)",
+        "text.font": "32px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5194,
+      "p": {
+        "displayName": "iconBox--chart",
+        "parent": {
+          "__i": 5180
+        },
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": 485.81968,
+          "y": 206.8702
+        },
+        "width": 440.53547,
+        "height": 260.71582,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5195,
+      "p": {
+        "displayName": "defaultWidgetBox2",
+        "parent": {
+          "__i": 5194
+        },
+        "image": "symbols/testsymbol/sample/defaultWidgetBox2.json",
+        "host": {
+          "__i": 5181
+        },
+        "position": {
+          "x": 485.81968,
+          "y": 206.8702
+        },
+        "width": 440.53547,
+        "height": 260.71582
+      },
+      "s": {
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5196,
+      "p": {
+        "displayName": "progressChrt",
+        "parent": {
+          "__i": 5194
+        },
+        "host": {
+          "__i": 5195
+        },
+        "position": {
+          "x": 551.14478,
+          "y": 206.8702
+        },
+        "width": 220.17897,
+        "height": 213.74773,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5197,
+      "p": {
+        "displayName": "progressChart",
+        "parent": {
+          "__i": 5196
+        },
+        "image": "symbols/testsymbol/sample/progressChart.json",
+        "position": {
+          "x": 557.35307,
+          "y": 206.8702
+        },
+        "width": 207.76239,
+        "height": 213.74773
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "progressPercentage": [
+          10
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5198,
+      "p": {
+        "displayName": "percentageText",
+        "parent": {
+          "__i": 5196
+        },
+        "image": "symbols/testsymbol/sample/percentageText.json",
+        "host": {
+          "__i": 5197
+        },
+        "position": {
+          "x": 521.00937,
+          "y": 201.05195
+        },
+        "width": 159.90815,
+        "height": 68.33695
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "circleValue": "0"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5199,
+      "p": {
+        "displayName": "config-btn",
+        "tag": "config-btn",
+        "host": {
+          "__i": 5040
+        },
+        "position": {
+          "x": -736.90419,
+          "y": -514.04159
+        },
+        "width": 74.8496,
+        "height": 68.20992
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#8BC34A",
+        "shape.border.color": "#979797",
+        "2d.movable": false,
+        "2d.editable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5200,
+      "p": {
+        "displayName": "config-icon",
+        "image": "symbols/testsymbol/sample/系统管理.json",
+        "host": {
+          "__i": 5199
+        },
+        "position": {
+          "x": -736.90419,
+          "y": -514.29596
+        },
+        "width": 47.1523,
+        "height": 47.1523
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 5201,
+      "p": {
+        "displayName": "editor",
+        "tag": "editor",
+        "host": {
+          "__i": 5036
+        },
+        "position": {
+          "x": 664.7753,
+          "y": 378.89689
+        },
+        "width": 173.24575,
+        "height": 42,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5202,
+      "p": {
+        "displayName": "save-btn",
+        "parent": {
+          "__i": 5201
+        },
+        "tag": "save-btn",
+        "image": "symbols/testsymbol/sample/button.json",
+        "position": {
+          "x": 711.39818,
+          "y": 378.89689
+        },
+        "width": 80,
+        "height": 42
+      },
+      "s": {
+        "interactive": true,
+        "2d.editable": false,
+        "2d.movable": false
+      },
+      "a": {
+        "ht.text": "save",
+        "ht.font": "15px arial, sans-serif",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 5203,
+      "p": {
+        "displayName": "add",
+        "parent": {
+          "__i": 5201
+        },
+        "tag": "add",
+        "image": "symbols/testsymbol/sample/button.json",
+        "position": {
+          "x": 618.15243,
+          "y": 378.89689
+        },
+        "width": 80,
+        "height": 42
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.text": "add",
+        "ht.font": "15px arial, sans-serif",
+        "ht.textColor": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9654,
+      "p": {
+        "displayName": "echarts-stack",
+        "image": "symbols/testsymbol/echarts-stack.json",
+        "position": {
+          "x": 1047.59846,
+          "y": -205.47054
+        },
+        "width": 159.90104,
+        "height": 146.67178
+      },
+      "a": {
+        "legendShow": false
+      }
+    }
+  ],
+  "modified": "Thu May 09 2019 13:18:58 GMT+0900 (한국 표준시)",
+  "contentRect": {
+    "x": -776.31758,
+    "y": -548.20442,
+    "width": 1931.78421,
+    "height": 1082.06852
+  }
+}

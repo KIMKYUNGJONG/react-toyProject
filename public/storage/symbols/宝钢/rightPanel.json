@@ -1,0 +1,691 @@
+{
+  "modified": "Thu Jul 04 2019 14:52:11 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "ht.columns",
+      "valueType": "Object",
+      "name": "TableColumnDef"
+    },
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource"
+    },
+    {
+      "attr": "ht.headbackground",
+      "valueType": "Color",
+      "name": "TableHeadBackground"
+    },
+    {
+      "attr": "ht.bodyBackground",
+      "valueType": "Color",
+      "name": "TableBodyBackground"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableBorderWidth",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "TableBorderColor"
+    },
+    {
+      "attr": "ht.columnLineColor",
+      "valueType": "Color",
+      "name": "TableColumnLineColor"
+    },
+    {
+      "attr": "ht.columnLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableColumnLineWidth",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ht.rowLineColor",
+      "valueType": "Color",
+      "name": "TableRowLineColor"
+    },
+    {
+      "attr": "ht.rowLineWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableRowLineWidth",
+      "defaultValue": 8
+    },
+    {
+      "attr": "ht.headHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadHeight",
+      "defaultValue": 32
+    },
+    {
+      "attr": "ht.rowHeight",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyHeight",
+      "defaultValue": 145
+    },
+    {
+      "attr": "ht.headTextColor",
+      "valueType": "Color",
+      "name": "TableHeadColor"
+    },
+    {
+      "attr": "ht.bodyTextColor",
+      "valueType": "Color",
+      "name": "TableBodyColor"
+    },
+    {
+      "attr": "ht.cellPadding",
+      "valueType": "PositiveNumber",
+      "name": "TableCellPadding",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ht.headFont",
+      "valueType": "Font",
+      "name": "TableHeadFontFamily"
+    },
+    {
+      "attr": "ht.bodyFont",
+      "valueType": "Font",
+      "name": "TableBodyFontFamily"
+    },
+    {
+      "attr": "ht.showHead",
+      "valueType": "Boolean",
+      "name": "TableShowHead",
+      "defaultValue": false
+    },
+    {
+      "attr": "ht.translateX",
+      "valueType": "Number",
+      "name": "TableTranslateX",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ht.translateY",
+      "valueType": "Number",
+      "name": "TableTranslateY",
+      "defaultValue": 0
+    },
+    {
+      "attr": "ht.hoverBackground",
+      "valueType": "Color",
+      "name": "TableHoverBackground"
+    },
+    {
+      "attr": "ht.scrollable",
+      "valueType": "Boolean",
+      "name": "UIScrollable",
+      "defaultValue": true
+    },
+    {
+      "attr": "ht.scrollBarColor",
+      "valueType": "Color",
+      "name": "TableScrollBarColor"
+    },
+    {
+      "attr": "ht.scrollBarWidth",
+      "valueType": "PositiveNumber",
+      "name": "TableScrollBarWidth",
+      "defaultValue": 5
+    },
+    {
+      "attr": "ht.drawRow",
+      "valueType": "Function",
+      "name": "TableDrawRow"
+    },
+    {
+      "attr": "ht.onSelectRow",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(row, data, view){\n\n}",
+      "name": "TableOnSelectRow"
+    },
+    {
+      "attr": "ht.autoHideScrollBar",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "TableAutoHideScrollBar"
+    },
+    {
+      "attr": "panel",
+      "valueType": "Image",
+      "defaultValue": "symbols/宝钢/预警数据.json"
+    },
+    {
+      "attr": "alarmSum",
+      "valueType": "String",
+      "name": "预警总数"
+    },
+    {
+      "attr": "processedQuantity",
+      "valueType": "String",
+      "name": "处理中预警数"
+    },
+    {
+      "attr": "unprocessedQuantity",
+      "valueType": "String",
+      "name": "未处理预警数"
+    },
+    {
+      "attr": "processProgress",
+      "valueType": "Angle",
+      "name": "预警处理进度"
+    }
+  ],
+  "snapshotURL": "symbols/ht/snapshot/table.json",
+  "width": 265,
+  "height": 1000,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "clip": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.40)",
+      "borderColor": "rgb(41,155,217)",
+      "scaleX": -1,
+      "rotation": 3.14159,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'showCabinetInfo'\n    });\n}\n}",
+      "points": [
+        10.36715,
+        60.19526,
+        220.05728,
+        60.1957,
+        227.60304,
+        65.69213,
+        227.60297,
+        98.43316,
+        224.57121,
+        102.74162,
+        224.57121,
+        159.17259,
+        227.60282,
+        164.13667,
+        227.60274,
+        195.1446,
+        220.05682,
+        201.83588,
+        153.92979,
+        201.83573,
+        145.5526,
+        195.1444,
+        10.36669,
+        195.14409,
+        2.64514,
+        188.45254,
+        2.6452,
+        164.13598,
+        6.65807,
+        159.17259,
+        6.65807,
+        102.74162,
+        2.64533,
+        98.43247,
+        2.64541,
+        65.69143,
+        10.36715,
+        60.19526
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": 6.28319,
+      "points": [
+        139.45292,
+        56.05555,
+        147.79531,
+        64.33437,
+        124.19032,
+        64.33437,
+        115.66449,
+        56.05555
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "scaleX": -1,
+      "rotation": 6.28319,
+      "points": [
+        109.29467,
+        56.05555,
+        117.63706,
+        64.33437,
+        94.03207,
+        64.33437,
+        85.50624,
+        56.05555
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "scaleX": -1,
+      "rotation": 6.28319,
+      "points": [
+        79.13642,
+        56.05555,
+        87.47881,
+        64.33437,
+        63.87383,
+        64.33437,
+        55.348,
+        56.05555
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgba(41,155,217,0.51)",
+      "borderCap": "round",
+      "borderJoin": "bevel",
+      "rotation": -1.5708,
+      "points": [
+        -306.21233,
+        568.90392,
+        441.27463,
+        568.90666,
+        451.9034,
+        559.35274,
+        499.57673,
+        559.35257,
+        584.31174,
+        559.35288,
+        630.37629,
+        559.35305,
+        630.37681,
+        415.95492,
+        637.2086,
+        415.95495,
+        669.20324,
+        415.95506,
+        672.64855,
+        415.95508
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(16,82,92)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "scaleY": -1,
+      "rotation": -1.5708,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'openAlarmList'\n    });\n}\n}",
+      "points": [
+        323.02887,
+        118.7545,
+        323.02887,
+        131.14883,
+        312.66508,
+        144.45619,
+        187.65877,
+        144.45619,
+        178.29293,
+        131.14883,
+        178.29293,
+        118.7545
+      ]
+    },
+    {
+      "type": "text",
+      "text": "경",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rect": [
+        241.46188,
+        80.31086,
+        16.04012,
+        10.78097
+      ]
+    },
+    {
+      "type": "text",
+      "text": "보",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rect": [
+        241.46188,
+        111.02499,
+        16.04012,
+        10.78097
+      ]
+    },
+    {
+      "type": "text",
+      "text": "기",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rect": [
+        241.46188,
+        141.73912,
+        16.04012,
+        10.78097
+      ]
+    },
+    {
+      "type": "text",
+      "text": "록",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rect": [
+        241.46188,
+        172.45325,
+        16.04012,
+        10.78097
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/rotate180.json",
+      "visible": false,
+      "displayName": "rotate180",
+      "rect": [
+        32.6174,
+        5,
+        36.90141,
+        36.90141
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'sceneRotate180'\n    });\n}\n}"
+    },
+    {
+      "type": "circle",
+      "background": "rgba(217,217,217,0)",
+      "borderWidth": 2,
+      "borderColor": "#32D3EB",
+      "border3dColor": "rgb(0,115,255)",
+      "rect": [
+        66.28319,
+        84.23132,
+        97.78351,
+        104.60563
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@alarmSum",
+        "value": "000"
+      },
+      "align": "center",
+      "color": "rgb(51,153,255)",
+      "font": "32px arial, sans-serif",
+      "rect": [
+        86.35366,
+        115.37163,
+        55,
+        35
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(217,217,217,0)",
+      "borderWidth": 8,
+      "borderColor": "#FF7C7C",
+      "border3dColor": "rgb(0,115,255)",
+      "arcFrom": 0,
+      "arcTo": {
+        "func": "attr@processProgress",
+        "value": 0.5236
+      },
+      "arcClose": false,
+      "rotation": -1.0472,
+      "rect": [
+        66.28319,
+        84.23132,
+        97.78351,
+        104.60563
+      ]
+    },
+    {
+      "type": "text",
+      "text": "총 량",
+      "align": "center",
+      "color": "rgb(51,153,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        98.85366,
+        151.31028,
+        30,
+        15
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unprocessedQuantity",
+        "value": "01"
+      },
+      "align": "right",
+      "color": "#FF7C7C",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        178.5971,
+        79.23276,
+        40,
+        27
+      ]
+    },
+    {
+      "type": "text",
+      "text": "미해결",
+      "align": "right",
+      "color": "#FF7C7C",
+      "rect": [
+        178.5971,
+        106.26919,
+        40,
+        15
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@processedQuantity",
+        "value": "01"
+      },
+      "align": "right",
+      "color": "#32D3EB",
+      "font": "24px arial, sans-serif",
+      "displayName": "01",
+      "rect": [
+        15.34798,
+        150.84373,
+        40,
+        27
+      ]
+    },
+    {
+      "type": "text",
+      "text": "처리중",
+      "align": "right",
+      "color": "#32D3EB",
+      "rect": [
+        15.34798,
+        177.84373,
+        40,
+        15
+      ]
+    },
+    {
+      "type": "components/ht/ui/table.json",
+      "clipDirection": "bottom",
+      "displayName": "预警数据表",
+      "rect": [
+        7.48194,
+        220.4984,
+        240,
+        770.36128
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onDown.apply(this, arguments);\nevent.stopPropagation();\nevent.preventDefault();\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\n// ht.vector.tableInteractor.onMove.apply(this, arguments);\ng3d.iv();\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\n// ht.vector.tableInteractor.onLeave.apply(this, arguments);\n// g3d.iv();\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.tableInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\n// ht.vector.tableInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\n// ht.vector.tableInteractor.onEndDrag.apply(this, arguments);\n}",
+      "onScroll": "__ht__function(event, data, view, point, width, height) {\n// ht.vector.tableInteractor.onScroll.apply(this, arguments);\n}",
+      "columns": {
+        "func": "attr@ht.columns",
+        "value": [
+          {
+            "key": "drawPanel",
+            "drawCell": "__ht__function(g, text, rect, info) {\n        var row = info.row,\n            data = info.data,\n            panel = data.a('panel');\n        if (panel) {\n            var d = new ht.Data();\n            ht.Default.drawStretchImage(g, ht.Default.getImage(panel), 'uniform', rect.x, rect.y, rect.width, rect.height, d);\n        }\n    }"
+          }
+        ]
+      },
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": [
+          {
+            "serialNumber": 2,
+            "alarmName": "온도 이상",
+            "alarmLocation": "총 강하 A단 프로세스 라인 캐비닛-A6",
+            "alarmTime": "2019-04-12   12:20:30",
+            "alarmColor": "rgb(242,83,75)",
+            "alarmHandle": "확정",
+            "alarmCabinet": "A6"
+          },
+          {
+            "serialNumber": 1,
+            "alarmName": "전압 이상",
+            "alarmLocation": "총 강하 B단계 프로세스 라인 캐비닛-B3",
+            "alarmTime": "2019-04-12   12:20:30",
+            "alarmColor": "rgb(124,145,155)",
+            "alarmHandle": "처리됨",
+            "alarmCabinet": "B3"
+          }
+        ]
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": null
+      },
+      "columnLineColor": {
+        "func": "attr@ht.columnLineColor",
+        "value": null
+      },
+      "columnLineWidth": {
+        "func": "attr@ht.columnLineWidth",
+        "value": 1
+      },
+      "rowLineColor": {
+        "func": "attr@ht.rowLineColor",
+        "value": "rgba(212,212,212,0)"
+      },
+      "rowLineWidth": {
+        "func": "attr@ht.rowLineWidth",
+        "value": 1
+      },
+      "showHead": {
+        "func": "attr@ht.showHead",
+        "value": false
+      },
+      "thHeight": {
+        "func": "attr@ht.headHeight",
+        "value": 10
+      },
+      "thBackground": {
+        "func": "attr@ht.headbackground",
+        "value": null
+      },
+      "thColor": {
+        "func": "attr@ht.headTextColor",
+        "value": null
+      },
+      "thFont": {
+        "func": "attr@ht.headFont",
+        "value": "12px sans-serif, arial"
+      },
+      "tdHeight": {
+        "func": "attr@ht.rowHeight",
+        "value": 40
+      },
+      "tdBackground": {
+        "func": "attr@ht.bodyBackground",
+        "value": null
+      },
+      "textLineHeight": 40,
+      "tdColor": {
+        "func": "attr@ht.bodyTextColor",
+        "value": null
+      },
+      "cellPadding": {
+        "func": "attr@ht.cellPadding",
+        "value": 0
+      },
+      "tdFont": {
+        "func": "attr@ht.bodyFont",
+        "value": "12px sans-serif, arial"
+      },
+      "hoverBackground": {
+        "func": "attr@ht.hoverBackground",
+        "value": "rgba(54,154,255,0.00)"
+      },
+      "hoverColor": null,
+      "selectBackground": "rgba(51,153,255,0.00)",
+      "selectColor": null,
+      "scrollable": {
+        "func": "attr@ht.scrollable",
+        "value": false
+      },
+      "translateX": {
+        "func": "attr@ht.translateX",
+        "value": 0
+      },
+      "translateY": {
+        "func": "attr@ht.translateY",
+        "value": 2
+      },
+      "autoHideScrollBar": {
+        "func": "attr@ht.autoHideScrollBar",
+        "value": true
+      },
+      "scrollBarColor": {
+        "func": "attr@ht.scrollBarColor",
+        "value": "#60ACFC"
+      },
+      "scrollBarWidth": {
+        "func": "attr@ht.scrollBarWidth",
+        "value": 3
+      },
+      "scrollBarWidthAbsolute": true,
+      "onClickCell": "__ht__function(e, view, row) {\n    if(window.G){\n        G.event.fire({\n            kind: 'focusCabinet',\n            data: row\n        });\n    }\n}"
+    }
+  ]
+}

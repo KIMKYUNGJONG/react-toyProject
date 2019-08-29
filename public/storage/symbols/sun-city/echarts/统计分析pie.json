@@ -1,0 +1,157 @@
+{
+  "modified": "Tue Jul 16 2019 13:00:47 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "ht.dataSource",
+      "valueType": "ObjectArray",
+      "name": "ht.dataSource"
+    },
+    {
+      "attr": "ht.labelLine",
+      "valueType": "Object",
+      "name": "ht.labelLine"
+    },
+    {
+      "attr": "ht.label",
+      "valueType": "Object",
+      "name": "ht.label"
+    },
+    {
+      "attr": "ht.tooltip",
+      "valueType": "Object",
+      "name": "ht.tooltip",
+      "defaultValue": {
+        "show": true,
+        "formatter": "{b} : {d} ({c})"
+      }
+    },
+    {
+      "attr": "ht.radius",
+      "valueType": "NumberArray",
+      "name": "ht.radius"
+    },
+    {
+      "attr": "ht.center",
+      "valueType": "NumberArray",
+      "name": "ht.center"
+    },
+    {
+      "attr": "ht.startAngle",
+      "valueType": "PositiveNumber",
+      "name": "ht.startAngle"
+    },
+    {
+      "attr": "ht.hoverOffset",
+      "valueType": "PositiveNumber",
+      "name": "ht.hoverOffset"
+    },
+    {
+      "attr": "ht.seriesName",
+      "valueType": "String",
+      "name": "ht.seriesName"
+    },
+    {
+      "attr": "ht.roseType",
+      "valueType": "Boolean",
+      "name": "ht.roseType"
+    },
+    {
+      "attr": "ht.avoidLabelOverlap",
+      "valueType": "Boolean",
+      "name": "ht.avoidLabelOverlap"
+    }
+  ],
+  "width": 300,
+  "height": 300,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "components/ht/ui/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onLeave.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": [
+          {
+            "name": "청정 에너지",
+            "value": 25
+          },
+          {
+            "name": "신에너지",
+            "value": 75
+          }
+        ]
+      },
+      "labelLine": {
+        "func": "attr@ht.labelLine",
+        "value": {
+          "normal": {
+            "show": true,
+            "formatter": "{b}:{d}"
+          },
+          "emphasis": {
+            "show": true,
+            "formatter": "{b}:{d}"
+          }
+        }
+      },
+      "label": {
+        "func": "attr@ht.label",
+        "value": {
+          "normal": {
+            "show": false
+          }
+        }
+      },
+      "tooltip": {
+        "func": "attr@ht.tooltip",
+        "value": {
+          "show": true,
+          "formatter": "{b} : {d} ({c})"
+        }
+      },
+      "radius": {
+        "func": "attr@ht.radius",
+        "value": [
+          0,
+          0.25
+        ]
+      },
+      "center": {
+        "func": "attr@ht.center",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "startAngle": {
+        "func": "attr@ht.startAngle",
+        "value": 90
+      },
+      "hoverOffset": {
+        "func": "attr@ht.hoverOffset",
+        "value": 4
+      },
+      "seriesName": {
+        "func": "attr@ht.seriesName",
+        "value": "에너지 통계"
+      },
+      "roseType": {
+        "func": "attr@ht.roseType",
+        "value": false
+      },
+      "avoidLabelOverlap": {
+        "func": "attr@ht.avoidLabelOverlap",
+        "value": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "background": "rgb(44,61,84)",
+    "envmap": "assets/background/天空球.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": true,
+        "strength": 0.48,
+        "threshold": 0.11,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.006,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 7347,
+      "p": {
+        "width": 180,
+        "height": 1,
+        "tall": 180
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.alwaysOnTop": true,
+        "shape3d.image": "assets/贴图/地球仪/dqgq512.png",
+        "shape3d.transparent": true,
+        "shape3d.autorotate": true,
+        "shape3d.vector.dynamic": true,
+        "shape3d.texture.scale": 1,
+        "shape3d.fixSizeOnScreen": false,
+        "interactive": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7348,
+      "p": {
+        "width": 100,
+        "height": 100,
+        "tall": 100
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.image": "assets/贴图/地球仪/dqn1mini4096.jpg",
+        "envmap": 0.7,
+        "interactive": true,
+        "shape3d.blend": null,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7349,
+      "p": {
+        "parent": {
+          "__i": 7348
+        },
+        "host": {
+          "__i": 7348
+        },
+        "position": {
+          "x": 0,
+          "y": 0.5
+        },
+        "width": 450,
+        "height": 450,
+        "tall": 1
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "symbols/3d场景用/地球仪用/光圈 2浅.json",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.vector.dynamic": false,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7604,
+      "p": {
+        "displayName": "info",
+        "parent": {
+          "__i": 7349
+        },
+        "tag": "info",
+        "host": {
+          "__i": 7349
+        },
+        "rotation": 5.49779,
+        "rotationX": 0.87266,
+        "position": {
+          "x": 50,
+          "y": 50
+        },
+        "scale": {
+          "x": 1,
+          "y": 1.23168
+        },
+        "width": 40,
+        "height": 40,
+        "tall": 0,
+        "elevation": 50
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "symbols/3d场景用/列车信息.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "shape3d.reverse.color": "",
+        "shape3d.color": ""
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7606,
+      "p": {
+        "rotation": 5.10043,
+        "rotationX": 0.69813,
+        "position": {
+          "x": 85.13197,
+          "y": 21.45541
+        },
+        "scale": {
+          "x": 1,
+          "y": 1.23168
+        },
+        "width": 20,
+        "height": 40,
+        "tall": 1,
+        "elevation": 100
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "symbols/3d场景用/防火门关闭.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      145.51348,
+      203.64694,
+      160.82254
+    ],
+    "center": [
+      -38.77772,
+      -27.56874,
+      -6.8451
+    ],
+    "near": 10,
+    "far": 10000,
+    "background": "rgb(44,61,84)",
+    "gridVisible": true,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": "rgb(32,55,61)",
+    "editHelperDisabled": false
+  }
+}

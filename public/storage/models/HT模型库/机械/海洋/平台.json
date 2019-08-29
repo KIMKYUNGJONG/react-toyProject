@@ -1,0 +1,13 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/海洋/平台.obj",
+  "mtl": "assets/objs/海洋/平台.mtl",
+  "reverseFlipMtls": "*",
+  "s3": [
+    20,
+    20,
+    20
+  ],
+  "image": "",
+  "prefix": "assets/objs/海洋/"
+}

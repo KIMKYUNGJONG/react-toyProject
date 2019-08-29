@@ -1,0 +1,230 @@
+{
+  "modified": "Mon Mar 25 2019 17:40:12 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.barValueBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(33,96,163)",
+      "name": "1"
+    },
+    {
+      "attr": "ht.value",
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "2"
+    }
+  ],
+  "width": 335,
+  "height": 48,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        9.21619,
+        9.62686,
+        324.665,
+        9.62686,
+        331.79115,
+        16.75303,
+        311.28092,
+        37.26325,
+        22.86191,
+        37.26325,
+        3.20885,
+        17.61018
+      ]
+    },
+    {
+      "type": "components/ht/ui/slider.json",
+      "displayName": "slider",
+      "rect": [
+        7.46892,
+        0.37445,
+        319.70274,
+        48
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onEndDrag.apply(this, arguments);\n}",
+      "min": {
+        "func": "attr@ht.min",
+        "value": -10
+      },
+      "max": {
+        "func": "attr@ht.max",
+        "value": 10
+      },
+      "value": {
+        "func": "attr@ht.value",
+        "value": 4
+      },
+      "disabled": {
+        "func": "attr@ht.disabled",
+        "value": false
+      },
+      "barBackground": {
+        "func": "attr@ht.barBakcground",
+        "value": "rgba(255,255,255,0.15)"
+      },
+      "barValueBackground": {
+        "func": "attr@ht.barValueBackground",
+        "value": "rgb(33,96,163)"
+      },
+      "barGradient": {
+        "func": "attr@ht.barGradient",
+        "value": null
+      },
+      "barGradientColor": {
+        "func": "attr@ht.barGradientColor",
+        "value": "rgb(247,247,247)"
+      },
+      "barWidth": {
+        "func": "attr@ht.barWidth",
+        "value": 19
+      },
+      "barBorderRadius": {
+        "func": "attr@ht.barBorderRadius",
+        "value": 0
+      },
+      "sliderImage": {
+        "func": "attr@ht.sliderImage",
+        "value": "symbols/六边形.json"
+      },
+      "sliderBorderWidth": {
+        "func": "attr@ht.sliderBorderWidth",
+        "value": 32
+      },
+      "sliderBorderRadius": {
+        "func": "attr@ht.sliderBorderRadios",
+        "value": 32
+      },
+      "sliderBorderColor": {
+        "func": "attr@ht.sliderBorderColor",
+        "value": null
+      },
+      "sliderBackground": {
+        "func": "attr@ht.sliderBackground",
+        "value": "rgb(247,247,247)"
+      },
+      "sliderWidth": {
+        "func": "attr@ht.sliderWidth",
+        "value": 40
+      },
+      "sliderHeight": {
+        "func": "attr@ht.sliderHeight",
+        "value": 40
+      },
+      "sliderOffsetX": {
+        "func": "attr@ht.sliderOffsetX",
+        "value": 0
+      },
+      "sliderOffsetY": {
+        "func": "attr@ht.sliderOffsetY",
+        "value": 0
+      },
+      "padding": 6,
+      "showToolTip": {
+        "func": "attr@ht.showToolTip",
+        "value": true
+      },
+      "toolTipFormat": {
+        "func": "attr@ht.toolTipFormat"
+      },
+      "step": {
+        "func": "attr@ht.step",
+        "value": 0
+      }
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "displayName": "不规则图形",
+      "points": [
+        11.56759,
+        13.06626,
+        31.70309,
+        33.72568,
+        31.70309,
+        35.87636,
+        15.39421,
+        35.87636,
+        8.91268,
+        29.18486,
+        8.91268,
+        13.06626,
+        11.56759,
+        13.06626
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        288.03748,
+        24.37445,
+        300.03748,
+        24.37445
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        294.03749,
+        30,
+        294.03749,
+        18
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "#32D3EB",
+      "pixelPerfect": true,
+      "points": [
+        34.17964,
+        24.37445,
+        46.17964,
+        24.37445
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "scaleX": -1,
+      "points": [
+        304.96809,
+        13.06626,
+        325.10359,
+        33.72568,
+        325.10359,
+        35.87636,
+        309.18959,
+        35.87636,
+        302.31318,
+        28.57357,
+        302.31318,
+        13.06626,
+        304.96809,
+        13.06626
+      ]
+    }
+  ]
+}

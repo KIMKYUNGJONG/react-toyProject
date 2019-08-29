@@ -1,0 +1,88 @@
+{
+  "modified": "Tue Aug 13 2019 16:12:58 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "data",
+      "valueType": "String",
+      "name": "data"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "time",
+      "valueType": "String",
+      "name": "time"
+    },
+    {
+      "attr": "week",
+      "valueType": "String",
+      "name": "week"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if (data.__update__) return;\n\n    var dayMap = {\n        1: '월요일',\n        2: '화요일',\n        3: '수요일',\n        4: '목요일',\n        5: '금요일',\n        6: '토요일',\n        7: '일요일'\n    };\n\n    var addZero = function(v) {\n        if (v < 10) return '0' + v;\n        return v;\n    };\n\n    var update = data.__update__ = function() {\n        var date = new Date();\n        this.a('time', addZero(date.getHours()) + ':' + addZero(date.getMinutes()));\n        this.a('week', dayMap[date.getDay()]);\n        this.a('date', date.getFullYear() + '.' + addZero(date.getMonth() + 1) + '.' + addZero(date.getDate()));\n        setTimeout(function () {\n            update();\n        }, 1000 * 3);\n    }.bind(data);\n\n    update();}",
+  "width": 180,
+  "height": 40,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@date",
+        "value": "2018.03.24"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(124,145,155)"
+      },
+      "anchorY": 0.41691,
+      "rect": [
+        0,
+        0,
+        66.95473,
+        12.72489
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@time",
+        "value": "15:06"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(124,145,155)"
+      },
+      "font": "26px arial, sans-serif",
+      "anchorY": 0.41691,
+      "rect": [
+        0,
+        14.69153,
+        70.16876,
+        25.30847
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@week",
+        "value": "월요일"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(124,145,155)"
+      },
+      "font": "30px Godo",
+      "anchorY": 0.41691,
+      "rect": [
+        82.86442,
+        6.36245,
+        79.69204,
+        30
+      ]
+    }
+  ]
+}

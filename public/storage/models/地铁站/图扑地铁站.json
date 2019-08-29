@@ -1,0 +1,8 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/地铁站/图扑地铁站.obj",
+  "mtl": "assets/objs/地铁站/图扑地铁站.mtl",
+  "reverseFlipMtls": "*",
+  "image": "",
+  "prefix": "assets/objs/地铁站/"
+}

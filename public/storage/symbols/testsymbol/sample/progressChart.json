@@ -1,0 +1,49 @@
+{
+  "modified": "Thu Apr 04 2019 16:21:27 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "progressPercentage",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        10
+      ]
+    }
+  ],
+  "width": 508,
+  "height": 512,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/testComp/radialBarChart.json",
+      "pixelPerfect": true,
+      "displayName": "radialBarChart",
+      "rect": [
+        0,
+        0,
+        508,
+        512
+      ],
+      "progressPercentage": {
+        "func": "attr@progressPercentage",
+        "value": [
+          25
+        ]
+      },
+      "progressColor": {
+        "func": "attr@progressColor",
+        "value": [
+          "rgb(139, 195, 74)"
+        ]
+      },
+      "blankCirclePercent": {
+        "func": "attr@blankCirclePercent",
+        "value": 0.8
+      },
+      "progressValueName": [
+        "A"
+      ]
+    }
+  ]
+}

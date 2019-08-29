@@ -1,0 +1,937 @@
+{
+  "modified": "Thu Jul 25 2019 13:37:34 GMT+0900 (한국 표준시)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [
+    {
+      "attr": "cabinetName",
+      "valueType": "String"
+    },
+    {
+      "attr": "secondaryChamberT",
+      "valueType": "String"
+    },
+    {
+      "attr": "cableRoomT",
+      "valueType": "String"
+    },
+    {
+      "attr": "transformerTemperature",
+      "valueType": "String"
+    },
+    {
+      "attr": "transformerLoadFactor",
+      "valueType": "String"
+    },
+    {
+      "attr": "meat",
+      "valueType": "String"
+    }
+  ],
+  "width": 300,
+  "height": 820,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgba(41,155,217,0.51)",
+      "borderCap": "round",
+      "borderJoin": "bevel",
+      "pixelPerfect": true,
+      "scaleY": -1,
+      "rotation": -1.5708,
+      "points": [
+        -357.53879,
+        438.72413,
+        -32.87336,
+        438.72294,
+        -24.86939,
+        429.16669,
+        22.75225,
+        429.16652,
+        -7.86439,
+        408.62809,
+        195.19355,
+        408.62735,
+        222.29815,
+        438.722,
+        438.78295,
+        438.72121,
+        438.78271,
+        374.85882
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(16,82,92)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "displayName": "标题",
+      "rotation": -1.5708,
+      "points": [
+        115.04616,
+        347.56054,
+        115.04616,
+        359.95487,
+        101.18615,
+        373.26223,
+        -65.99099,
+        373.26223,
+        -78.51639,
+        359.95487,
+        -78.51639,
+        347.56054
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "rotation": -1.5708,
+      "points": [
+        34.26087,
+        458.5615,
+        41.58269,
+        465.82751,
+        20.86543,
+        465.82751,
+        13.38261,
+        458.5615
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        34.26087,
+        254.99526,
+        41.58269,
+        262.26128,
+        20.86543,
+        262.26128,
+        13.38261,
+        254.99526
+      ]
+    },
+    {
+      "type": "text",
+      "text": "캐",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "pixelPerfect": true,
+      "rect": [
+        4.93491,
+        299.05344,
+        22.54774,
+        15.20288
+      ]
+    },
+    {
+      "type": "text",
+      "text": "비",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "pixelPerfect": true,
+      "rect": [
+        4.93491,
+        324.00131,
+        22.54774,
+        15.20288
+      ]
+    },
+    {
+      "type": "text",
+      "text": "닛",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "pixelPerfect": true,
+      "rect": [
+        4.93491,
+        348.94919,
+        22.54774,
+        15.20288
+      ]
+    },
+    {
+      "type": "text",
+      "text": "정",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "pixelPerfect": true,
+      "rect": [
+        4.93491,
+        373.89706,
+        22.54774,
+        15.20288
+      ]
+    },
+    {
+      "type": "text",
+      "text": "보",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "pixelPerfect": true,
+      "rect": [
+        4.93491,
+        398.84493,
+        22.54774,
+        15.20288
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "points": [
+        290.70381,
+        27.03224,
+        290.7038,
+        58.24385,
+        279.63865,
+        64.36766,
+        245.57161,
+        64.3676,
+        237.89703,
+        59.82307,
+        57.3344,
+        59.82271,
+        44.93937,
+        53.6993,
+        44.93944,
+        27.03159
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        117.13445,
+        22.67828,
+        124.4987,
+        30.3553,
+        104.17619,
+        30.3554,
+        96.13522,
+        22.67828
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "rotation": 6.28319,
+      "points": [
+        143.56793,
+        22.67828,
+        150.93217,
+        30.3553,
+        130.09487,
+        30.3553,
+        122.5687,
+        22.67828
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "rotation": 6.28319,
+      "points": [
+        170.0014,
+        22.67828,
+        177.36564,
+        30.3553,
+        156.52835,
+        30.3553,
+        149.00218,
+        22.67828
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@cabinetName",
+        "value": "캐비닛 번호 (A06)"
+      },
+      "color": "#32D3EB",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        66.60325,
+        33.50424,
+        92.19194,
+        23.88249
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        64.64207,
+        55.50045,
+        68.28348,
+        58.3871,
+        277.35132,
+        58.3871,
+        279.02628,
+        59.27302,
+        55.93546,
+        59.27302,
+        51.07186,
+        55.50045
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "rect": [
+        49.97327,
+        329.09123,
+        230.46907,
+        5.02304
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "points": [
+        52.95199,
+        83.72485,
+        282.44493,
+        83.72576,
+        290.70329,
+        95.32734,
+        290.70354,
+        137.88487,
+        287.38523,
+        147.57708,
+        287.38489,
+        277.69019,
+        290.70315,
+        283.96505,
+        290.70304,
+        322.89109,
+        282.44428,
+        331.44148,
+        209.56889,
+        331.44129,
+        200.90421,
+        322.89067,
+        52.95154,
+        322.88999,
+        44.50079,
+        308.7659,
+        44.50053,
+        283.9644,
+        48.89236,
+        277.68956,
+        48.8927,
+        147.57644,
+        44.50125,
+        137.88422,
+        44.50103,
+        95.32587,
+        52.95199,
+        83.72469
+      ]
+    },
+    {
+      "type": "text",
+      "text": "상태 정보",
+      "color": "#32D3EB",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        62.80301,
+        89.22115,
+        93.84392,
+        28.15727
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        154.26218,
+        81.95505,
+        163.42799,
+        89.22107,
+        137.49311,
+        89.22107,
+        128.12575,
+        81.95505
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "rotation": 6.28319,
+      "points": [
+        189.56443,
+        81.95505,
+        198.73024,
+        89.22107,
+        172.79535,
+        89.22107,
+        163.42799,
+        81.95505
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "rotation": 6.28319,
+      "points": [
+        223.80097,
+        81.95505,
+        232.96679,
+        89.22107,
+        207.0319,
+        89.22107,
+        197.66454,
+        81.95505
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        62.64891,
+        108.16688,
+        66.29032,
+        111.05353,
+        275.35815,
+        111.05353,
+        277.03312,
+        111.93945,
+        53.9423,
+        111.93945,
+        49.0787,
+        108.16688
+      ]
+    },
+    {
+      "type": "text",
+      "text": "상세",
+      "align": "center",
+      "color": "#32D3EB",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        242.81767,
+        93.79151,
+        33.9471,
+        18.14847
+      ]
+    },
+    {
+      "type": "roundRect",
+      "borderColor": "#979797",
+      "displayName": "状态详情按钮",
+      "rect": [
+        245.04557,
+        93.52228,
+        35.97388,
+        16.53089
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'showAllDetailData',\n        detailType: 'S'\n    });\n}\n}"
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "rect": [
+        50.98093,
+        601.28742,
+        229.46141,
+        4.35263
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "points": [
+        52.95199,
+        355.57047,
+        282.44493,
+        355.57138,
+        290.70329,
+        367.17295,
+        290.70354,
+        409.73048,
+        287.38523,
+        419.42269,
+        287.38489,
+        549.5358,
+        290.70315,
+        555.81066,
+        290.70304,
+        594.7367,
+        282.44428,
+        603.2871,
+        209.56889,
+        603.2869,
+        200.90421,
+        594.73628,
+        52.95154,
+        594.7356,
+        44.50079,
+        580.61151,
+        44.50053,
+        555.81001,
+        48.89236,
+        549.53517,
+        48.8927,
+        419.42206,
+        44.50125,
+        409.72983,
+        44.50103,
+        367.17148,
+        52.95199,
+        355.57031
+      ]
+    },
+    {
+      "type": "text",
+      "text": "스위치 온도",
+      "color": "#32D3EB",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        64.69548,
+        362.11112,
+        93.43362,
+        28.15727
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        154.14084,
+        355.84501,
+        163.26658,
+        363.11103,
+        137.44509,
+        363.11103,
+        128.11868,
+        355.84501
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "rotation": 6.28319,
+      "points": [
+        189.28873,
+        355.84501,
+        198.41448,
+        363.11103,
+        172.59298,
+        363.11103,
+        163.26658,
+        355.84501
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "rotation": 6.28319,
+      "points": [
+        223.3756,
+        355.84501,
+        232.50133,
+        363.11103,
+        206.67985,
+        363.11103,
+        197.35343,
+        355.84501
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        64.54205,
+        381.55022,
+        68.16754,
+        384.43687,
+        276.32128,
+        384.43687,
+        277.98892,
+        385.32279,
+        55.87351,
+        385.32279,
+        51.03117,
+        381.55022
+      ]
+    },
+    {
+      "type": "text",
+      "text": "상세",
+      "align": "center",
+      "color": "#32D3EB",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        243.10846,
+        366.28803,
+        33.9471,
+        18.14847
+      ]
+    },
+    {
+      "type": "roundRect",
+      "borderColor": "#979797",
+      "displayName": "开关温度详情按钮",
+      "rect": [
+        240.79089,
+        367.09682,
+        35.97388,
+        16.53089
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'showAllDetailData',\n        detailType: 'T'\n    });\n}\n}"
+    },
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "rect": [
+        56.2513,
+        714.37307,
+        224.93917,
+        4.35263
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "points": [
+        57.33465,
+        625.01733,
+        279.6389,
+        625.01784,
+        290.70351,
+        635.47004,
+        290.70357,
+        653.49522,
+        284.74116,
+        659.02688,
+        284.74109,
+        689.66361,
+        290.70369,
+        694.5369,
+        290.70374,
+        707.95805,
+        279.63859,
+        716.54906,
+        245.57156,
+        716.54897,
+        237.89698,
+        710.17351,
+        57.33435,
+        710.17301,
+        44.93932,
+        701.58257,
+        44.93925,
+        688.16142,
+        53.14235,
+        681.78794,
+        53.14223,
+        659.02693,
+        44.93913,
+        653.49526,
+        44.93906,
+        635.47008
+      ]
+    },
+    {
+      "type": "text",
+      "text": "이차실 온도 :",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        66.93643,
+        640.53319,
+        66.26492,
+        31.47906
+      ]
+    },
+    {
+      "type": "text",
+      "text": "케이블실 온도 :",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        66.93643,
+        679.70057,
+        94.52213,
+        28.87048
+      ]
+    },
+    {
+      "type": "text",
+      "text": "℃",
+      "align": "right",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        193.68563,
+        641.79477,
+        69.24091,
+        32.92128
+      ]
+    },
+    {
+      "type": "text",
+      "text": "℃",
+      "align": "right",
+      "color": "rgb(247,247,247)",
+      "font": "14px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        193.68563,
+        679.31568,
+        69.24091,
+        30.19318
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@secondaryChamberT",
+        "value": "26.5"
+      },
+      "align": "center",
+      "color": "#32D3EB",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rect": [
+        162.09605,
+        651.77961,
+        66.43837,
+        14.9516
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@cableRoomT",
+        "value": "27.2"
+      },
+      "align": "center",
+      "color": "#32D3EB",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rect": [
+        162.09605,
+        687.93647,
+        66.43837,
+        14.9516
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "rotation": 6.28319,
+      "points": [
+        128.5037,
+        618.92139,
+        135.86795,
+        626.50003,
+        115.54544,
+        626.50013,
+        107.50447,
+        618.92139
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.7,
+      "rotation": 6.28319,
+      "points": [
+        154.93718,
+        618.92139,
+        162.30142,
+        626.50003,
+        141.46412,
+        626.50003,
+        133.93795,
+        618.92139
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(29,110,122)",
+      "fillRule": "evenodd",
+      "opacity": 0.4,
+      "displayName": "不规则图形",
+      "rotation": 6.28319,
+      "points": [
+        181.37065,
+        618.92139,
+        188.73489,
+        626.50003,
+        167.8976,
+        626.50003,
+        160.37143,
+        618.92139
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(20,20,61,0.6)",
+      "borderColor": "rgb(41,155,217)",
+      "rotation": 3.14159,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'showAllContactor'\n    });\n}\n}",
+      "points": [
+        52.26055,
+        746.96125,
+        286.5304,
+        746.96169,
+        290.28381,
+        748.46451,
+        290.28367,
+        782.02969,
+        286.53017,
+        783.85921,
+        52.26032,
+        783.85868,
+        48.41947,
+        782.0291,
+        48.4196,
+        748.464
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(6,138,158)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "opacity": 0.5,
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarmData'\n    });\n}\n}",
+      "points": [
+        61.66585,
+        764.85189,
+        61.66585,
+        767.10213,
+        59.89586,
+        769.51815,
+        38.54659,
+        769.51815,
+        36.94704,
+        767.10213,
+        36.94704,
+        764.85189
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(6,138,158)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "opacity": 0.5,
+      "scaleX": -1,
+      "rotation": 1.5708,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(window.G){\n    G.event.fire({\n        kind: 'handleAlarmData'\n    });\n}\n}",
+      "points": [
+        302.78695,
+        764.85189,
+        302.78695,
+        767.10213,
+        301.01696,
+        769.51815,
+        279.66769,
+        769.51815,
+        278.06814,
+        767.10213,
+        278.06814,
+        764.85189
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@meat",
+        "value": "상세 데이터"
+      },
+      "align": "center",
+      "color": "#32D3EB",
+      "font": "20px arial, sans-serif",
+      "selectable": false,
+      "rect": [
+        56.37685,
+        754.82561,
+        226.95777,
+        24.71882
+      ]
+    }
+  ]
+}

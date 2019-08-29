@@ -1,0 +1,501 @@
+{
+  "modified": "Fri May 24 2019 09:47:14 GMT+0800 (中国标准时间)",
+  "width": 353,
+  "height": 473,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(33,33,33,0.3)",
+      "borderWidth": 1,
+      "borderColor": "rgb(51,153,255)",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        0.00001,
+        1.57182,
+        333.16712,
+        1.57182,
+        333.16712,
+        1.57182,
+        336.64422,
+        1.35302,
+        340.21276,
+        4.68998,
+        343.78132,
+        8.02695,
+        343.78132,
+        12.71718,
+        343.78132,
+        12.71718,
+        343.78132,
+        232.43696,
+        343.78132,
+        232.43696,
+        344.24084,
+        236.91223,
+        340.79225,
+        240.90404,
+        337.34366,
+        244.89587,
+        333.16712,
+        244.80872,
+        333.16712,
+        244.80872,
+        0.00001,
+        244.80872,
+        0.00001,
+        1.57182
+      ],
+      "segments": [
+        1,
+        2,
+        4,
+        4,
+        2,
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        0,
+        0,
+        167.97369,
+        0,
+        162.3013,
+        5.56338,
+        0,
+        5.56338,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 7,
+      "borderColor": "rgb(51,153,255)",
+      "pixelPerfect": true,
+      "points": [
+        333.16712,
+        1.57182,
+        333.16712,
+        1.57182,
+        336.64422,
+        1.35302,
+        340.21276,
+        4.68998,
+        343.78131,
+        8.02695,
+        343.78131,
+        12.71718,
+        343.78131,
+        12.71718,
+        343.78131,
+        231.16672,
+        343.78131,
+        231.16672,
+        344.24084,
+        235.64198,
+        340.79225,
+        239.6338,
+        337.34366,
+        243.62562,
+        333.16712,
+        243.53848,
+        333.16712,
+        243.53848
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 8,
+      "borderColor": "rgb(255,255,255)",
+      "arcFrom": 0,
+      "arcTo": 1.5708,
+      "arcClose": false,
+      "pixelPerfect": true,
+      "rotation": 4.71239,
+      "rect": [
+        305.53963,
+        0.50187,
+        19.6462,
+        52.62157
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        0.00002,
+        223.47456,
+        0.00002,
+        244.89588,
+        23.16395,
+        244.89588
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        20.78021,
+        25.53472,
+        4.21646,
+        3.9822
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        315.36273,
+        90.42449,
+        10.26141,
+        9.69133
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        315.36273,
+        107.76648,
+        10.26141,
+        9.69133
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        315.36273,
+        125.10846,
+        10.26141,
+        9.69133
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        315.36273,
+        142.45045,
+        10.26141,
+        9.69133
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        315.36273,
+        159.79243,
+        10.26141,
+        9.69133
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": "XXXXXXXX"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        28.61816,
+        22.39805,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@key1",
+        "value": "设备名称："
+      },
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        86.16325,
+        66.15117,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value1",
+        "value": "XXXXXX"
+      },
+      "color": "#32D3EB",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        213.63147,
+        66.15117,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@key2",
+        "value": "设备名称："
+      },
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        86.16325,
+        105.22603,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value2",
+        "value": "XXXXXX"
+      },
+      "color": "#32D3EB",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        213.63147,
+        105.22603,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@key3",
+        "value": "设备名称："
+      },
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        86.16325,
+        144.30089,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value3",
+        "value": "XXXXXX"
+      },
+      "color": "#32D3EB",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        213.63147,
+        144.30089,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@key4",
+        "value": "设备名称："
+      },
+      "color": "rgb(255,255,255)",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        86.16325,
+        183.37574,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value4",
+        "value": "XXXXXX"
+      },
+      "color": "#32D3EB",
+      "font": "bold 18px sans-serif, Arial",
+      "pixelPerfect": true,
+      "rect": [
+        213.63147,
+        183.37574,
+        69.91014,
+        14.23773
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": "rgb(51,153,255)",
+      "pixelPerfect": true,
+      "points": [
+        177,
+        244.89587,
+        177,
+        463.34541
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "rect": [
+        171.8282,
+        241.68477,
+        11,
+        11
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "rect": [
+        171.8282,
+        457.84541,
+        11,
+        11
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(0,200,255)",
+      "borderColor": "#979797",
+      "rect": [
+        173.35656,
+        459.56708,
+        7.92176,
+        7.92176
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgb(0,225,255)",
+      "pixelPerfect": true,
+      "shadow": true,
+      "shadowColor": "rgb(84,84,84)",
+      "shadowBlur": 4,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 5,
+      "anchorX": 0.41982,
+      "anchorY": 0.37389,
+      "rect": [
+        50.95138,
+        66.02384,
+        19.15341,
+        14.36505
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgb(0,225,255)",
+      "pixelPerfect": true,
+      "shadow": true,
+      "shadowColor": "rgb(84,84,84)",
+      "shadowBlur": 4,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 5,
+      "anchorX": 0.41982,
+      "anchorY": 0.37389,
+      "rect": [
+        50.95138,
+        104.7532,
+        19.15341,
+        14.36505
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgb(0,225,255)",
+      "pixelPerfect": true,
+      "shadow": true,
+      "shadowColor": "rgb(84,84,84)",
+      "shadowBlur": 4,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 5,
+      "anchorX": 0.41982,
+      "anchorY": 0.37389,
+      "rect": [
+        50.95138,
+        143.48256,
+        19.15341,
+        14.36505
+      ]
+    },
+    {
+      "type": "polygon",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgb(0,225,255)",
+      "pixelPerfect": true,
+      "shadow": true,
+      "shadowColor": "rgb(84,84,84)",
+      "shadowBlur": 4,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 5,
+      "anchorX": 0.41982,
+      "anchorY": 0.37389,
+      "rect": [
+        50.95138,
+        182.21192,
+        19.15341,
+        14.36505
+      ]
+    }
+  ]
+}

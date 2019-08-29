@@ -1,0 +1,212 @@
+{
+  "modified": "Mon Aug 05 2019 15:51:00 GMT+0900 (한국 표준시)",
+  "width": 228,
+  "height": 127,
+  "boundExtend": 24,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgba(194,133,43,0.60)",
+      "borderColor": "#979797",
+      "selectable": false,
+      "shadowColor": "rgb(217,41,41)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        18.24582,
+        58.92969,
+        209.43473,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(194,133,43,0.60)",
+      "borderColor": "rgba(76,205,252,0.50)",
+      "points": [
+        18.56273,
+        61.18278,
+        0.00001,
+        50.85149,
+        0.00001,
+        0.84194,
+        211.43724,
+        0.84194,
+        227.68054,
+        12.14425,
+        227.68054,
+        61.18278
+      ]
+    },
+    {
+      "type": "text",
+      "text": "지연00:40",
+      "align": "center",
+      "color": "rgb(222,222,222)",
+      "font": "18px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        48.82093,
+        0.84194,
+        137.83674,
+        33.74146
+      ]
+    },
+    {
+      "type": "text",
+      "text": "샤먼 항공-HT666",
+      "align": "center",
+      "color": "rgb(222,222,222)",
+      "font": "16px arial, sans-serif",
+      "anchorX": 0.2884,
+      "anchorY": 0.35576,
+      "rect": [
+        47.15308,
+        26.85395,
+        144.01323,
+        35.77936
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(153,153,153,0.03)",
+      "borderWidth": 1,
+      "borderColor": "rgba(237,165,57,0.60)",
+      "shadow": true,
+      "shadowColor": null,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "points": [
+        30.907,
+        60.92969,
+        42.30261,
+        75.78131,
+        86.93542,
+        76.16212,
+        114.9306,
+        123.14932
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(194,133,43,0.60)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": null,
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        27.15258,
+        57.15986,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(194,133,43,0.60)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": null,
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        110.95428,
+        118.95414,
+        8.04586,
+        8.04586
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgba(94,63,17,0.10)",
+      "borderColor": "#979797",
+      "arcOval": true,
+      "shadowColor": null,
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        18.56527,
+        27.82815,
+        209.11528,
+        66.20308
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(255,200,117,0.60)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": null,
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        28.76604,
+        58.77331,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgba(255,200,117,0.60)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": null,
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        112.56773,
+        120.56759,
+        4.81895,
+        4.81895
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(255,255,255,0.51)",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "scaleX": -1,
+      "rect": [
+        32.58499,
+        14.18761,
+        2,
+        10.45057
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(255,255,255,0.51)",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "scaleY": -1,
+      "rotation": 1.5708,
+      "rect": [
+        35.47705,
+        19.7461,
+        2,
+        7.78412
+      ]
+    },
+    {
+      "type": "oval",
+      "borderWidth": 2,
+      "borderColor": "rgba(255,255,255,0.51)",
+      "scaleX": -1,
+      "rect": [
+        20.21391,
+        9.46889,
+        26.74216,
+        27.09283
+      ]
+    }
+  ]
+}

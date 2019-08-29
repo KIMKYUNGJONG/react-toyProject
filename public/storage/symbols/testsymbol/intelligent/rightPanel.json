@@ -1,0 +1,64 @@
+{
+  "modified": "Tue Aug 20 2019 12:07:48 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "bgColor1",
+      "valueType": "Color",
+      "name": "bgColor1"
+    },
+    {
+      "attr": "bgColor2",
+      "valueType": "Color",
+      "name": "bgColor2"
+    },
+    {
+      "attr": "value",
+      "valueType": "Percentage",
+      "defaultValue": 0,
+      "name": "percentage"
+    },
+    {
+      "attr": "electricalCapacity",
+      "valueType": "String",
+      "name": "electricalCapacity"
+    },
+    {
+      "attr": "floorSpace",
+      "valueType": "String",
+      "name": "floorSpace"
+    },
+    {
+      "attr": "area",
+      "valueType": "String",
+      "name": "area"
+    },
+    {
+      "attr": "title",
+      "valueType": "String",
+      "name": "title"
+    }
+  ],
+  "width": 300,
+  "height": 970,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@bgColor1",
+        "value": "rgba(40,60,79,0.3)"
+      },
+      "borderColor": "#979797",
+      "gradient": "linear.south",
+      "gradientColor": {
+        "func": "attr@bgColor2",
+        "value": "#FFF"
+      },
+      "rect": [
+        0,
+        0,
+        300,
+        970
+      ]
+    }
+  ]
+}

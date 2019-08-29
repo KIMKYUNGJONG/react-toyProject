@@ -1,0 +1,52 @@
+{
+  "modified": "Mon Apr 15 2019 11:31:54 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "valueType": "Boolean",
+      "attr": "shadow",
+      "defaultValue": true,
+      "name": "shadow"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(255,255,255,0.50)",
+      "name": "shadowColor"
+    }
+  ],
+  "rotateAsClock": true,
+  "width": 100,
+  "height": 100,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(84,170,255,0.5)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(153,126,194,0.5)",
+      "pixelPerfect": true,
+      "shadow": {
+        "func": "attr@shadow",
+        "value": false
+      },
+      "shadowColor": {
+        "func": "attr@shadowColor",
+        "value": "rgba(0,0,0,0.1)"
+      },
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 6.28319,
+      "rect": [
+        11.46512,
+        11.46512,
+        77.06975,
+        77.06975
+      ],
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.a('shadow', true);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.a('shadow', false);\n}"
+    }
+  ]
+}

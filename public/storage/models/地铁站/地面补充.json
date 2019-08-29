@@ -1,0 +1,8 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/地铁站/地面补充.obj",
+  "mtl": "assets/objs/地铁站/地面补充.mtl",
+  "reverseFlipMtls": "*",
+  "image": "",
+  "prefix": "assets/objs/地铁站/"
+}

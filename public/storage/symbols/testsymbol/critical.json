@@ -1,0 +1,20 @@
+{
+  "modified": "Thu Jan 17 2019 16:44:27 GMT+0900 (한국 표준시)",
+  "width": 50,
+  "height": 50,
+  "comps": [
+    {
+      "type": "circle",
+      "background": "rgb(179,0,0)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgb(255,61,61)",
+      "rect": [
+        9.62414,
+        9.62414,
+        30.75173,
+        30.75173
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "modified": "Mon Mar 25 2019 16:13:50 GMT+0800 (中国标准时间)",
+  "width": 32,
+  "height": 32,
+  "comps": [
+    {
+      "type": "polygon",
+      "background": "#32D3EB",
+      "rotation": 1.5708,
+      "rect": [
+        -7.02893,
+        1,
+        46.05787,
+        30
+      ]
+    }
+  ]
+}

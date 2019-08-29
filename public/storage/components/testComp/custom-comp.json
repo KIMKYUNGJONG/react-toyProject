@@ -1,0 +1,62 @@
+{
+  "modified": "Fri Apr 05 2019 11:56:02 GMT+0900 (한국 표준시)",
+  "width": 1500,
+  "height": 800,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\n// 컴포넌트 x,y, 너비,높이값\r\nvar x = rect.x\r\nvar y = rect.y\r\nvar rectWidth = rect.width;\r\nvar rectHeight = rect.height;\r\nvar waveForeground = addCreateLinear(comp.getValue('colorArr'));\r\nvar waveBackground = comp.getValue('background');\r\nvar startX = 0;\r\nvar waveWidth = comp.getValue('waveWidth');\r\nvar waveHeight = comp.getValue('waveHeight');\r\nvar wareXOffset = comp.getValue('wareXOffset');\r\nvar percentage = comp.getValue('percentage');\r\n\r\nvar points = [];\r\n\r\n// 创建渐变背景色\r\nfunction addCreateLinear(colorsArr) {\r\n    var linear = g.createLinearGradient(0, 0, 0, rectHeight);\r\n    var len = colorsArr.length;\r\n    colorsArr.forEach(function(item, index) {\r\n        linear.addColorStop((index + 1) / len, item);\r\n    });\r\n    return linear;\r\n}\r\n\r\n// 绘制波浪函数\r\nfunction drawWave(xOffset, fillStyle, direction) {\r\n    g.beginPath();\r\n    for (var x = startX; x < startX + rectWidth; x += 20 / rectWidth) {\r\n        var y =\r\n            waveHeight *\r\n            Math.sin((startX + x) * waveWidth + xOffset * direction);\r\n        points.push([x, rectHeight * (1 - percentage) + y]);\r\n        g.lineTo(x, rectHeight * (1 - percentage) + y);\r\n    }\r\n    g.lineTo(rectWidth, rectHeight);\r\n    g.lineTo(startX, rectHeight);\r\n    g.lineTo(points[0][0], points[0][1]);\r\n    g.fillStyle = fillStyle;\r\n    g.fill();\r\n}\r\n\r\ng.save();\r\n\r\ng.beginPath();\r\ng.rect(x, y, rectWidth, rectHeight);\r\ng.clip();\r\n\r\nif (percentage === 1) {\r\n    g.beginPath();\r\n    g.fillStyle = waveForeground;\r\n    g.fillRect(x, y, rectWidth, rectHeight);\r\n} else {\r\n    drawWave(wareXOffset + 0.75, waveBackground, 1);\r\n    drawWave(wareXOffset, waveForeground, 1);\r\n}\r\n\r\n// restore\r\ng.restore();\n}",
+  "properties": {
+    "fillColor": {
+      "valueType": "String",
+      "defaultValue": "#fabc37",
+      "name": "FillColor"
+    },
+    "lineWidth": {
+      "valueType": "Number",
+      "defaultValue": 10,
+      "name": "LineWidth"
+    },
+    "strokeColor": {
+      "valueType": "String",
+      "defaultValue": "#faac54",
+      "name": "StrokeColor"
+    },
+    "arcLineWidth": {
+      "valueType": "Number",
+      "defaultValue": "5",
+      "name": "ArcLineNumber"
+    },
+    "colorArr": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "#F39C6A",
+        "#FF7C7C"
+      ],
+      "name": "ColorArr"
+    },
+    "percentage": {
+      "valueType": "Percentage",
+      "defaultValue": 0.5,
+      "name": "Percentage"
+    },
+    "background": {
+      "valueType": "String",
+      "defaultValue": "#f36c6a",
+      "name": "Background"
+    },
+    "waveWidth": {
+      "valueType": "Number",
+      "defaultValue": 0.15,
+      "name": "WaveWidth"
+    },
+    "waveHeight": {
+      "valueType": "Number",
+      "defaultValue": 1.25,
+      "name": "WaveHeight"
+    },
+    "wareXOffset": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "WareXOffset"
+    }
+  }
+}

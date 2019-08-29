@@ -1,0 +1,8 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机械设备/分机机身.obj",
+  "mtl": "assets/objs/机械设备/分机机身.mtl",
+  "reverseFlipMtls": "*",
+  "image": "",
+  "prefix": "assets/objs/机械设备/"
+}

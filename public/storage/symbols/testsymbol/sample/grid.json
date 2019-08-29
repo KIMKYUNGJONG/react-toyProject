@@ -1,0 +1,974 @@
+{
+  "modified": "Tue Apr 16 2019 13:34:53 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(161,149,149)"
+    }
+  ],
+  "width": 1000,
+  "height": 500,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -839.27841,
+        512.13073,
+        188.89159,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -785.26515,
+        512.13073,
+        242.90484,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -731.2519,
+        512.13073,
+        296.9181,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -677.23864,
+        512.13073,
+        350.93135,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -623.22539,
+        512.13073,
+        404.93658,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -569.21213,
+        512.13073,
+        458.94983,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -515.19888,
+        512.13073,
+        512.96309,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -461.18562,
+        512.13073,
+        566.97634,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -407.17237,
+        512.13073,
+        620.9896,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -353.15912,
+        512.13073,
+        675.00285,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -299.14586,
+        512.13073,
+        729.01611,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -245.14063,
+        512.13073,
+        783.02936,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -191.12738,
+        512.13073,
+        837.04262,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -137.11412,
+        512.13073,
+        891.05587,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -83.10087,
+        512.13073,
+        945.06913,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        -29.08761,
+        512.13073,
+        999.08238,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        24.92564,
+        512.13073,
+        1053.09564,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        78.9389,
+        512.13073,
+        1107.10087,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        132.95215,
+        512.13073,
+        1161.11412,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        186.96541,
+        512.13073,
+        1215.12738,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        240.97866,
+        512.13073,
+        1269.14063,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        294.99192,
+        512.13073,
+        1323.15389,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        349.00517,
+        512.13073,
+        1377.16714,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        403.01843,
+        512.13073,
+        1431.1804,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        457.02366,
+        512.13073,
+        1485.19365,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        511.03691,
+        512.13073,
+        1539.20691,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        565.05017,
+        512.13073,
+        1593.22016,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        619.06342,
+        512.13073,
+        1647.23342,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        673.07668,
+        512.13073,
+        1701.24667,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        727.08993,
+        512.13073,
+        1755.25992,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        781.10318,
+        512.13073,
+        1809.26515,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        835.11644,
+        512.13073,
+        1863.27841,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1863.27841,
+        512.13073,
+        835.11644,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1809.26515,
+        512.13073,
+        781.10318,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1755.25992,
+        512.13073,
+        727.08993,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1701.24667,
+        512.13073,
+        673.07668,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1647.23342,
+        512.13073,
+        619.06342,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1593.22016,
+        512.13073,
+        565.05017,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1539.20691,
+        512.13073,
+        511.03691,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1485.19365,
+        512.13073,
+        457.02366,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1431.1804,
+        512.13073,
+        403.01843,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1377.16714,
+        512.13073,
+        349.00517,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1323.15389,
+        512.13073,
+        294.99192,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1269.14063,
+        512.13073,
+        240.97866,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1215.12738,
+        512.13073,
+        186.96541,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1161.11412,
+        512.13073,
+        132.95215,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1107.10087,
+        512.13073,
+        78.9389,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1053.09564,
+        512.13073,
+        24.92564,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        999.08238,
+        512.13073,
+        -29.08761,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        945.06913,
+        512.13073,
+        -83.10087,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        891.05587,
+        512.13073,
+        -137.11412,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        837.04262,
+        512.13073,
+        -191.12738,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        783.02936,
+        512.13073,
+        -245.14063,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        729.01611,
+        512.13073,
+        -299.14586,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        675.00285,
+        512.13073,
+        -353.15912,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        620.9896,
+        512.13073,
+        -407.17237,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        566.97634,
+        512.13073,
+        -461.18562,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        512.96309,
+        512.13073,
+        -515.19888,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        458.94983,
+        512.13073,
+        -569.21213,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        404.93658,
+        512.13073,
+        -623.22539,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        350.93135,
+        512.13073,
+        -677.23864,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        296.9181,
+        512.13073,
+        -731.2519,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        242.90484,
+        512.13073,
+        -785.26515,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#c7e8fa"
+      },
+      "pixelPerfect": true,
+      "points": [
+        188.89159,
+        512.13073,
+        -839.27841,
+        0
+      ]
+    }
+  ]
+}

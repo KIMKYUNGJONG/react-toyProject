@@ -1,0 +1,3548 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "background": "rgb(61,61,61)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 2.06,
+        "threshold": 0.4,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.006,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 9872,
+      "p": {
+        "displayName": "背景球",
+        "position": {
+          "x": -1.97993,
+          "y": -387.66653
+        },
+        "width": 9000,
+        "height": 9000,
+        "tall": 9000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/background/天空球.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9873,
+      "p": {
+        "displayName": "地面光效",
+        "rotationZ": 3.14159,
+        "position": {
+          "x": -35.72103,
+          "y": -536.90748
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 4,
+          "y": 4
+        },
+        "scaleTall": 4,
+        "width": 479.26707,
+        "height": 479.26707,
+        "tall": 6,
+        "elevation": 19.02659
+      },
+      "s": {
+        "shape3d": "",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.top.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.visible": false,
+        "shape3d.reverse.flip": true,
+        "shape3d.bottom.image": "assets/贴图/科技光圈.png",
+        "shape3d.transparent": true,
+        "shape3d.side": 8,
+        "all.visible": false,
+        "bottom.visible": true,
+        "bottom.reverse.flip": true,
+        "bottom.image": "symbols/3d场景用/装饰科技圆环.json",
+        "bottom.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "all.uv.scale": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9874,
+      "p": {
+        "displayName": "飞光",
+        "rotation": -2.49582,
+        "position": {
+          "x": -35.72103,
+          "y": -536.90748
+        },
+        "anchorElevation": 0,
+        "width": 1670.10893,
+        "height": 1670.10893,
+        "tall": 150,
+        "elevation": 69.34053
+      },
+      "s": {
+        "shape3d": "cylinder",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.image": "symbols/3d场景用/飞光.json",
+        "shape3d.uv.scale": [
+          2,
+          1
+        ],
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "shape3d.side": 64,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9875,
+      "p": {
+        "displayName": "菜单中",
+        "rotationX": 0.87266,
+        "position": {
+          "x": -53.13609,
+          "y": 537.30869
+        },
+        "anchorElevation": 0,
+        "width": 1234.34223,
+        "height": 275.83842,
+        "tall": 1,
+        "elevation": 263.7591
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "plane",
+        "shape3d.image": "symbols/3d场景用/长沙站区域.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9876,
+      "p": {
+        "displayName": "右",
+        "rotation": 0.5236,
+        "position": {
+          "x": 1036.54971,
+          "y": 369.10131
+        },
+        "width": 380,
+        "height": 1,
+        "tall": 918,
+        "elevation": 526
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/长沙站.json",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9877,
+      "p": {
+        "displayName": "左",
+        "rotation": 5.75959,
+        "position": {
+          "x": -1138.93742,
+          "y": 390.38948
+        },
+        "width": 380,
+        "height": 1,
+        "tall": 918,
+        "elevation": 526
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/长沙站左.json",
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.reverse.cull": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9878,
+      "p": {
+        "displayName": "右",
+        "rotation": 3.66519,
+        "position": {
+          "x": 1036.54971,
+          "y": 369.10131
+        },
+        "width": 380,
+        "height": 1,
+        "tall": 918,
+        "elevation": 526
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/长沙站.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9879,
+      "p": {
+        "displayName": "左",
+        "rotation": 2.61799,
+        "position": {
+          "x": -1138.93742,
+          "y": 390.38948
+        },
+        "width": 380,
+        "height": 1,
+        "tall": 918,
+        "elevation": 526
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/长沙站左.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9880,
+      "p": {
+        "displayName": "建筑",
+        "position": {
+          "x": -41.43897,
+          "y": -434.66626
+        },
+        "width": 1868.33496,
+        "height": 1923.22156,
+        "tall": 251.93756,
+        "elevation": 459.55496
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9881,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -31.10871,
+          "y": -415.24023
+        },
+        "anchorElevation": 0,
+        "width": 1600.23214,
+        "height": 1884.36951,
+        "tall": 16,
+        "elevation": 417.86702,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -341.49629,
+              "y": -1357.42498
+            },
+            {
+              "x": 258.61835,
+              "y": -1357.42498
+            },
+            {
+              "x": 258.61835,
+              "y": 118.47158
+            },
+            {
+              "x": 769.00736,
+              "y": 118.47158
+            },
+            {
+              "x": 769.00736,
+              "y": 526.94453
+            },
+            {
+              "x": 714.25603,
+              "y": 526.94453
+            },
+            {
+              "x": 714.25603,
+              "y": 177.96841
+            },
+            {
+              "x": 258.61835,
+              "y": 177.96841
+            },
+            {
+              "x": 258.61835,
+              "y": 235.67034
+            },
+            {
+              "x": -341.49629,
+              "y": 235.67034
+            },
+            {
+              "x": -341.49629,
+              "y": 177.96841
+            },
+            {
+              "x": -781.45084,
+              "y": 177.96841
+            },
+            {
+              "x": -781.45084,
+              "y": 526.94453
+            },
+            {
+              "x": -831.22478,
+              "y": 526.94453
+            },
+            {
+              "x": -831.22478,
+              "y": 118.47158
+            },
+            {
+              "x": -341.49629,
+              "y": 118.47158
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9882,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "rotation": -1.5708,
+        "rotationX": 1.5708,
+        "position": {
+          "x": -41.43917,
+          "y": -580.30283
+        },
+        "width": 1631.9462,
+        "height": 23.38785,
+        "tall": 600,
+        "elevation": 513.36255,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -857.41228,
+              "y": -591.99675
+            },
+            {
+              "x": -857.41228,
+              "y": -591.99675
+            },
+            {
+              "x": -748.81585,
+              "y": -568.6089
+            },
+            {
+              "x": -670.21845,
+              "y": -568.6089
+            },
+            {
+              "x": -591.62104,
+              "y": -568.6089
+            },
+            {
+              "x": -609.62044,
+              "y": -591.99675
+            },
+            {
+              "x": -543.02263,
+              "y": -591.99675
+            },
+            {
+              "x": -476.42483,
+              "y": -591.99675
+            },
+            {
+              "x": -479.42473,
+              "y": -568.6089
+            },
+            {
+              "x": -403.82722,
+              "y": -568.6089
+            },
+            {
+              "x": -328.22972,
+              "y": -568.6089
+            },
+            {
+              "x": -321.62993,
+              "y": -591.99675
+            },
+            {
+              "x": -240.6326,
+              "y": -591.99675
+            },
+            {
+              "x": -159.63528,
+              "y": -591.99675
+            },
+            {
+              "x": -161.48762,
+              "y": -568.6089
+            },
+            {
+              "x": -79.8379,
+              "y": -568.6089
+            },
+            {
+              "x": 1.81182,
+              "y": -568.6089
+            },
+            {
+              "x": 4.71709,
+              "y": -591.99675
+            },
+            {
+              "x": 85.96629,
+              "y": -591.99675
+            },
+            {
+              "x": 167.21549,
+              "y": -591.99675
+            },
+            {
+              "x": 160.01412,
+              "y": -568.6089
+            },
+            {
+              "x": 245.1589,
+              "y": -568.6089
+            },
+            {
+              "x": 330.30368,
+              "y": -568.6089
+            },
+            {
+              "x": 340.40012,
+              "y": -591.99675
+            },
+            {
+              "x": 426.5454,
+              "y": -591.99675
+            },
+            {
+              "x": 512.69068,
+              "y": -591.99675
+            },
+            {
+              "x": 502.74289,
+              "y": -568.6089
+            },
+            {
+              "x": 589.74003,
+              "y": -568.6089
+            },
+            {
+              "x": 676.73715,
+              "y": -568.6089
+            },
+            {
+              "x": 774.53393,
+              "y": -591.99675
+            },
+            {
+              "x": 774.53393,
+              "y": -591.99675
+            }
+          ]
+        },
+        "thickness": 5
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.image": "assets/建筑/黄昏玻璃.jpg",
+        "back.image": "assets/建筑/黄昏玻璃.jpg",
+        "all.uv.scale": [
+          1,
+          1
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.resolution": 4,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9883,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -39.22941,
+          "y": -589.59734
+        },
+        "anchorElevation": 0,
+        "width": 494.03351,
+        "height": 1311.59387,
+        "tall": 67,
+        "elevation": 436.25163,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -286.24617,
+              "y": -1245.39428
+            },
+            {
+              "x": 207.78734,
+              "y": -1245.39428
+            },
+            {
+              "x": 207.78734,
+              "y": 66.19961
+            },
+            {
+              "x": -286.24617,
+              "y": 66.19961
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9884,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "rotation": 3.14159,
+        "rotationX": 1.5708,
+        "position": {
+          "x": -73.08941,
+          "y": -612.45802
+        },
+        "width": 1070.66629,
+        "height": 26.21422,
+        "tall": 1209,
+        "elevation": 461.8593,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -608.42255,
+              "y": -625.56512
+            },
+            {
+              "x": -608.42255,
+              "y": -625.56512
+            },
+            {
+              "x": -537.17599,
+              "y": -599.35091
+            },
+            {
+              "x": -485.61081,
+              "y": -599.35091
+            },
+            {
+              "x": -434.04565,
+              "y": -599.35091
+            },
+            {
+              "x": -445.85446,
+              "y": -625.56512
+            },
+            {
+              "x": -402.16183,
+              "y": -625.56512
+            },
+            {
+              "x": -358.46919,
+              "y": -625.56512
+            },
+            {
+              "x": -360.43733,
+              "y": -599.35091
+            },
+            {
+              "x": -310.84029,
+              "y": -599.35091
+            },
+            {
+              "x": -261.24326,
+              "y": -599.35091
+            },
+            {
+              "x": -256.91336,
+              "y": -625.56512
+            },
+            {
+              "x": -203.77367,
+              "y": -625.56512
+            },
+            {
+              "x": -150.63398,
+              "y": -625.56512
+            },
+            {
+              "x": -151.84926,
+              "y": -599.35091
+            },
+            {
+              "x": -98.28155,
+              "y": -599.35091
+            },
+            {
+              "x": -44.71385,
+              "y": -599.35091
+            },
+            {
+              "x": -42.80781,
+              "y": -625.56512
+            },
+            {
+              "x": 10.49713,
+              "y": -625.56512
+            },
+            {
+              "x": 63.80207,
+              "y": -625.56512
+            },
+            {
+              "x": 59.07747,
+              "y": -599.35091
+            },
+            {
+              "x": 114.93816,
+              "y": -599.35091
+            },
+            {
+              "x": 170.79885,
+              "y": -599.35091
+            },
+            {
+              "x": 177.4228,
+              "y": -625.56512
+            },
+            {
+              "x": 233.93989,
+              "y": -625.56512
+            },
+            {
+              "x": 290.45699,
+              "y": -625.56512
+            },
+            {
+              "x": 283.93057,
+              "y": -599.35091
+            },
+            {
+              "x": 341.00653,
+              "y": -599.35091
+            },
+            {
+              "x": 398.08248,
+              "y": -599.35091
+            },
+            {
+              "x": 462.24374,
+              "y": -625.56512
+            },
+            {
+              "x": 462.24374,
+              "y": -625.56512
+            }
+          ]
+        },
+        "thickness": 5
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "front.image": "assets/建筑/黄昏玻璃.jpg",
+        "back.image": "assets/建筑/黄昏玻璃.jpg",
+        "back.uv.scale": [
+          3,
+          3
+        ],
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.resolution": 3,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9885,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -235.90539,
+          "y": 176.58387
+        },
+        "anchorElevation": 0,
+        "width": 15.66674,
+        "height": 14.23349,
+        "tall": 175,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -243.73875,
+              "y": 172.97392
+            },
+            {
+              "x": -240.83751,
+              "y": 169.46712
+            },
+            {
+              "x": -231.08931,
+              "y": 169.46712
+            },
+            {
+              "x": -228.07202,
+              "y": 172.97392
+            },
+            {
+              "x": -228.07202,
+              "y": 180.50323
+            },
+            {
+              "x": -231.55351,
+              "y": 183.70061
+            },
+            {
+              "x": -240.83751,
+              "y": 183.70061
+            },
+            {
+              "x": -243.73875,
+              "y": 180.50323
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9886,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 157.44657,
+          "y": 176.58387
+        },
+        "anchorElevation": 0,
+        "width": 15.66674,
+        "height": 14.23349,
+        "tall": 175,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 149.6132,
+              "y": 172.97392
+            },
+            {
+              "x": 152.51444,
+              "y": 169.46712
+            },
+            {
+              "x": 162.26264,
+              "y": 169.46712
+            },
+            {
+              "x": 165.27993,
+              "y": 172.97392
+            },
+            {
+              "x": 165.27993,
+              "y": 180.50323
+            },
+            {
+              "x": 161.79844,
+              "y": 183.70061
+            },
+            {
+              "x": 152.51444,
+              "y": 183.70061
+            },
+            {
+              "x": 149.6132,
+              "y": 180.50323
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9887,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -329.49686,
+          "y": 225.9614
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -334.37096,
+              "y": 222.01424
+            },
+            {
+              "x": -324.62276,
+              "y": 222.01424
+            },
+            {
+              "x": -325.08696,
+              "y": 229.90856
+            },
+            {
+              "x": -334.37096,
+              "y": 229.90856
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9888,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -98.21368,
+          "y": 225.9614
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -103.08778,
+              "y": 222.01424
+            },
+            {
+              "x": -93.33958,
+              "y": 222.01424
+            },
+            {
+              "x": -93.80378,
+              "y": 229.90856
+            },
+            {
+              "x": -103.08778,
+              "y": 229.90856
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9889,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 17.42791,
+          "y": 225.9614
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 12.55381,
+              "y": 222.01424
+            },
+            {
+              "x": 22.30201,
+              "y": 222.01424
+            },
+            {
+              "x": 21.83781,
+              "y": 229.90856
+            },
+            {
+              "x": 12.55381,
+              "y": 229.90856
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9890,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 133.0695,
+          "y": 225.9614
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 128.1954,
+              "y": 222.01424
+            },
+            {
+              "x": 137.9436,
+              "y": 222.01424
+            },
+            {
+              "x": 137.4794,
+              "y": 229.90856
+            },
+            {
+              "x": 128.1954,
+              "y": 229.90856
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9891,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 248.71109,
+          "y": 225.9614
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 243.83699,
+              "y": 222.01424
+            },
+            {
+              "x": 253.58519,
+              "y": 222.01424
+            },
+            {
+              "x": 253.12099,
+              "y": 229.90856
+            },
+            {
+              "x": 243.83699,
+              "y": 229.90856
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9892,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 247.665,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 242.79091,
+              "y": -1347.11356
+            },
+            {
+              "x": 252.5391,
+              "y": -1347.11356
+            },
+            {
+              "x": 252.0749,
+              "y": -1339.21923
+            },
+            {
+              "x": 242.79091,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9893,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 132.02341,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 127.14932,
+              "y": -1347.11356
+            },
+            {
+              "x": 136.89751,
+              "y": -1347.11356
+            },
+            {
+              "x": 136.43331,
+              "y": -1339.21923
+            },
+            {
+              "x": 127.14932,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9894,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": 16.38182,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 11.50773,
+              "y": -1347.11356
+            },
+            {
+              "x": 21.25592,
+              "y": -1347.11356
+            },
+            {
+              "x": 20.79172,
+              "y": -1339.21923
+            },
+            {
+              "x": 11.50773,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9895,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -99.25976,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -104.13386,
+              "y": -1347.11356
+            },
+            {
+              "x": -94.38567,
+              "y": -1347.11356
+            },
+            {
+              "x": -94.84987,
+              "y": -1339.21923
+            },
+            {
+              "x": -104.13386,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9896,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -214.90135,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -219.77545,
+              "y": -1347.11356
+            },
+            {
+              "x": -210.02726,
+              "y": -1347.11356
+            },
+            {
+              "x": -210.49146,
+              "y": -1339.21923
+            },
+            {
+              "x": -219.77545,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9897,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -330.54294,
+          "y": -1343.16639
+        },
+        "anchorElevation": 0,
+        "width": 9.74819,
+        "height": 7.89433,
+        "tall": 88,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -335.41704,
+              "y": -1347.11356
+            },
+            {
+              "x": -325.66885,
+              "y": -1347.11356
+            },
+            {
+              "x": -326.13305,
+              "y": -1339.21923
+            },
+            {
+              "x": -335.41704,
+              "y": -1339.21923
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9898,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -31.05277,
+          "y": 176.53285
+        },
+        "anchorElevation": 0,
+        "width": 257.7805,
+        "height": 24.67206,
+        "tall": 50,
+        "elevation": 535.52372
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/长沙南.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9899,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -71.07377,
+          "y": -668.78581
+        },
+        "anchorElevation": 0,
+        "width": 975.82905,
+        "height": 1296.28674,
+        "tall": 120,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -558.98829,
+              "y": -1316.92912
+            },
+            {
+              "x": 416.84076,
+              "y": -1316.92912
+            },
+            {
+              "x": 416.84076,
+              "y": -20.64239
+            },
+            {
+              "x": -558.98829,
+              "y": -20.64239
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9900,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "rotation": 3.14159,
+        "rotationX": 1.5708,
+        "position": {
+          "x": -516.0742,
+          "y": 415.52729
+        },
+        "width": 361.31433,
+        "height": 27.20805,
+        "tall": 169,
+        "elevation": 388.34451,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -696.73137,
+              "y": 429.13131
+            },
+            {
+              "x": -662.20165,
+              "y": 429.13131
+            },
+            {
+              "x": -660.97302,
+              "y": 401.92326
+            },
+            {
+              "x": -626.61268,
+              "y": 401.92326
+            },
+            {
+              "x": -592.25235,
+              "y": 401.92326
+            },
+            {
+              "x": -595.29781,
+              "y": 429.13131
+            },
+            {
+              "x": -559.29004,
+              "y": 429.13131
+            },
+            {
+              "x": -523.28226,
+              "y": 429.13131
+            },
+            {
+              "x": -519.01247,
+              "y": 401.92326
+            },
+            {
+              "x": -482.58158,
+              "y": 401.92326
+            },
+            {
+              "x": -446.1507,
+              "y": 401.92326
+            },
+            {
+              "x": -450.35762,
+              "y": 429.13131
+            },
+            {
+              "x": -413.56649,
+              "y": 429.13131
+            },
+            {
+              "x": -376.77535,
+              "y": 429.13131
+            },
+            {
+              "x": -335.41704,
+              "y": 401.92326
+            },
+            {
+              "x": -335.41704,
+              "y": 401.92326
+            }
+          ]
+        },
+        "thickness": 5
+      },
+      "s": {
+        "all.color": "rgba(0,195,255,0.30)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "all.uv.scale": [
+          1,
+          1
+        ],
+        "all.transparent": true,
+        "all.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.resolution": 4,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9901,
+      "p": {
+        "displayName": "车站建筑",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "rotationX": 1.5708,
+        "position": {
+          "x": 462.24376,
+          "y": 415.52729
+        },
+        "width": 361.31433,
+        "height": 27.20805,
+        "tall": 169,
+        "elevation": 388.34451,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 281.5866,
+              "y": 429.13131
+            },
+            {
+              "x": 316.11631,
+              "y": 429.13131
+            },
+            {
+              "x": 317.34495,
+              "y": 401.92326
+            },
+            {
+              "x": 351.70528,
+              "y": 401.92326
+            },
+            {
+              "x": 386.06561,
+              "y": 401.92326
+            },
+            {
+              "x": 383.02015,
+              "y": 429.13131
+            },
+            {
+              "x": 419.02793,
+              "y": 429.13131
+            },
+            {
+              "x": 455.0357,
+              "y": 429.13131
+            },
+            {
+              "x": 459.30549,
+              "y": 401.92326
+            },
+            {
+              "x": 495.73638,
+              "y": 401.92326
+            },
+            {
+              "x": 532.16727,
+              "y": 401.92326
+            },
+            {
+              "x": 527.96034,
+              "y": 429.13131
+            },
+            {
+              "x": 564.75148,
+              "y": 429.13131
+            },
+            {
+              "x": 601.54261,
+              "y": 429.13131
+            },
+            {
+              "x": 642.90092,
+              "y": 401.92326
+            },
+            {
+              "x": 642.90092,
+              "y": 401.92326
+            }
+          ]
+        },
+        "thickness": 5
+      },
+      "s": {
+        "all.color": "rgba(0,195,255,0.30)",
+        "shape.background": null,
+        "shape.border.width": 14,
+        "shape.border.color": "#DDDDDD",
+        "all.uv.scale": [
+          1,
+          1
+        ],
+        "all.transparent": true,
+        "all.reverse.cull": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.resolution": 4,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9902,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9880
+        },
+        "host": {
+          "__i": 9880
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -529.0746
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -549.1987
+            },
+            {
+              "x": 1032.44657,
+              "y": -549.1987
+            },
+            {
+              "x": 1032.44657,
+              "y": -508.9505
+            },
+            {
+              "x": -1103.88843,
+              "y": -508.9505
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9903,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -66.08555
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -86.20965
+            },
+            {
+              "x": 1032.44657,
+              "y": -86.20965
+            },
+            {
+              "x": 1032.44657,
+              "y": -45.96145
+            },
+            {
+              "x": -1103.88843,
+              "y": -45.96145
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9904,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -117.52878
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -137.65288
+            },
+            {
+              "x": 1032.44657,
+              "y": -137.65288
+            },
+            {
+              "x": 1032.44657,
+              "y": -97.40468
+            },
+            {
+              "x": -1103.88843,
+              "y": -97.40468
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9905,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -168.97201
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -189.09611
+            },
+            {
+              "x": 1032.44657,
+              "y": -189.09611
+            },
+            {
+              "x": 1032.44657,
+              "y": -148.84791
+            },
+            {
+              "x": -1103.88843,
+              "y": -148.84791
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9906,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -220.41523
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -240.53934
+            },
+            {
+              "x": 1032.44657,
+              "y": -240.53934
+            },
+            {
+              "x": 1032.44657,
+              "y": -200.29113
+            },
+            {
+              "x": -1103.88843,
+              "y": -200.29113
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9907,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -271.85846
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -291.98257
+            },
+            {
+              "x": 1032.44657,
+              "y": -291.98257
+            },
+            {
+              "x": 1032.44657,
+              "y": -251.73436
+            },
+            {
+              "x": -1103.88843,
+              "y": -251.73436
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9908,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -477.63137
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -497.75548
+            },
+            {
+              "x": 1032.44657,
+              "y": -497.75548
+            },
+            {
+              "x": 1032.44657,
+              "y": -457.50727
+            },
+            {
+              "x": -1103.88843,
+              "y": -457.50727
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9909,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -426.18814
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -446.31225
+            },
+            {
+              "x": 1032.44657,
+              "y": -446.31225
+            },
+            {
+              "x": 1032.44657,
+              "y": -406.06404
+            },
+            {
+              "x": -1103.88843,
+              "y": -406.06404
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9910,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -374.74492
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -394.86902
+            },
+            {
+              "x": 1032.44657,
+              "y": -394.86902
+            },
+            {
+              "x": 1032.44657,
+              "y": -354.62081
+            },
+            {
+              "x": -1103.88843,
+              "y": -354.62081
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9911,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -323.30169
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -343.42579
+            },
+            {
+              "x": 1032.44657,
+              "y": -343.42579
+            },
+            {
+              "x": 1032.44657,
+              "y": -303.17759
+            },
+            {
+              "x": -1103.88843,
+              "y": -303.17759
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9912,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -992.06364
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -1012.18774
+            },
+            {
+              "x": 1032.44657,
+              "y": -1012.18774
+            },
+            {
+              "x": 1032.44657,
+              "y": -971.93954
+            },
+            {
+              "x": -1103.88843,
+              "y": -971.93954
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9913,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -889.17719
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -909.30129
+            },
+            {
+              "x": 1032.44657,
+              "y": -909.30129
+            },
+            {
+              "x": 1032.44657,
+              "y": -869.05308
+            },
+            {
+              "x": -1103.88843,
+              "y": -869.05308
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9914,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -786.29073
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -806.41484
+            },
+            {
+              "x": 1032.44657,
+              "y": -806.41484
+            },
+            {
+              "x": 1032.44657,
+              "y": -766.16663
+            },
+            {
+              "x": -1103.88843,
+              "y": -766.16663
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9915,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -683.40427
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -703.52838
+            },
+            {
+              "x": 1032.44657,
+              "y": -703.52838
+            },
+            {
+              "x": 1032.44657,
+              "y": -663.28017
+            },
+            {
+              "x": -1103.88843,
+              "y": -663.28017
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9916,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -580.51783
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -600.64193
+            },
+            {
+              "x": 1032.44657,
+              "y": -600.64193
+            },
+            {
+              "x": 1032.44657,
+              "y": -560.39373
+            },
+            {
+              "x": -1103.88843,
+              "y": -560.39373
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9917,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -1094.95009
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -1115.07419
+            },
+            {
+              "x": 1032.44657,
+              "y": -1115.07419
+            },
+            {
+              "x": 1032.44657,
+              "y": -1074.82599
+            },
+            {
+              "x": -1103.88843,
+              "y": -1074.82599
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9918,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72093,
+          "y": -1197.83653
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88843,
+              "y": -1217.96063
+            },
+            {
+              "x": 1032.44657,
+              "y": -1217.96063
+            },
+            {
+              "x": 1032.44657,
+              "y": -1177.71242
+            },
+            {
+              "x": -1103.88843,
+              "y": -1177.71242
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9919,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -1249.27976
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -1269.40387
+            },
+            {
+              "x": 1032.44637,
+              "y": -1269.40387
+            },
+            {
+              "x": 1032.44637,
+              "y": -1229.15566
+            },
+            {
+              "x": -1103.88863,
+              "y": -1229.15566
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9920,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -1146.39331
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -1166.51741
+            },
+            {
+              "x": 1032.44637,
+              "y": -1166.51741
+            },
+            {
+              "x": 1032.44637,
+              "y": -1126.2692
+            },
+            {
+              "x": -1103.88863,
+              "y": -1126.2692
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9921,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -1043.50686
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -1063.63097
+            },
+            {
+              "x": 1032.44637,
+              "y": -1063.63097
+            },
+            {
+              "x": 1032.44637,
+              "y": -1023.38276
+            },
+            {
+              "x": -1103.88863,
+              "y": -1023.38276
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9922,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -940.62041
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -960.74452
+            },
+            {
+              "x": 1032.44637,
+              "y": -960.74452
+            },
+            {
+              "x": 1032.44637,
+              "y": -920.49631
+            },
+            {
+              "x": -1103.88863,
+              "y": -920.49631
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9923,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -837.73396
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -857.85806
+            },
+            {
+              "x": 1032.44637,
+              "y": -857.85806
+            },
+            {
+              "x": 1032.44637,
+              "y": -817.60985
+            },
+            {
+              "x": -1103.88863,
+              "y": -817.60985
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9924,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -734.8475
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -754.97161
+            },
+            {
+              "x": 1032.44637,
+              "y": -754.97161
+            },
+            {
+              "x": 1032.44637,
+              "y": -714.7234
+            },
+            {
+              "x": -1103.88863,
+              "y": -714.7234
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 9925,
+      "p": {
+        "displayName": "铁轨",
+        "parent": {
+          "__i": 9902
+        },
+        "host": {
+          "__i": 9902
+        },
+        "position": {
+          "x": -35.72113,
+          "y": -631.96105
+        },
+        "anchorElevation": 0,
+        "width": 2136.335,
+        "height": 40.24821,
+        "tall": 10,
+        "elevation": 333.58619,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -1103.88863,
+              "y": -652.08516
+            },
+            {
+              "x": 1032.44637,
+              "y": -652.08516
+            },
+            {
+              "x": 1032.44637,
+              "y": -611.83695
+            },
+            {
+              "x": -1103.88863,
+              "y": -611.83695
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "rgba(0,195,255,0.30)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.background": "#EEEEEE",
+        "shape3d.reverse.cull": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9930,
+      "p": {
+        "rotation": 4.71239,
+        "position": {
+          "x": 625.08027,
+          "y": -530.47836
+        },
+        "anchorElevation": 0,
+        "width": 202.96538,
+        "height": 222,
+        "tall": 222,
+        "elevation": 443.48431
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/列车信息.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "shape3d.reverse.flip": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 9931,
+      "p": {
+        "rotation": 1.5708,
+        "position": {
+          "x": -669.98829,
+          "y": -532.87654
+        },
+        "anchorElevation": 0,
+        "width": 202.96538,
+        "height": 222,
+        "tall": 222,
+        "elevation": 443.48431
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/列车信息.json",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "shape3d.reverse.flip": true
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -1164.6376,
+      1313.74409,
+      2060.41776
+    ],
+    "center": [
+      175.59785,
+      164.63482,
+      -958.81659
+    ],
+    "near": 10,
+    "far": 1000000,
+    "background": "rgb(61,61,61)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

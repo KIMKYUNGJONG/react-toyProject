@@ -1,0 +1,60 @@
+{
+  "modified": "Thu Jul 25 2019 13:00:57 GMT+0900 (한국 표준시)",
+  "background": "#ffffff",
+  "dataBindings": [
+    {
+      "attr": "values",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "color",
+      "valueType": "String"
+    }
+  ],
+  "width": 506.48913,
+  "height": 28.96407,
+  "comps": [
+    {
+      "type": "lineChart",
+      "labelColor": "rgb(13,15,15)",
+      "series": [
+        {
+          "values": {
+            "value": [
+              10,
+              1600,
+              809,
+              1890,
+              70,
+              1900,
+              122,
+              1688,
+              388,
+              1500,
+              1000,
+              1700,
+              800,
+              1680,
+              400,
+              1300,
+              500,
+              1920,
+              1022
+            ],
+            "func": "__ht__function(data, view) {\nreturn data.a('values') || [];\n}"
+          },
+          "color": {
+            "value": "rgb(219,255,248)",
+            "func": "__ht__function(data, view) {\nreturn data.a('color') || 'rgb(219,255,248)';\n}"
+          }
+        }
+      ],
+      "rect": [
+        2,
+        2,
+        504.48913,
+        26.96407
+      ]
+    }
+  ]
+}

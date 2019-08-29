@@ -1,0 +1,29 @@
+{
+  "modified": "Fri Aug 02 2019 17:33:27 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "value",
+      "valueType": "String"
+    }
+  ],
+  "width": 21,
+  "height": 10,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value",
+        "value": "000"
+      },
+      "align": "center",
+      "color": "rgb(255,0,98)",
+      "font": "12px Arial",
+      "rect": [
+        1.34395,
+        1.64884,
+        18.36205,
+        7.73427
+      ]
+    }
+  ]
+}

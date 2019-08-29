@@ -1,0 +1,165 @@
+{
+  "modified": "Tue Aug 13 2019 14:40:37 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "legendData1",
+      "valueType": "String",
+      "defaultValue": "Legend1",
+      "name": "Legend1"
+    },
+    {
+      "attr": "legendData2",
+      "valueType": "String",
+      "defaultValue": "Legend2",
+      "name": "Legend2"
+    },
+    {
+      "attr": "lineData1",
+      "valueType": "NumberArray",
+      "name": "dataArray1",
+      "defaultValue": [
+        120,
+        132,
+        101,
+        134,
+        90,
+        230,
+        210,
+        399,
+        499,
+        599
+      ]
+    },
+    {
+      "attr": "lineData2",
+      "valueType": "NumberArray",
+      "name": "dataArray2",
+      "defaultValue": [
+        220,
+        182,
+        191,
+        234,
+        290,
+        330,
+        310,
+        200,
+        540,
+        100
+      ]
+    },
+    {
+      "attr": "seriesName",
+      "valueType": "String",
+      "name": "seriesName"
+    },
+    {
+      "attr": "lineDataType1",
+      "valueType": "String",
+      "defaultValue": "dashed",
+      "name": "lineType1"
+    },
+    {
+      "attr": "lineDataType2",
+      "valueType": "String",
+      "defaultValue": "solid",
+      "name": "lineType2"
+    },
+    {
+      "attr": "lineDataColor1",
+      "valueType": "Color",
+      "name": "lineDataColor1"
+    },
+    {
+      "attr": "lineDataColor2",
+      "valueType": "Color",
+      "name": "lineDataColor2"
+    },
+    {
+      "attr": "indicator",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "name": "（sales）",
+          "max": 6500
+        },
+        {
+          "name": "（Administration）",
+          "max": 16000
+        },
+        {
+          "name": "（Information Techology）",
+          "max": 30000
+        },
+        {
+          "name": "（Customer Support）",
+          "max": 38000
+        },
+        {
+          "name": "（Development）",
+          "max": 52000
+        },
+        {
+          "name": "（Marketing）",
+          "max": 25000
+        }
+      ],
+      "name": "indicator"
+    },
+    {
+      "attr": "areaColor1",
+      "valueType": "Color",
+      "name": "areaColor1"
+    },
+    {
+      "attr": "areaColor2",
+      "valueType": "Color",
+      "name": "areaColor2"
+    },
+    {
+      "attr": "areaArrayColor",
+      "valueType": "ColorArray"
+    },
+    {
+      "attr": "chartTitle",
+      "valueType": "String",
+      "name": "chartTitle"
+    },
+    {
+      "attr": "shape",
+      "valueType": "String",
+      "defaultValue": "circle",
+      "name": "shape"
+    },
+    {
+      "attr": "selectMode",
+      "valueType": "String",
+      "name": "selectMode"
+    }
+  ],
+  "snapshotURL": "symbols/basic/snapshot_chart.json",
+  "renderHTML": "__ht__function(data, gv, cache) {var option = {\n    title: {\n        text: 'Allocated',\n        textStyle: {\n            color: '#fff'\n        }\n    },\n    tooltip: {},\n    legend: {\n        show:false,\n        data: ['Allocated Budget', 'Actual Spending'],\n        textStyle: {\n            color: '#fff'\n        },\n        orient: 'vertical',\n        right: 'right',\n        selectedMode: 'single',\n        itemGap: 20,\n        itemWidth: 10,\n        itemHeight:10\n    },\n    radar: {\n        // shape: 'circle',\n        name: {\n            textStyle: {\n                color: '#fff',\n                backgroundColor: '#999',\n                borderRadius: 3,\n                padding: [2, 2],\n                fontSize: 12\n           }\n        },\n        radius:\"55%\",\n        indicator:\n        [\n           { name: '（sales）', max: 6500},\n           { name: '（Administration）', max: 16000},\n           { name: '（Information Techology）', max: 30000},\n           { name: '（Customer Support）', max: 38000},\n           { name: '（Development）', max: 52000},\n           { name: '（Marketing）', max: 25000}\n        ],\n        splitNumber: 4,\n        shape: 'circle', //polygon\n        name: {\n            formatter:'{value}',\n            textStyle: {\n                color:'#eee'\n            }\n        },\n        splitArea: {\n            areaStyle: {\n                color: ['rgba(114, 172, 209, 0.2)',\n                'rgba(114, 172, 209, 0.4)', 'rgba(114, 172, 209, 0.6)',\n                'rgba(114, 172, 209, 0.8)', 'rgba(114, 172, 209, 1)'],\n                shadowColor: 'rgba(0, 0, 0, 0.3)',\n                shadowBlur: 10\n            }\n        },\n        axisLine: {\n            lineStyle: {\n                color: 'rgba(255, 255, 255, 0.5)'\n            }\n        },\n        splitLine: {\n            lineStyle: {\n                color: 'rgba(255, 255, 255, 0.5)'\n            }\n        }\n    },\n    series: [{\n        name: '（Budget vs spending）',\n        type: 'radar',\n        // areaStyle: {normal: {}},\n        data : [\n            {\n                value : [4300, 10000, 28000, 35000, 50000, 19000],\n                name : 'Allocated Budget',\n                symbol: 'circle',\n                symbolSize: 5,\n                lineStyle: {\n                    normal: {\n                        type: 'dashed', //'solid''dashed''dotted'\n                        color: 'rgba(255,255,255,1)'\n                    }\n                },\n                itemStyle: {\n                normal: {\n                    color: '#B3E4A1'\n                    }\n                },\n                areaStyle: {\n                    normal: {\n                        color: 'rgba(255, 255, 255, 0.5)'\n                    }\n                }\n            },\n             {\n                value : [5000, 14000, 28000, 31000, 42000, 21000],\n                name : 'Actual Spending',\n                symbol: 'circle',\n                symbolSize: 5,\n                lineStyle: {\n                    normal: {\n                        type: 'solid', //'solid''dashed''dotted'\n                        color: ''\n                    }\n                },\n                itemStyle: {\n                normal: {\n                    color: '#B3E4A1'\n                    }\n                },\n                areaStyle: {\n                    normal: {\n                        color: 'rgba(255, 255, 255, 0.5)'\n                    }\n                }\n            }\n        ]\n    }]\n};\n\n    if (!cache.htmlView) {\n        cache.htmlView = document.createElement('div');\n        cache.htmlView.style.position = 'absolute';\n        cache.htmlChart = echarts.init(cache.htmlView);\n\n        // layoutHTML will be called when the data needs to be drawing\n        cache.htmlView.layoutHTML = function() {\n            gv.layoutHTML(data, cache.htmlView, false);\n            cache.htmlChart.resize();\n        };\n    }\n\n    // update data\n    option.title.text = data.a('chartTitle');\n    option.legend.data = [data.a('legendData1'), data.a('legendData2') ];\n    option.legend.selectedMode = data.a('selectMode');\n    option.series[0].name = data.a('seriesName');\n    // option.series[0].data = [data.a('lineData1'), data.a('lineData2')];\n    option.series[0].data[0].name = data.a('legendData1');\n    option.series[0].data[1].name = data.a('legendData2');\n    option.series[0].data[0].value = data.a('lineData1');\n    option.series[0].data[1].value = data.a('lineData2');\n\n    //line style\n    option.series[0].data[0].lineStyle.normal.type = data.a('lineDataType1');\n    option.series[0].data[1].lineStyle.normal.type = data.a('lineDataType2');\n    option.series[0].data[0].lineStyle.normal.color = data.a('lineDataColor1');\n    option.series[0].data[1].lineStyle.normal.color = data.a('lineDataColor2');\n\n    //area style\n    option.series[0].data[0].areaStyle.normal.color = data.a('areaColor1');\n    option.series[0].data[1].areaStyle.normal.color = data.a('areaColor2');\n\n    //item style\n    option.series[0].data[0].itemStyle.normal.color = data.a('lineDataColor1');\n    option.series[0].data[1].itemStyle.normal.color = data.a('lineDataColor2');  \n\n    //indicator\n    option.radar.splitArea.areaStyle.color = data.a('areaArrayColor');\n    option.radar.indicator = data.a('indicator');\n    option.radar.shape = data.a('shape');\n\n    cache.htmlChart.setOption(option);\n\n    // html for showing\n    return cache.htmlView;}",
+  "width": 200,
+  "height": 120,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@chartBackground",
+        "value": "#030C20"
+      },
+      "borderColor": "#979797",
+      "cornerRadius": 4,
+      "visible": false,
+      "displayName": "Rounded",
+      "rect": [
+        0,
+        0,
+        200,
+        120
+      ]
+    }
+  ]
+}

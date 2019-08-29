@@ -1,0 +1,67 @@
+{
+  "modified": "Fri Aug 16 2019 15:18:38 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "percentageValue",
+      "valueType": "String",
+      "name": "value",
+      "defaultValue": 20
+    },
+    {
+      "attr": "fontColor",
+      "valueType": "Color",
+      "name": "fontColor"
+    },
+    {
+      "attr": "bgColor",
+      "valueType": "Color",
+      "name": "bgColor"
+    },
+    {
+      "attr": "barColor",
+      "valueType": "Color",
+      "name": "barColor"
+    },
+    {
+      "attr": "progressValue",
+      "valueType": "Number",
+      "defaultValue": 0.5,
+      "name": "progressValue"
+    }
+  ],
+  "width": 100,
+  "height": 20,
+  "comps": [
+    {
+      "type": "components/progressBar/进度条.json",
+      "displayName": "进度条",
+      "rect": [
+        0,
+        1.64539,
+        100,
+        16.70921
+      ],
+      "barBGColor": {
+        "func": "attr@bgColor",
+        "value": "rgba(61,61,61,0.5)"
+      },
+      "paddingRight": 30,
+      "barColor": {
+        "func": "attr@barColor",
+        "value": "rgb(0,199,7)"
+      },
+      "labelText": {
+        "func": "attr@percentageValue",
+        "value": "45%"
+      },
+      "labelColor": {
+        "func": "attr@fontColor",
+        "value": "rgb(61,61,61)"
+      },
+      "percentValue": {
+        "func": "attr@progressValue",
+        "value": 0.3
+      }
+    }
+  ]
+}

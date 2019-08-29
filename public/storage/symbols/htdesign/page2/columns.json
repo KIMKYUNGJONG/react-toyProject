@@ -1,0 +1,46 @@
+{
+  "modified": "Thu Jul 25 2019 13:00:55 GMT+0900 (한국 표준시)",
+  "dataBindings": [
+    {
+      "attr": "values",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "colors",
+      "valueType": "StringArray"
+    }
+  ],
+  "width": 79,
+  "height": 100,
+  "comps": [
+    {
+      "type": "columnChart",
+      "series": [
+        {
+          "values": {
+            "value": [
+              20,
+              50,
+              30
+            ],
+            "func": "__ht__function(data, view) {\nreturn data.a('values') || [20, 50, 30]\n}"
+          },
+          "colors": {
+            "value": [
+              "#43ff9c",
+              "#ff9835",
+              "#00b7ff"
+            ],
+            "func": "__ht__function(data, view) {\nreturn data.a('colors') || ['#43ff9c', '#ff9835', '#00b7ff'];\n}"
+          }
+        }
+      ],
+      "rect": [
+        0.28333,
+        1,
+        80.5,
+        98
+      ]
+    }
+  ]
+}

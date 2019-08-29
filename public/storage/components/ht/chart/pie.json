@@ -1,0 +1,92 @@
+{
+  "modified": "Fri Jul 12 2019 16:46:47 GMT+0900 (한국 표준시)",
+  "width": 300,
+  "height": 300,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.pie.apply(null, arguments);\n}",
+  "properties": {
+    "pieData": {
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "name": "pie",
+          "value": 1
+        }
+      ],
+      "name": "pieData"
+    },
+    "radius": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        0,
+        "25%"
+      ],
+      "name": "radius"
+    },
+    "center": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "50%",
+        "50%"
+      ],
+      "name": "center"
+    },
+    "startAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 90,
+      "name": "startAngle"
+    },
+    "labelLine": {
+      "valueType": "Object",
+      "defaultValue": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "name": "labelLine"
+    },
+    "roseType": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "roseType"
+    },
+    "label": {
+      "valueType": "Object",
+      "defaultValue": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "name": "labelName"
+    },
+    "seriesName": {
+      "valueType": "String",
+      "defaultValue": "seriesName",
+      "name": "seriesName"
+    },
+    "hoverOffset": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 4,
+      "name": "hoverOffset"
+    },
+    "tooltip": {
+      "valueType": "Object",
+      "defaultValue": {
+        "show": true,
+        "formatter": ""
+      },
+      "name": "tooltip"
+    },
+    "avoidLabelOverlap": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "labelOverlay"
+    }
+  }
+}

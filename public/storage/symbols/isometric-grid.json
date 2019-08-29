@@ -1,0 +1,775 @@
+{
+  "modified": "Tue Mar 26 2019 11:40:47 GMT+0900 (한국 표준시)",
+  "width": 1920,
+  "height": 1080,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -523.56566,
+        1080,
+        610.33899,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -463.99781,
+        1080,
+        669.90684,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -404.42995,
+        1080,
+        729.47469,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -344.8621,
+        1080,
+        789.04255,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -285.29424,
+        1080,
+        848.60155,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -225.72639,
+        1080,
+        908.16941,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -166.15853,
+        1080,
+        967.73726,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -106.59068,
+        1080,
+        1027.30512,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        -47.02282,
+        1080,
+        1086.87297,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        12.54503,
+        1080,
+        1146.44082,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        72.11288,
+        1080,
+        1206.00868,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        131.67189,
+        1080,
+        1265.57653,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        191.23974,
+        1080,
+        1325.14439,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        250.8076,
+        1080,
+        1384.71224,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        310.37545,
+        1080,
+        1444.2801,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        369.94331,
+        1080,
+        1503.84795,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        429.51116,
+        1080,
+        1563.41581,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        489.07901,
+        1080,
+        1622.97481,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        548.64687,
+        1080,
+        1682.54266,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        608.21472,
+        1080,
+        1742.11052,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        667.78258,
+        1080,
+        1801.67837,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        727.35043,
+        1080,
+        1861.24623,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        786.91829,
+        1080,
+        1920.81408,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        846.48614,
+        1080,
+        1980.38194,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        906.04514,
+        1080,
+        2039.94979,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        965.613,
+        1080,
+        2099.51764,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1025.18085,
+        1080,
+        2159.0855,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1084.74871,
+        1080,
+        2218.65335,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1144.31656,
+        1080,
+        2278.22121,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1203.88442,
+        1080,
+        2337.78906,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1263.45227,
+        1080,
+        2397.34807,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1323.02013,
+        1080,
+        2456.91592,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2456.91592,
+        1080,
+        1323.02013,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2397.34807,
+        1080,
+        1263.45227,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2337.78906,
+        1080,
+        1203.88442,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2278.22121,
+        1080,
+        1144.31656,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2218.65335,
+        1080,
+        1084.74871,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2159.0855,
+        1080,
+        1025.18085,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2099.51764,
+        1080,
+        965.613,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        2039.94979,
+        1080,
+        906.04514,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1980.38194,
+        1080,
+        846.48614,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1920.81408,
+        1080,
+        786.91829,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1861.24623,
+        1080,
+        727.35043,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1801.67837,
+        1080,
+        667.78258,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1742.11052,
+        1080,
+        608.21472,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1682.54266,
+        1080,
+        548.64687,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1622.97481,
+        1080,
+        489.07901,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1563.41581,
+        1080,
+        429.51116,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1503.84795,
+        1080,
+        369.94331,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1444.2801,
+        1080,
+        310.37545,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1384.71224,
+        1080,
+        250.8076,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1325.14439,
+        1080,
+        191.23974,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1265.57653,
+        1080,
+        131.67189,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1206.00868,
+        1080,
+        72.11288,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1146.44082,
+        1080,
+        12.54503,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1086.87297,
+        1080,
+        -47.02282,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        1027.30512,
+        1080,
+        -106.59068,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        967.73726,
+        1080,
+        -166.15853,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        908.16941,
+        1080,
+        -225.72639,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        848.60155,
+        1080,
+        -285.29424,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        789.04255,
+        1080,
+        -344.8621,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        729.47469,
+        1080,
+        -404.42995,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        669.90684,
+        1080,
+        -463.99781,
+        0
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.15203,
+      "borderColor": "rgb(255,255,255)",
+      "pixelPerfect": true,
+      "points": [
+        610.33899,
+        1080,
+        -523.56566,
+        0
+      ]
+    }
+  ]
+}

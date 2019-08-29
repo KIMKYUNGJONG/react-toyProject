@@ -1,0 +1,29 @@
+{
+  "modified": "Fri Jul 12 2019 17:08:01 GMT+0900 (한국 표준시)",
+  "width": 16,
+  "height": 8,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#ffd400",
+      "pixelPerfect": true,
+      "points": [
+        16,
+        0.05365,
+        8.05365,
+        8,
+        0.10732,
+        0.05365,
+        16,
+        0.05365
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}
