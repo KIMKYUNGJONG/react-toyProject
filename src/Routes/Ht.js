@@ -18,7 +18,7 @@ const FragDiv = styled.div`
   align-items: center;
   justify-content: center;
 `;
-export default class Test extends React.Component {
+export default class extends React.Component {
   componentDidMount() {
     const loadScript = function (src) {
       const tag = document.createElement('script');

@@ -1,0 +1,61 @@
+import React from 'react';
+import SearchPresenter from './SearchPresenter';
+import { MoviesApi, TVApi } from '../../api';
+
+export default class extends React.Component {
+  state= {
+    movieResult: null,
+    tvResult: null,
+    searchTerm: '',
+    error: null,
+    loading: false
+  }
+
+  handleSubmit() {
+    const { searchTerm } = this.state;
+    if (searchTerm !== '') {
+      this.searchByTerm();
+    }
+  }
+  searchByTerm = async () => {
+    this.setState({
+      loading: true
+    });
+    const { searchTerm } = this.state;
+    try {
+      const {
+        data: { results: movieResult }
+      } = await MoviesApi.searchMovie(searchTerm);
+      const {
+        data: { results: tvResult }
+      } = await TVApi.searchTV(searchTerm);
+      this.setState({
+        movieResult,
+        tvResult,
+      });
+    } catch (error) {
+      this.setState({
+        error: "can't find TV or Movie."
+      });
+    } finally {
+      this.setState({
+        searchTerm,
+        loading: false
+      });
+    }
+  }
+
+  render() {
+    const { movieResult, tvResult, error, loading, searchTerm } = this.state;
+    return (
+      <SearchPresenter 
+        movieResult={movieResult}
+        tvResult={tvResult}
+        searchTerm={searchTerm}
+        error={error}
+        loading={loading}
+        handleSubmit={this.handleSubmit}
+      />
+    );
+  }
+}

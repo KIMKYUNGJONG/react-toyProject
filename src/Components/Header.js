@@ -38,13 +38,13 @@ export default withRouter(({ location: { pathname } }) => (
   <Header className="nav"> 
     <List>
       <Item current={pathname === '/'}>
-        <SLink to="/">Contents</SLink>
+        <SLink to="/">HOME</SLink>
       </Item>
       <Item current={pathname === '/search'}>
         <SLink to="/search">Search</SLink>
       </Item>
       <Item current={pathname === '/tv'}>
-        <SLink to="/tv">Import</SLink>
+        <SLink to="/tv">TV</SLink>
       </Item>
       <Item current={pathname === '/detail'}>
         <SLink to="/detail">Detail</SLink>
