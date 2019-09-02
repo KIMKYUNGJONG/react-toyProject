@@ -22,9 +22,10 @@ Learning React and ES6 by building Movie Discovery App
 
 ## Container
 
-- [x] build.
+- [x] Container done.
 
 ## Presenter
 
 - [x] section build
-- [ ] Home & TV presenter build.
+- [x] Home & TV presenter build.
+- [x] Search presenter build.
