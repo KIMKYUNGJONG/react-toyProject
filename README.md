@@ -29,3 +29,4 @@ Learning React and ES6 by building Movie Discovery App
 - [x] section build
 - [x] Home & TV presenter build.
 - [x] Search presenter build.
+- [x] poster image / read data.

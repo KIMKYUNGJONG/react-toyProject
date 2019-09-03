@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import './style.css';
 
 const Div = styled.div`
   display: flex;
@@ -26,7 +27,7 @@ export default class extends React.Component {
       tag.src = src;
       document.body.appendChild(tag);
     };
-    loadScript('/libs/htTest.js');
+    loadScript('/libs/photo-editor.js');
   }
   render() {
     return (
