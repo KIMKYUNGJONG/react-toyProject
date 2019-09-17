@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Loader from '../../Components/Loader';
-import Section from '../../Components/Section';
-import Message from '../../Components/Message';
-import Poster from '../../Components/Poster';
+import Helmet from 'react-helmet';
+import Loader from 'Components/Loader';
+import Section from 'Components/Section';
+import Message from 'Components/Message';
+import Poster from 'Components/Poster';
 
 const Container = styled.div`
 padding: 0 20px;
@@ -26,11 +27,16 @@ const SearchPresenter = ({ movieResult,
   searchTerm,
   handleSubmit,
   updateTerm }) => 
-  (<Container onSubmit={handleSubmit}>
-    <Form>
-      <Input placeholder="Search Movies or Show..." value={searchTerm} onChange={updateTerm} />
-    </Form>
-    {loading ? <Loader /> : 
+  (
+    <>
+    <Helmet>
+      <title>Search | Nomflix</title>
+    </Helmet>
+    {<Container onSubmit={handleSubmit}>
+      <Form>
+        <Input placeholder="Search Movies or Show..." value={searchTerm} onChange={updateTerm} />
+      </Form>
+      {loading ? <Loader /> : 
     <>
     {
       movieResult && movieResult.length > 0 && 
@@ -67,8 +73,10 @@ const SearchPresenter = ({ movieResult,
       <Message text="Nothing found" color="#95a5a6" />
     )}
     </>
-    }
-  </Container>);
+      }
+    </Container>}
+    </>
+  );
 
 SearchPresenter.propTypes = {
   movieResult: PropTypes.array,

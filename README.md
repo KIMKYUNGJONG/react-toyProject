@@ -4,10 +4,10 @@ Learning React and ES6 by building Movie Discovery App
 
 ## progress
 
-- [ ] home
-- [ ] Tv Shows
-- [ ] Search
-- [ ] Detail
+- [x] home
+- [x] Tv Shows
+- [x] Search
+- [x] Detail
 
 ## API verbs
 
@@ -30,3 +30,13 @@ Learning React and ES6 by building Movie Discovery App
 - [x] Home & TV presenter build.
 - [x] Search presenter build.
 - [x] poster image / read data.
+- [x] Detail Movie / Tv show.
+
+## Loader & Rater
+
+- [x] React Loader update.
+- [x] React Rater update.
+
+## React Hooks
+
+- [x] useInput with validator

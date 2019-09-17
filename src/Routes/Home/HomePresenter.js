@@ -1,18 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Helmet from 'react-helmet';
 import Section from 'Components/Section';
-import Loader from '../../Components/Loader';
-import Message from '../../Components/Message';
-import Poster from '../../Components/Poster';
+import Loader from 'Components/Loader';
+import Message from 'Components/Message';
+import Poster from 'Components/Poster';
 
 const Container = styled.div`
-  padding: 0 20px;
+  padding: 20px;
 `;
 
-const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) => loading ? <Loader /> : 
-  <Container>
-    {nowPlaying && nowPlaying.length > 0 && 
+const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) => (
+  <>
+    <Helmet>
+      <title>Movies | Nomflix</title>
+    </Helmet>
+ { loading ? <Loader /> : 
+   <Container>
+     {nowPlaying && nowPlaying.length > 0 && 
     <Section title="nowPlaying">
       {nowPlaying.map((movie)=> 
         (<Poster 
@@ -25,8 +31,8 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) => loa
           year={movie.release_data && movie.release_data.substring(0, 4)}
         />))}
     </Section>
-    }
-    {popular && popular.length > 0 && 
+     }
+     {popular && popular.length > 0 && 
     <Section title="popular">
       {popular.map((movie)=> (<Poster 
         key={movie.id} 
@@ -38,8 +44,8 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) => loa
         year={movie.release_data && movie.release_data.substring(0, 4)}
       />))}
     </Section>
-    }
-    {upcoming && upcoming.length > 0 && 
+     }
+     {upcoming && upcoming.length > 0 && 
     <Section title="upcoming">
       {upcoming.map((movie)=> (<Poster 
         key={movie.id} 
@@ -51,9 +57,12 @@ const HomePresenter = ({ nowPlaying, popular, upcoming, error, loading }) => loa
         year={movie.release_data && movie.release_data.substring(0, 4)}
       />))}
     </Section>
-    }
-    {error && <Message color="#e74c3c" text={error} />}
-  </Container>;
+     }
+     {error && <Message color="#e74c3c" text={error} />}
+   </Container>
+ }
+  </>
+);
 
 HomePresenter.propTypes = {
   nowPlaying: PropTypes.array,

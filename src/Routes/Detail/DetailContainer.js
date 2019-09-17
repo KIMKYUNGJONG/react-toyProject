@@ -9,7 +9,7 @@ export default class extends React.Component {
       location: { pathname }
     } = this.props;
     this.state = {
-      result: null,
+      results: null,
       error: null,
       loading: true,
       isMovie: pathname.includes('/movie/')
@@ -25,6 +25,7 @@ export default class extends React.Component {
     const { isMovie } = this.state;
     const parsedID = parseInt(id);
     if (isNaN(parsedID)) {
+      console.log('retired');
       return push('/');
     }
     let results = null;
@@ -48,14 +49,9 @@ export default class extends React.Component {
   }
 
   render() {
-    const { result, error, loading } = this.state;
-
+    console.log(this.state);
     return (
-      <DetailPresenter 
-        result={result}
-        error={error}
-        loading={loading}
-      />
+      <DetailPresenter {...this.state} />
     );
   }
 }

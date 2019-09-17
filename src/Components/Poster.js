@@ -31,7 +31,7 @@ position: relative;
   }
 
   ${Rating} {
-    opaciry: 1;
+    opacity: 1;
   }
 }
 `;

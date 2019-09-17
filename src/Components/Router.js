@@ -5,7 +5,7 @@ import Home from 'Routes/Home';
 import Tv from 'Routes/Tv';
 import Search from 'Routes/Search';
 import Detail from 'Routes/Detail';
-import Ht from 'Routes/Ht';
+import Hooks from 'Routes/Hooks';
 
 export default () => (
   <Router>
@@ -14,10 +14,10 @@ export default () => (
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/search" component={Search} />
-      <Route path="/tv" exact component={Tv} />
+      <Route path="/show" exact component={Tv} />
       <Route path="/movie/:id" component={Detail} />
-      <Route path="/tv/:id" component={Detail} />
-      <Route path="/Ht" component={Ht} />
+      <Route path="/show/:id" component={Detail} />
+      <Route path="/Hooks" component={Hooks} />
       <Redirect from="*" to="/" />
     </Switch>
     </>
