@@ -46,9 +46,9 @@ export default withRouter(({ location: { pathname } }) => (
       <Item current={pathname === '/show'}>
         <SLink to="/show">TV</SLink>
       </Item>
-      <Item current={pathname === '/hooks'}>
+      {/* <Item current={pathname === '/hooks'}>
         <SLink to="/hooks">Hooks</SLink>
-      </Item>
+      </Item> */}
     </List>
   </Header>
 ));

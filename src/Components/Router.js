@@ -17,7 +17,7 @@ export default () => (
       <Route path="/show" exact component={Tv} />
       <Route path="/movie/:id" component={Detail} />
       <Route path="/show/:id" component={Detail} />
-      <Route path="/Hooks" component={Hooks} />
+      {/* <Route path="/Hooks" component={Hooks} /> */}
       <Redirect from="*" to="/" />
     </Switch>
     </>
