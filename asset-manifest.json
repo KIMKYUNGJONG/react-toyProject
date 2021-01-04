@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/toyProject/static/css/main.f3ac5f40.chunk.css",
-    "main.js": "/toyProject/static/js/main.be1fa26b.chunk.js",
-    "main.js.map": "/toyProject/static/js/main.be1fa26b.chunk.js.map",
-    "runtime~main.js": "/toyProject/static/js/runtime~main.d33723a4.js",
-    "runtime~main.js.map": "/toyProject/static/js/runtime~main.d33723a4.js.map",
-    "static/css/2.a00eef2d.chunk.css": "/toyProject/static/css/2.a00eef2d.chunk.css",
-    "static/js/2.42a53f29.chunk.js": "/toyProject/static/js/2.42a53f29.chunk.js",
-    "static/js/2.42a53f29.chunk.js.map": "/toyProject/static/js/2.42a53f29.chunk.js.map",
-    "index.html": "/toyProject/index.html",
-    "precache-manifest.492f7369da9afb88a56561cdbba0b332.js": "/toyProject/precache-manifest.492f7369da9afb88a56561cdbba0b332.js",
-    "service-worker.js": "/toyProject/service-worker.js",
-    "static/css/2.a00eef2d.chunk.css.map": "/toyProject/static/css/2.a00eef2d.chunk.css.map",
-    "static/css/main.f3ac5f40.chunk.css.map": "/toyProject/static/css/main.f3ac5f40.chunk.css.map"
+    "main.css": "/react-toyProject/static/css/main.f3ac5f40.chunk.css",
+    "main.js": "/react-toyProject/static/js/main.be1fa26b.chunk.js",
+    "main.js.map": "/react-toyProject/static/js/main.be1fa26b.chunk.js.map",
+    "runtime~main.js": "/react-toyProject/static/js/runtime~main.fd7a05d4.js",
+    "runtime~main.js.map": "/react-toyProject/static/js/runtime~main.fd7a05d4.js.map",
+    "static/css/2.a00eef2d.chunk.css": "/react-toyProject/static/css/2.a00eef2d.chunk.css",
+    "static/js/2.94c7569b.chunk.js": "/react-toyProject/static/js/2.94c7569b.chunk.js",
+    "static/js/2.94c7569b.chunk.js.map": "/react-toyProject/static/js/2.94c7569b.chunk.js.map",
+    "index.html": "/react-toyProject/index.html",
+    "precache-manifest.9aafb3565a215d45921c127a2db0c615.js": "/react-toyProject/precache-manifest.9aafb3565a215d45921c127a2db0c615.js",
+    "service-worker.js": "/react-toyProject/service-worker.js",
+    "static/css/2.a00eef2d.chunk.css.map": "/react-toyProject/static/css/2.a00eef2d.chunk.css.map",
+    "static/css/main.f3ac5f40.chunk.css.map": "/react-toyProject/static/css/main.f3ac5f40.chunk.css.map"
   }
 }
